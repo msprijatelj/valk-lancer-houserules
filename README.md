@@ -14,7 +14,7 @@ Thanks given to Massif Press for the use of the _Lancer_ setting and system. I u
 * [Dustgrave Data](https://www.npmjs.com/package/@massif/dustgrave-data)
 * [Siren's Song: A Mountain's Remorse Data](https://www.npmjs.com/package/@massif/ssmr-data)
 
-All changes to the original data are documented in [CHANGELOG.md](https://github.com/msprijatelj/blob/main/valk-lancer-houserules/).
+All changes to the original data are documented in [CHANGELOG.md](https://github.com/msprijatelj/valk-lancer-houserules/blob/main/CHANGELOG.md).
 
 ![Powered by Lancer logo](https://massifpress.com/_next/image?url=%2Fimages%2Flegal%2Fpowered_by_Lancer-02.svg&w=640&q=75 "Powered by Lancer")
 
