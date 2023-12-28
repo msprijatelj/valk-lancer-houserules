@@ -1,0 +1,21 @@
+{
+  "name": "Valk's Lancer Houserules",
+  "author": "Valkyrion",
+  "description": "A collection of house rules for the LANCER RPG.",
+  "item_prefix": "valk-hr-",
+  "version": "0.0.1",
+  "dependencies": [
+    {
+      "name": "Lancer Long Rim Data",
+      "version": "1.2.1"
+    },
+    {
+      "name": "Lancer Wallflower Data",
+      "version": "2.0.5"
+    },
+    {
+      "name": "Lancer KTB Data",
+      "version": "1.2.3"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Dazed",
+    "icon": "",
+    "type": "Condition",
+    "terse": "DAZED mechs can only take one quick action – they cannot OVERCHARGE, move normally, nor take full actions, reactions, or free actions.",
+    "effects": "DAZED mechs can only take one quick action – they cannot OVERCHARGE, move normally, nor take full actions, reactions, or free actions."
+  },
+  {
+    "name": "Drained",
+    "icon": "",
+    "type": "Condition",
+    "terse": "DRAINED mechs deal half damage, heat, or burn on all attacks.",
+    "effects": "DRAINED mechs deal half damage, heat, or burn on all attacks."
+  }
+]

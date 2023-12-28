@@ -1,0 +1,111 @@
+[
+  {
+    "id": "valk-hr-mw_heavy_machine_gun",
+    "name": "Heavy Machine Gun (Valk)",
+    "mount": "Heavy",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "source": "GMS",
+    "license": "GMS",
+    "license_level": 0,
+    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+    "license_id": ""
+  },
+  {
+    "id": "valk-hr-mw_swarm_hive_nanites",
+    "name": "Swarm/Hive Nanites (Valk)",
+    "mount": "Main",
+    "type": "Nexus",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": 2
+      },
+      {
+        "type": "Burn",
+        "val": 2
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Balor",
+    "license_level": 1,
+    "description": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch.",
+    "license_id": "mf_balor"
+  },
+  {
+    "id": "valk-hr-mw_flak_launcher",
+    "name": "Flak Launcher (Valk)",
+    "mount": "Main",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Explosive",
+        "val": 3
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "source": "HA",
+    "license": "Barbarossa",
+    "license_level": 2,
+    "on_attack": "If the target if flying, they must succeed on a Hull save or immediately land (this counts as falling without any damage), and additionally become Slowed and can’t fly until the end of their next turn.",
+    "description": "Designed for use against atmospheric fliers, these anti-air autocannons fire simple, proximity or impact-detonated shells effective against light armor, organic, and subaltern targets.",
+    "license_id": "mf_barbarossa"
+  },
+  {
+    "id": "valk-hr-mw_lancaster_integrated",
+    "name": "Latch Drone (Valk)",
+    "mount": "Main",
+    "type": "Launcher",
+    "damage": [],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "effect": "This weapon can’t make normal attacks. Instead, choose an allied mech within Range and line of sight and make a ranged attack against Evasion 8.",
+    "on_attack": "Either you or your target may spend 1 Repair to restore half your target’s HP.",
+    "on_hit": "The target clears one condition that was not self-inflicted.",
+    "license_id": ""
+  }
+]

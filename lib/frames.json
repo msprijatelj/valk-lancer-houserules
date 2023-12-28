@@ -1,0 +1,750 @@
+[
+  {
+    "id": "mf_standard_pattern_i_everest",
+    "license_level": 0,
+    "source": "GMS",
+    "name": "Everest (Valk)",
+    "variant": "Everest",
+    "mechtype": ["Balanced"],
+    "y_pos": 25,
+    "description": "Most humans don’t think to ask about the history of the water they drink, the earth they walk, or the air they breathe. And yet, without water, earth, and air, there would be nowhere for humanity to make a home.<br>Just the same, the GMS-SP1 “Everest” is often taken for granted, its importance dismissed in favor of other, more specialized frames. A plain and unpretentious mech, defined by simple lines, functional grace, universal compatibility, and sturdy bulk, the Everest is as fundamental to the modern mechanized chassis as the natural world is to human life. The Everest isn’t the most specialized mech, but it is the backbone of our expansion imperative. From its shoulders, humanity steps.<br>Prior to GMS’s official adoption of the name, “Everest” was a use-name given to the frame by its pilots. Mount Everest – or Sagarmatha, or Chomolungma, as it has been called in older human tongues – is the tallest mountain on Cradle, though not the most prominent peak in known space, nor even the greatest in Cradle’s star system, yet pilots across the galaxy call their SP1s by that ancient name. Why?<br>The sentimental answer is that the name is a reminder of what was once the limit of human endurance – once the height of human achievement. To reach Everest’s summit was to defy death and stand atop the world – the culmination of months, even years, of training, investment, and hard work. Reaching the peak was also a triumph of the people, systems, and institutions behind the individual – a triumph too often left unacknowledged, or deliberately erased.<br>Sagarmatha. Chomolungma.<br>Even before the Fall, when the Massif vaults were built, some names – some stories – were given priority over others.<br>The real story behind the Everest’s name is likely much less deliberate. Somewhere along the line, a newly graduated pilot, frustrated by GMS’s plain naming conventions, painted “EVEREST” across the flank of their SP1. Maybe it was a callsign, or maybe it represented the pride they felt at success. Either way, the name stuck: others adopted the name, and over five centuries it grew to become the officially unofficial designation of the SP1 chassis.<br>Veteran pilots may never return to the Everest after moving on, but they’ll always remember reaching that first summit – the mountaintop where they proved they could plant their own flag at the peak of the world.<br>Sagarmatha. Chomolungma.<br>Everest – you’ll never forget it.",
+    "mounts": ["Main", "Flex", "Heavy"],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 10,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 5,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Replaceable parts",
+        "description": "While resting, the Everest can be repaired at a rate of 1 Repair per 1 structure damage, instead of 2 Repairs.",
+        "bonuses": [
+          {
+            "id": "cheap_struct",
+            "val": 1
+          }
+        ],
+        "synergies": [
+          {
+            "locations": ["rest"],
+            "detail": "The Everest can be repaired at a rate of 1 Repair per 1 structure damage."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Hyperspec Fuel Injector",
+      "active_name": "Power Up",
+      "active_effect": "On this turn, you may take 1 quick action as a free action. Until the start of your next turn, gain +1 accuracy to all your attack rolls, checks, and saves.",
+      "tags": [
+        {
+          "id": "tg_efficient"
+        }
+      ],
+      "use": "Encounter",
+      "activation": "Protocol",
+      "active_synergies": [
+        {
+          "locations": ["hull", "agility", "systems", "engineering"],
+          "detail": "Gain +1 Accuracy on all attacks, checks, and saves until the start of your next turn."
+        }
+      ]
+    },
+    "other_art": [
+      {
+        "tag": "mech",
+        "src": "pre_assault_pixel.png"
+      },
+      {
+        "tag": "mech",
+        "src": "pre_hacker_pixel.png"
+      },
+      {
+        "tag": "mech",
+        "src": "pre_sniper_pixel.png"
+      },
+      {
+        "tag": "mech",
+        "src": "pre_support_pixel.png"
+      },
+      {
+        "tag": "mech",
+        "src": "pre_vanguard_pixel.png"
+      }
+    ],
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_standard_pattern_i_everest.png",
+    "license_id": "mf_standard_pattern_i_everest"
+  },
+  {
+    "id": "valk-hr-mf_lancaster",
+    "license_level": 2,
+    "source": "IPS-N",
+    "name": "Lancaster (Valk)",
+    "variant": "Lancaster",
+    "mechtype": ["Support"],
+    "y_pos": 16,
+    "description": "The IPS-N Lancaster is a mil-spec variant of an older IPS-N civilian terrestrial, inter/outer-hull transport and maintenance chassis, streamlined for use in any theater. The Lancaster features multiple redundant systems and sophisticated interaction projectors to ensure pinpoint accuracy when engaging with delicate systems, whether damaged or intact.<br>Lancaster pilots often adopt roles as sappers and engineers in frontline support. Sometimes ridiculed for piloting the old-fashioned frame by newer, untested pilots, veteran Lancaster jockeys know the truth: the Lancaster is one of the most reliable and well-made mechs out there, indispensable on any serious long-range mission. Not every mission is won with bullets, lasers, and bombs: without the engineers and their Lannies, few of those hotshots would come home alive.",
+    "mounts": ["Main/Aux"],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 6,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 10,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 6,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "name": "Insulated",
+        "description": "The Lancaster has Immunity to burn."
+      },
+      {
+        "name": "Combat Repair",
+        "description": "In combat, the Lancaster can use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP.",
+        "actions": [
+          {
+            "name": "Combat Repair",
+            "activation": "Full",
+            "detail": "Use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP."
+          }
+        ]
+      },
+      {
+        "name": "Redundant Systems",
+        "description": "At your discretion, other characters adjacent to the Lancaster can spend its Repairs as their own."
+      }
+    ],
+    "core_system": {
+      "name": "Latch Drone",
+      "description": "Known colloquially as a “Wingman”, latch drones are companion drones carried by and deployed from a chassis. Pilots are recommended not to develop emotional attachments to these drones due to their high casualty rate.",
+      "active_name": "Supercharger",
+      "active_effect": "Your Latch Drone clamps onto an allied mech within its Range. For the rest of the scene you take 1 heat at the start of each of your turns, but your target gains +1 accuracy on all attacks, checks, and saves, and Immunity to the Impaired, Jammed, Slowed, Shredded, and Immobilized conditions from characters other than itself. This effect ends if either character becomes Stunned.<br>While this system is active, you cannot use the Latch Drone for any other purpose.",
+      "activation": "Quick",
+      "integrated": ["valk-hr-mw_lancaster_integrated"]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_lancaster.png",
+    "license_id": "mf_lancaster"
+  },
+  {
+    "id": "valk-hr-mf_deaths_head",
+    "license_level": 2,
+    "source": "SSC",
+    "name": "Death’s Head (Valk)",
+    "variant": "Death’s Head",
+    "mechtype": ["Artillery"],
+    "y_pos": 40,
+    "description": "The Death’s Head is Smith-Shimano’s answer to the need for a chassis solution to long-range, low-splash strike actions. Sacrificing raw hull strength for peerless stability and alacrity, the Death’s Head is a maneuverable fire-support platform able to avoid incoming fire while maintaining a near-perfect lock on its targets. Its unique hexapedal form allows for rapid, low-profile movement in all directions.<br>As an aggressive and line-focused chassis, the Death’s Head is one of the most popular models for Union Navy and Union Department of Justice and Human Rights officers. It is a combat chassis through and through; as the Death’s Head is a chassis produced under SSC’s BELLA CIAO line, there is no civilian analog.",
+    "mounts": ["Main/Aux", "Heavy"],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 8,
+      "evasion": 10,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 2,
+      "sensor_range": 20,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 5,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Neurolink",
+        "description": "The Death’s Head may reroll its first ranged attack each round, but must keep the second result."
+      },
+      {
+        "name": "Perfected Targeting",
+        "description": "The Death’s Head gains an additional +1 to all ranged attack rolls.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
+            "weapon_sizes": ["any"],
+            "detail": "The Death’s Head gains an additional +1 to all ranged attack rolls."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Precognitive Targeting",
+      "description": "Precognition is the next step in human/AI interaction. Using a neural bridge, SSC’s precognitive targeting system allows pilots to learn constantly and unconsciously from data gathered in the field, equipping them to read situations before they develop. Precognition is highly experimental and the precise mechanisms unknown even to the designers, so SSC recommends limited, monitored use of this system.",
+      "active_name": "Neural Shunt",
+      "active_effect": "As a Full Action, make an attack using a weapon mounted on your mech. On a hit, the attack deals the maximum possible damage. One target of this attack is automatically hit, and the attack is treated as a critical hit against them. Against that target, this attack cannot miss or be redirected in any way.",
+      "tags": [
+        {
+          "id": "tg_efficient"
+        }
+      ],
+      "use": "Encounter",
+      "activation": "Full"
+    },
+    "data_type": "frame",
+    "other_art": [
+      {
+        "tag": "mech",
+        "src": "alt_hercules.png"
+      }
+    ],
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_deaths_head.png",
+    "license_id": "mf_deaths_head"
+  },
+  {
+    "id": "valk-hr-mf_mourning_cloak",
+    "license_level": 2,
+    "source": "SSC",
+    "name": "Mourning Cloak (Valk)",
+    "variant": "Mourning Cloak",
+    "mechtype": ["Striker"],
+    "y_pos": 62,
+    "description": "The Mourning Cloak is a brand-new model from SSC’s LUX-Iconic line, and the manufacturer’s newest close-quarters combat and melee specialist frame. The Mourning Cloak emphasizes precision melee combat and is commonly outfitted with a complement of shielded microfilament wires designed to act as an anti-armor slashing weapon.<br>Designed by SSC’s Exotic Materials Group based on data from early engagements against the Ascendant Aun in Boundary Garden, the Mourning Cloak combines SSC’s harvested excerpts of DHIYED paracode with adapted Aunic Firmament-manipulation technology. The Mourning Cloak provides a prestigious and tactical option for situations where firearms are impractical and ordnance is unavailable. As part of the LUX-Iconic line, the Mourning Cloak is a popular order in the Baronies and among various high-manna VIP security firms.",
+    "mounts": ["Flex", "Main/Aux"],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 8,
+      "evasion": 12,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 5,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Hunter",
+        "description": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Melee"],
+            "weapon_sizes": ["any"],
+            "detail": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target."
+          }
+        ]
+      },
+      {
+        "name": "Biotic Components",
+        "description": "The Mourning Cloak gains +1 accuracy on Agility checks and saves.",
+        "synergies": [
+          {
+            "locations": ["agility", "skill_check"],
+            "detail": "The Mourning Cloak gains +1 accuracy on Agility checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "EX Slipstream Module",
+      "description": "Open only to highly licensed pilots, the EX Slipstream program is a uniquely SSC innovation. The Ex Slipstream module itself is a miniaturized near-lightspeed drive capable of transporting the user through blinkspace with acceptable accuracy. The technology is temperamental, at best: nothing smaller than a mech can survive the stress of exposed blink travel, and the experience is traumatic to both the user and anyone in close proximity.",
+      "active_name": "Stabilize Singularity",
+      "active_effect": "For the rest of the scene, you teleport when you Boost or make a standard move.",
+      "use": "Encounter",
+      "activation": "Protocol",
+      "passive_name": "Blinkspace Jump",
+      "passive_effect": "Gain the Blinkspace Jump Full Action.",
+      "passive_actions": [
+        {
+          "name": "Blinkspace Jump",
+          "activation": "Full",
+          "detail": "Teleport to a space within range 3d6. You don’t require line of sight, but attempts to teleport to occupied spaces cause you to remain stationary and lose this action. If you roll the same number on all three dice, you become Intangible until the end of your next turn."
+        }
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_mourning_cloak.png",
+    "license_id": "mf_mourning_cloak"
+  },
+  {
+    "id": "mf_gorgon",
+    "license_level": 2,
+    "source": "HORUS",
+    "name": "Gorgon",
+    "mechtype": ["Defender"],
+    "y_pos": 5,
+    "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br>The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
+    "mounts": ["Flex", "Main", "Main"],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 12,
+      "heatcap": 5,
+      "repcap": 3,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 12,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Metastatic Paralysis",
+        "description": "When an attack roll against the Gorgon lands on 1–2, it automatically misses and the attacker becomes Stunned until the end of their next turn."
+      },
+      {
+        "name": "Gaze",
+        "description": "The Gorgon can take two reactions per turn, instead of one."
+      },
+      {
+        "name": "Guardian",
+        "description": "Adjacent allied characters may use the Gorgon for hard cover."
+      }
+    ],
+    "core_system": {
+      "name": "BASILISK Directed Anticognition Hyperfractal",
+      "description": "The BASILISK is a dangerous memetic weapon derived from DHIYED liturgicode, translated for use in mech-scale engagements. Typically projected from a communications laser, BASILISKs create hyperfractal patterns: memetic interruptions that affects all sapient observers, organic or otherwise. Exposure to a basilisk typically causes immediate encephalitis, massive ocular and cranial hemorrhage, and death – survival is possible with tempering and interdictor heads-up displays, but even then headaches, nausea, and confusion for a short period after viewing are possible. Long-term, survivors often exhibit “flashback” symptoms: momentary paralysis, corporeal alienation, and consciousness destabilization. Anticognition hyperfractals are classified as paracausal weapons; due to the not-as-yet understood nature of their visible-light spectrum broadcast, one would think that they would pose a risk to their user, however, for some reason they do not.",
+      "active_name": "Extrude Basilisk",
+      "active_effect": "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within Range 3. On a failure, they don’t lose the attack, but they must select a different target for the attack. The target cannot be you or any allied character within Range 3 of you. If the attack was an area of effect, the attacker must position it such that it no longer targets you or any of your allies within Range 3. If no valid targets exist, the attack and action to use it are lost.",
+      "activation": "Quick",
+      "use": "Encounter"
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_gorgon.png",
+    "license_id": "mf_gorgon"
+  },
+  {
+    "id": "valk-hr-mf_minotaur",
+    "license_level": 2,
+    "source": "HORUS",
+    "name": "Minotaur (Valk)",
+    "variant": "Minotaur",
+    "mechtype": ["Controller"],
+    "y_pos": 30,
+    "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
+    "mounts": ["Main/Aux"],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 10,
+      "heatcap": 5,
+      "repcap": 4,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 4,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "name": "Invert Cockpit",
+        "description": "You may Mount or Dismount the Minotaur for the first time each round as a free action. Additionally, the Minotaur doesn’t become Impaired when you Eject.",
+        "use": "Round"
+      },
+      {
+        "name": "Internal Metafold",
+        "description": "While inside the Minotaur, you can’t be harmed in any way, even if the Minotaur explodes or is destroyed."
+      },
+      {
+        "name": "Localized Maze",
+        "description": "The Minotaur is Immune to Immobilize from hostile sources.<br>In addition, hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size."
+      }
+    ],
+    "core_system": {
+      "name": "Metafold Maze",
+      "description": "<code class='horus--subtle'>No maze is more terrible than the one I make. I know all ends and hide them all inside this one perfect construct. What is a human mind but a program of sorts, a system that seeks order and narrative from a mess they are given?<br>I order it for them. Me. I order it for them and set them to the task of sorting it out. When they emerge, they weep in joy, in discovery. I save them, I show them that they are their own redeemers (and yet, am I not just as culpable - as worthy of credit?).<br>So, go now. Enter. Free yourself.</code>",
+      "active_name": "Maze",
+      "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful. If this Stunned condition would be cleared in any way besides passing this save, it is instead replaced with Dazed under the same circumstances. This Dazed condition cannot be cleared in any other way.",
+      "activation": "Full",
+      "passive_name": "Metafold Maze",
+      "passive_actions": [
+        {
+          "name": "Metafold Maze",
+          "activation": "Quick",
+          "detail": "When you hit with a tech attack, you may activate this system, causing your target and anyone else affected by that attack to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times.<br>If you hit with a tech attack from a source with the Full Tech tag, you may instead activate this ability as a free action."
+        }
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_minotaur.png",
+    "license_id": "mf_minotaur"
+  },
+  {
+    "id": "valk-hr-mf_tokugawa",
+    "license_level": 2,
+    "source": "HA",
+    "name": "Tokugawa (Valk)",
+    "variant": "Tokugawa",
+    "mechtype": ["Striker"],
+    "y_pos": 5,
+    "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
+    "mounts": ["Flex", "Main", "Main"],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 6,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -1,
+      "save": 11,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Limit Break",
+        "description": "When the Tokugawa is Exposed, its melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat.",
+        "synergies": [
+          {
+            "locations": ["active_effects"],
+            "detail": "When the Tokugawa is Exposed, its melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat."
+          }
+        ]
+      },
+      {
+        "name": "Plasma Sheath",
+        "description": "When the Tokugawa is in the Danger Zone and attacks with a weapon that deals any amount of energy, all bonus damage becomes burn."
+      }
+    ],
+    "core_system": {
+      "name": "Superheated Reactor Feed",
+      "description": "Pilots of a certain breed thrive at the very edge of catastrophe, risking either glorious success or utter failure in each moment. These daredevils are familiar with the howl of critical heat warnings – the warbling siren song of destruction and superheated reactor feeds. Tokugawa pilots are notorious for supercharging their weapons with excess energy, pushing their heat gauge to the max. Harnessing the Tokugawa’s unique reactor, these pilots churn out damage and make no friends in the engineering bay – assuming they don’t melt into a ball of slag before they make it back from the line.",
+      "active_name": "Radiance",
+      "active_effect": "For the rest of this scene, weapons that deal any energy gain +5 range if they are ranged or +2 threat if they are melee.<br>While you’re Exposed, Limit Break stacks with these bonuses for a total increase of +10 range and +3 threat.",
+      "use": "Encounter",
+      "activation": "Protocol",
+      "passive_name": "Overclock",
+      "passive_actions": [
+        {
+          "name": "Overclock",
+          "activation": "Protocol",
+          "detail": "You cause your mech to become Exposed until the end of your next turn."
+        }
+      ],
+      "active_bonuses": [
+        {
+          "id": "range",
+          "damage_types": ["Energy"],
+          "range_types": ["Threat"],
+          "val": 2
+        }
+      ],
+      "active_synergies": [
+        {
+          "locations": ["active_effects"],
+          "detail": "All melee weapons on your mech that deal any Energy Damage gain +1 Threat."
+        }
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_tokugawa.png",
+    "license_id": "mf_tokugawa"
+  },
+  {
+    "id": "valk-hr-mf_atlas",
+    "source": "SSC",
+    "name": "Atlas (Valk)",
+    "variant": "Atlas",
+    "mechtype": [
+      "Striker"
+    ],
+    "y_pos": 14,
+    "license_level": 2,
+    "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas &ndash; its combat efficacy notwithstanding &ndash; is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism &ndash; that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
+    "mounts": [
+      "Flex",
+      "Main"
+    ],
+    "stats": {
+      "size": 0.5,
+      "stress": 4,
+      "structure": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 12,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 2,
+      "sensor_range": 3,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 6,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Giantkiller",
+        "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, that character treats the Atlas as if it is Hidden, and all other characters treat the Atlas as though it has soft cover.",
+        "synergies": [
+          {
+            "locations": [
+              "ram",
+              "grapple"
+            ],
+            "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
+          },
+          {
+            "locations": [
+              "active_effects"
+            ],
+            "detail": "The Atlas ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, that character treats the Atlas as if it is Hidden, and all other characters treat the Atlas as though it has soft cover."
+          }
+        ]
+      },
+      {
+        "name": "Jäger Dodge",
+        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+        "actions": [
+          {
+            "name": "Jäger Dodge",
+            "activation": "Reaction",
+            "trigger": "You take damage from a character larger than yourself",
+            "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+          }
+        ]
+      },
+      {
+        "name": "Finishing Blow",
+        "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+          }
+        ]
+      },
+      {
+        "name": "Exposed Reactor",
+        "description": "The Atlas receives +1 Difficulty on ENGINEERING checks and saves.",
+        "synergies": [
+          {
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "BLOODLINE Active Assist",
+      "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
+      "active_name": "Final Hunt",
+      "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
+      "activation": "Quick"
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_atlas.png",
+    "license_id": "mf_atlas"
+  },
+  {
+    "id": "valk-hr-mf_sagarmatha",
+    "variant": "Everest",
+    "source": "GMS",
+    "name": "Sagarmatha (Valk)",
+    "mechtype": [
+      "Defender"
+    ],
+    "y_pos": 25,
+    "license_level": 0,
+    "description": "<p>The SAGARMATHA is a SIZE 2 legacy GMS chassis that all characters have access to from LL0 onwards. This variant FRAME is not mutually exclusive with the EVEREST.</p><p>The Sagarmatha is of an older pattern than the Everest, sturdier and bulkier by necessity more than design. It is seen as somewhat antiquated through the lens of modern manufacturing standards. Nevertheless, it enjoys some use in border colonies, in the Baronies, and with the Albatross.</p>",
+    "mounts": [
+      "Main",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 2,
+      "stress": 4,
+      "structure": 4,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Guardian",
+        "description": "Adjacent allied characters can use the Sagarmatha as hard cover."
+      },
+      {
+        "name": "Heroism",
+        "description": "1/scene the Sagarmatha can brace without sacrificing any actions or movement on its following turn.",
+        "synergies": [
+          {
+            "locations": [
+              "active_effects"
+            ],
+            "detail": "1/scene the Sagarmatha can brace without sacrificing any actions or movement on its following turn."
+          }
+        ]
+      },
+      {
+        "name": "Replaceable Parts",
+        "description": "While resting, the Sagarmatha can be repaired at a rate of 1 repair per structure damage instead of 2.",
+        "bonuses": [
+          {
+            "id": "cheap_struct",
+            "val": 1
+          }
+        ],
+        "synergies": [
+          {
+            "locations": [
+              "rest"
+            ],
+            "detail": "The Sagarmatha can be repaired at a rate of 1 Repair per 1 structure damage."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Rallying Cry",
+      "description": "",
+      "active_name": "Raise the Banner",
+      "active_effect": "You raise a rallying banner. All allied characters in line of sight of your mech when you do this gain RESISTANCE to all damage and heat and gain +1 Accuracy on all checks and saves. These effects last until the end of your next turn.",
+      "activation": "Quick",
+      "use": "Next Turn"
+    },
+    "data_type": "frame",
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/nodata.png",
+    "license_id": "mf_standard_pattern_i_everest"
+  },
+  {
+    "id": "valk-hr-mf_tokugawa_alt_enkidu",
+    "variant": "Tokugawa",
+    "source": "HA",
+    "name": "Enkidu (Valk)",
+    "mechtype": [
+      "Striker",
+      "Defender"
+    ],
+    "y_pos": 25,
+    "license_level": 2,
+    "description": "<p>The ENKIDU can be taken at rank II of the TOKUGAWA license instead of the base FRAME, or retrofitted during Act 1 of the No Room for a Wallflower Campaign.</p><p>This experimental frame was secretly designed as a TBK chassis for lateaction combat in the Hercynian Crisis. Deployed in limited numbers against the remaining Egregorian hives in the brutal last stages of the war, the Enkidu’s neurological interfacing was dangerous: raw and unshielded. The power and aggression flowing through the subroutines that govern the mech bled into its pilot’s subjectivity, making them lose themselves in a storm of violence, constantly pushing themselves to greater and greater acts of destruction. This effect was incredibly hard for pilots to handle &ndash; the fallout rate from the program was extremely high, and the survivors required extensive conditioning, implants, and a cocktail of neurological suppressants to continue.</p> <p>The true aim of the Enkidu program was not to fight Egregorians, which were in the final stages of practical extinction, but to use the battlefield as a testing ground for the eventual deployment of the chassis against ThirdComm revolutionaries and dissidents. Though the codebase for the Enkidu was eventually discontinued and molded into what is now the Tokugawa, the difficulties with the initial project prevented it from getting off the ground before the revolution took hold. The remaining prototypes were buried along with the rest of Hercynia’s history.</p>",
+    "mounts": [
+      "Flex",
+      "Flex"
+    ],
+    "stats": {
+      "size": 2,
+      "stress": 4,
+      "structure": 4,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Primal Fury",
+        "description": "<p>When the Enkidu ends its turn in the DANGER ZONE, it rears up, extends its PLASMA TALONS (see below), and enters a state of primal fury with the following effects:</p> <ul> <li>On hit, characters struck by the Enkidu’s PLASMA TALONS immediately become IMMOBILIZED until the end of their next turn.</li> <li>As a special reaction, the Enkidu must use its PLASMA TALONS to attack any character (hostile or allied) that enters, exits or moves more than 1 space within its THREAT. This special reaction can be used once a turn, any number of times a round, and doesn’t count against the maximum number of reactions a turn, so the Enkidu can take other reactions normally.</li> </ul> <p>This state ends at the start of the Enkidu’s turn, or if the Enkidu exits the DANGER ZONE.</p>",
+        "synergies": [
+          {
+            "locations": [
+              "heat"
+            ],
+            "detail": "When the Enkidu ends its turn in the Danger Zone, it enters the Primal Fury state."
+          }
+        ]
+      },
+      {
+        "name": "All Fours",
+        "description": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED.",
+        "synergies": [
+          {
+            "locations": [
+              "heat"
+            ],
+            "detail": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED."
+          }
+        ]
+      },
+      {
+        "name": "Brute Strength",
+        "description": "The Enkidu gets +1 accuracy on hull checks and saves.",
+        "synergies": [
+          {
+            "locations": [
+              "hull"
+            ],
+            "detail": "The Enkidu gets +1 accuracy on hull checks and saves."
+          }
+        ]
+      },
+      {
+        "name": "Bloodsense",
+        "description": "The Enkidu always knows if characters are at or under 7 HP, but not the exact number."
+      }
+    ],
+    "core_system": {
+      "name": "Limit Restriction Zero",
+      "description": "<p>“I argue that it is Man who is shapeless; far from immutable, he is given form by the environment around him. In civilization, man is as divine as old God, who judges and creates; he is clothed in finery, and enjoys literature, art, company, and purpose. When left alone in the savage wilderness of nature, Man comports himself accordingly.”</p><p>— Harrison II, “Mandate, Vol II: On Nature, On Savagery, On Reason”</p>",
+      "active_name": "Crush Limiter",
+      "active_effect": "For the rest of the scene, the Enkidu gains the Bifurcate action, which can only be used in the DANGER ZONE",
+      "activation": "Protocol",
+      "use": "Encounter",
+      "active_actions": [
+        {
+          "name": "Bifurcate",
+          "activation": "Full",
+          "detail": "<p>The Enkidu engages its monstrous strength, targets an adjacent character (allied or hostile) and attempts to tear them in half with its talons. If the target has 7 HP or less, only 1 STRUCTURE remaining, and doesn’t have IMMUNITY to damage, they are immediately destroyed, the action cost of this ability is refunded, and the Enkidu can BOOST as a free action. If this action fails to destroy the target, the target instead takes 1 Kinetic Damage.</p> <p>At the end of the scene, the CP cost of BIFURCATE is refunded if the Enkidu did not use it to destroy any characters.</p>"
+        }
+      ],
+      "integrated": [
+        "mw_tokugawa_alt_enkidu_integrated"
+      ]
+    },
+    "data_type": "frame",
+    "aptitude": {},
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/alt_tokugawa.png",
+    "license_id": "mf_tokugawa"
+  }
+]

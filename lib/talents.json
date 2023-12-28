@@ -1,0 +1,215 @@
+[
+  {
+    "id": "valk-hr-t_exemplar",
+    "name": "Exemplar (Valk)",
+    "icon": "EXEMPLAR",
+    "terse": "Challenge your foes, forcing them to fight you instead of your allies",
+    "description": "Eamon Metrias’s livery is famous, his voice brassy, his weapons polished to a sheen. As the advocate for the Nine Spheres, his training with certain martial orders has given him the power to harry and hinder even the most powerful of foes. Eamon is an exemplar of the Spheres, by words and by action.",
+    "ranks": [
+      {
+        "name": "Honorable Challenge",
+        "description": "The first time on your turn that you attack a hostile character within Range 3, hit or miss, you may give them the Exemplar’s Mark as a free action. Characters can only have one Exemplar’s Mark at a time – new marks from any character replace existing marks.<br>The character has the Exemplar’s Mark until the start of your next turn, and while they have it, you gain the <b>Valiant Aid</b> Reaction.",
+        "actions": [
+          {
+            "name": "Valiant Aid",
+            "activation": "Reaction",
+            "frequency": "1/round",
+            "init": "Requires a hostile character has been given your Exemplar's Mark",
+            "trigger": "Ally attacks your mark and misses.",
+            "detail": "Your ally may reroll the attack. They must use the second result, even if it’s worse."
+          }
+        ]
+      },
+      {
+        "name": "Punishment",
+        "description": "1/round, when the character with your Mark attacks a character within Range 3 of you, other than you, they trigger your Overwatch.",
+        "synergies": [
+          {
+            "locations": ["active_effects"],
+            "detail": "1/round, when the character with your Mark attacks a character within Range 3 of you, other than you, they trigger your Overwatch."
+          }
+        ]
+      },
+      {
+        "name": "To the Death",
+        "description": "As a free action when you mark a character, you may challenge them in a duel to the death: you and the character with your Mark receive +3 Difficulty on attacks against characters or objects other than each other until either the end of the current scene or one of your mechs are destroyed. If they take any action that includes an attack roll against you, hit or miss, this effect ceases for them until the end of the current turn.<br>While To The Death is active, you cannot voluntarily move away from the character with your Mark; additionally, your Mark lasts either until the end of the current scene or one of your mechs are destroyed, and you cannot Mark any new characters.",
+        "actions": [
+          {
+            "name": "Duel To The Death",
+            "activation": "Free",
+            "detail": "Challenge your marked target to a duel to the death: you and the character with your Mark receive +3 Difficulty on attacks against characters or objects other than each other until either the end of the current scene or one of your mechs are destroyed. If they take any action that includes an attack roll against you, hit or miss, this effect ceases for them until the end of the current turn.<br>While To The Death is active, you cannot voluntarily move away from the character with your Mark; additionally, your Mark lasts either until the end of the current scene or one of your mechs are destroyed, and you cannot Mark any new characters."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valk-hr-t_gunslinger",
+    "name": "Gunslinger (Valk)",
+    "icon": "GUNSLINGER",
+    "terse": "Make your Auxiliary Ranged weapons deadlier and gain the powerful Gunslinger Die",
+    "description": "In a galaxy bounded by frontiers, there is no law but the one backed by the gun. Sgt. Stev Ansahok wields the humble pistol with a talent unseen in this age, his iron an extension of his own body. As easy as pointing a finger, the weathered sergeant lands shots with accuracy unmatched by machine. His is a gunslinger: justice made whole, given its sacred instrument, and set out to the cruel frontier to tame it.",
+    "ranks": [
+      {
+        "name": "Opening Argument",
+        "description": "Gain +1 Accuracy on the first attack roll you make with an Auxiliary ranged weapon on your turn.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
+            "weapon_sizes": ["Auxiliary"],
+            "detail": "Gain +1 Accuracy on the first attack roll you make with an Auxiliary ranged weapon on your turn."
+          }
+        ]
+      },
+      {
+        "name": "From the Hip",
+        "description": "Gain the <b>Return Fire</b> Reaction.",
+        "actions": [
+          {
+            "name": "Return Fire",
+            "activation": "Reaction",
+            "frequency": "1/round",
+            "trigger": "A character hits you with a ranged attack.",
+            "detail": "You may immediately attack them with a single Auxiliary ranged weapon if they are within Range."
+          }
+        ]
+      },
+      {
+        "name": "I Kill With My Heart",
+        "description": "You gain a Gunslinger Die, 1d6 starting at 6. Each time you hit a hostile character with an Auxiliary ranged weapon, reduce the value of the Gunslinger Die by 1. When the Gunslinger Die reaches 1, you may reset it to 6 to give +2d6 bonus damage on hit and AP to your next attack with an Auxiliary ranged weapon. This attack also ignores cover. The value of your Gunslinger Die persists between scenes but resets to 6 when you rest or perform a Full Repair.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
+            "weapon_sizes": ["Auxiliary"],
+            "detail": "Each time you hit a hostile character with this weapon, reduce the value of the Gunslinger Die by 1"
+          }
+        ],
+        "counters": [
+          {
+            "id": "ctr_gunslinger",
+            "name": "Gunslinger Die",
+            "level": 3,
+            "default_value": 6,
+            "min": 1,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valk-hr-t_hacker",
+    "name": "Hacker (Valk)",
+    "icon": "HACKER",
+    "terse": "Improve your tech attacks and unlock special Invade options",
+    "description": "Since Katya Han was a kid, she played the omninet, able to access any public node – and even a few private ones – with ease. Now, as a pilot, she dives headfirst into the hardcode of any mech core she come across. Firewalls, gatekeeper protocols, invasion, defense – nothing stands in her way. Han wins fights without firing a single shot; if her enemy can’t control their own mech, then they can’t do anything to stop her.",
+    "ranks": [
+      {
+        "name": "SNOW_CRASH",
+        "description": "When you hit with a tech attack that consumes Lock On, your target must choose to either take 2 Heat or be pushed 3 spaces in a direction of your choice. If possible, the target cannot choose an option to which they would be IMMUNE.",
+        "synergies": [
+          {
+            "locations": ["tech"],
+            "detail": "When you hit with a tech attack that consumes Lock On, your target must choose to either take 2 Heat or be pushed 3 spaces in a direction of your choice. If possible, the target cannot choose an option to which they would be IMMUNE."
+          }
+        ]
+      },
+      {
+        "name": "SAFE_CRACKER",
+        "description": "Gain the following options for Invade:",
+        "actions": [
+          {
+            "name": "Jam Cockpit",
+            "activation": "Invade",
+            "detail": "Characters may not Mount or Dismount your target until the cockpit is fixed with a successful Engineering check as a full action."
+          },
+          {
+            "name": "Disable Life Support",
+            "activation": "Invade",
+            "detail": "Your target receives +1 Difficulty on all saves until the life-support system is rebooted with a successful Systems check as a quick action."
+          },
+          {
+            "name": "Hack./Slash",
+            "activation": "Invade",
+            "detail": "Your target cannot benefit from or take Quick or Full Tech actions until the mech is either Shut Down or its core computer is rebooted with a successful Systems check as a quick action."
+          }
+        ]
+      },
+      {
+        "name": "Last Argument of Kings",
+        "description": "Gain the <b>Last Argument of Kings</b> Full Tech option.",
+        "actions": [
+          {
+            "activation": "Full Tech",
+            "name": "Last Argument of Kings",
+            "tech_attack": true,
+            "detail": "Make a tech attack against a target within Sensors and line of sight. On a success, you implant a virus that triggers a minor meltdown in your target’s reactor: they immediately take Burn equal to their current Heat. If this action causes your target to overheat, it resolves before they reset their Heat Cap."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valk-hr-t_stormbringer",
+    "name": "Stormbringer (Valk)",
+    "icon": "STORMBRINGER",
+    "terse": "Improve your Launcher weapons and unlock the Torrent Die",
+    "description": "On Old Spinrock, MJ Martinez used to dream of rain.<br>He’d wake in the dim morning, wipe the sleep from his eyes as warm safelight lifted his dormitory from darkness, and try to remember the sound of rain as he’d imagined it: a patter, like fingers tapping the visor of his EVA helm.<br>What he didn’t think about was the feeling of rain. How each drop hit like a pebble, how you had to close your eyes and tuck your shoulders. The pressure. The impact.<br>The way drops of water, when taken together, can carve away the earth.",
+    "ranks": [
+      {
+        "name": "Seismic Deluge",
+        "description": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Launcher"],
+            "weapon_sizes": ["any"],
+            "detail": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone."
+          }
+        ]
+      },
+      {
+        "name": "Stormbending",
+        "description": "You have customized your mech with auxiliary concussive missile systems. 1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Launcher"],
+            "weapon_sizes": ["any"],
+            "detail": "1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>"
+          }
+        ]
+      },
+      {
+        "name": "Torrent",
+        "description": "Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1. If you consumed Lock On as part of using Stormbending, lower the value by 2 instead.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["Launcher"],
+            "weapon_sizes": ["any"],
+            "detail": "Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1. If you consumed Lock On as part of using Stormbending, lower the value by 2 instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Massive Attack",
+            "activation": "Full",
+            "detail": "Reset your Torrent Die to 6, then target a character within line of sight and Range 15: they must succeed on an Agility save or take 2d6 Explosive damage, become Stunned until the end of their next turn, and be knocked Prone. On a success, they take half damage and are knocked Prone but not Stunned.<br>This action can only be taken when the value of your Torrent Die is 1."
+          }
+        ],
+        "counters": [
+          {
+            "id": "ctr_stormbringer",
+            "name": "Torrent Die",
+            "default_value": 6,
+            "min": 1,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  }
+]

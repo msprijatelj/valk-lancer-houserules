@@ -1,0 +1,9 @@
+[
+  {
+    "id": "valk-hr-cb_briareos_frame",
+    "name": "Briareos Frame (Valk)",
+    "source": "IPS-N",
+    "effect": "As long as your mech has no more than 1 Structure, you gain Resistance to all damage. 1/scene, when it would be destroyed, it is not destroyed: instead, you must make a structure damage check each time it takes damage. While in this state, your mech cannot regain HP until you rest or perform a Full Repair, at which point your mech can be repaired normally.",
+    "description": "The Briareos is the newest release in IPS-N’s line of near-fail frame upgrades: templates designed to maximize a mech’s usability before catastrophic failure or the need for a reprint. The Briareos template increases the resilience of inorganic components by supplementing the structure with a superlight frame featuring interwoven layers of IPS-N’s iconic Goliath Weave meshing."
+  }
+]

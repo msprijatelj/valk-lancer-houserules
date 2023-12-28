@@ -1,0 +1,116 @@
+[
+  {
+    "id": "valk-hr-ms_cable_winch_system",
+    "name": "Cable Winch System (Valk)",
+    "sp": 1,
+    "source": "IPS-N",
+    "license": "Lancaster",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "These cables can be attached to an adjacent character. If the target is Stunned or willing, you automatically succeed; otherwise, they can resist with a successful Hull save. Once attached, you and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming Slowed while doing so.<br>Any character can remove the cables on a hit with a melee attack or Improvised Attack against Evasion 10. The cables snap if the affected target Teleports.<br>These cables can also be used to drag, pull, or otherwise interact with objects and the environment. They are 5 spaces long and can support a combined Size 6 before they break. Characters can use them to climb surfaces, allowing them to climb without a Speed penalty.<br>Lastly, these cables can be attached to a movable Objective. For Objectives, follow the this system's attachment and dragging rules as those for characters; in addition, you may move an attached Objective without starting your turn adjacent to it. The cable snaps if you involuntarily move more than 5 spaces from the Objective."
+      }
+    ],
+    "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech.",
+    "license_id": "mf_lancaster"
+  },
+  {
+    "id": "valk-hr-ms_mule_harness",
+    "name": "MULE Harness (Valk)",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "IPS-N",
+    "license": "Lancaster",
+    "license_level": 2,
+    "effect": "Extra mounts, straps, and hard points allow other characters to climb and ride your mech. Adjacent, non-Immobilized allied characters can climb onto your mech as a quick action. While riding, they occupy the same space as you, move when you move (even if they’re Slowed), and benefit from soft cover. If you or a rider are knocked Prone, Stunned, Immobilized, or destroyed, they land Prone in adjacent spaces. Riders can climb down as part of any movement away, but can only climb onto your mech as a quick action.<br>You can carry riders of a combined Size equal to your Size, minus Size 1/2 (e.g., if your mech is Size 1 you can carry one Size 1/2 character; if it is Size 2, you can carry a Size 1 character and a Size 1/2 character).",
+    "description": "The Multiple User, Light Entanglement (MULE) Harness is a mass-produced version of a common battlefield modification that allows friendly soldiers to ride along on a chassis. Some systems are large enough to allow smaller chassis to accompany larger chassis; typically, these variants are employed in high altitude, low orbit insertions where reduced radar presence is required.",
+    "license_id": "mf_lancaster"
+  },
+  {
+    "id": "valk-hr-ms_tracking_bug",
+    "name": "Tracking Bug (Valk)",
+    "type": "Tech",
+    "sp": 2,
+    "source": "SSC",
+    "license": "Death’s Head",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "tech_attack": true,
+        "detail": "Make a tech attack against a character within Sensors. This tech attack ignores Invisible and does not require line of sight. On a hit, you know the target’s exact location, HP, Structure, and Speed for the duration. They can’t Hide and you ignore their Invisible status. To remove the tracking drone, they must succeed on an Engineering check as a quick action; otherwise it deactivates at the end of the scene."
+      }
+    ],
+    "description": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user.",
+    "license_id": "mf_deaths_head"
+  },
+  {
+    "id": "valk-hr-ms_fade_cloak",
+    "name": "FADE Cloak (Valk)",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "SSC",
+    "license": "Mourning Cloak",
+    "license_level": 3,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "When activated, you immediately move out of phase with realspace, becoming Intangible.<br>Roll 1d6 at the start of each of your turns: on 3 or less, you lose Intangible until the start of your next turn; on 4+, you remain Intangible.<br>This system remains active for the rest of the scene, or until you deactivate it as a quick action."
+      }
+    ],
+    "description": "Representing SSC’s first successful manipulation of the “Firmament”, Firmament Affinity/Directed Entropy (FADE) cloaks must be fabricated according to the unique affinity signature of requisitioning pilots. They are rough tools: artificial affinity amplifiers that allow operators to access shallow layers of the Firmament, and thus “shimmer” – nudging their physical bodies between the causal and paracausal. The cloak enhances this effect by extruding a semiorganic membrane that wraps around the mech to provide an additional layer of protection.<br>At present, the long-term effects of affinity amplification on organic matter are unknown; before receiving clearance to operate a FADE cloak, pilots must agree to check in with their SSC personal concierge on a regular schedule. These check-ins include regular deposits of genetic material.",
+    "license_id": "mf_mourning_cloak"
+  },
+  {
+    "id": "valk-hr-ms_markerlight",
+    "name": "Markerlight (Valk)",
+    "type": "Tech",
+    "sp": 2,
+    "source": "SSC",
+    "license": "Swallowtail",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Full Tech",
+        "tech_attack": true,
+        "detail": "Make a tech attack against a character within Sensors and line of sight. On a success, they take 2 heat, Lock On, and cannot benefit from soft cover or Invisible until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit."
+      }
+    ],
+    "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>",
+    "license_id": "mf_swallowtail"
+  },
+  {
+    "id": "valk-hr-ms_hive_drone",
+    "name": "Hive Drone (Valk)",
+    "type": "Drone",
+    "sp": 2,
+    "source": "HORUS",
+    "license": "Balor",
+    "license_level": 2,
+    "effect": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action.",
+    "deployables": [
+      {
+        "type": "Drone",
+        "name": "Hive Drone",
+        "size": 0.5,
+        "hp": 5,
+        "edef": 10,
+        "evasion": 10,
+        "recall": "Quick",
+        "redeploy": "Quick",
+        "detail": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+      }
+    ],
+    "description": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated.",
+    "license_id": "mf_balor"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "valk-hr-wm_nanocomposite_adaptation",
+    "name": "Nanocomposite Adaptation (Valk)",
+    "sp": 2,
+    "allowed_types": ["Melee", "CQB", "Rifle", "Launcher", "Cannon", "Nexus"],
+    "source": "HORUS",
+    "license": "Balor",
+    "license_level": 3,
+    "effect": "the weapon this mod is applied to gains Smart and Seeking.",
+    "description": "Nanocomposite weapons take aggressive drone swarms and condense them into individual rounds, a coherent beam, or the edge of a blade.<br>Adapted projectile weapons fire shaped CONSUME/HIVE rounds that shatter on impact, releasing their payload of autonomous nanite maniples. Once freed, the maniples begin eating away at surrounding tissue or superstructure. They proceed until burnout or total target consumption, whichever occurs first. In flight, the maniples are able to hive-link and make slight adjustments to the trajectory of their round, ensuring positive impact.<br>Coherent beam weapons transport maniples directly, while conventional melee weapons are replaced by analogs composed entirely of nanobots.",
+    "added_tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      }
+    ],
+    "license_id": "mf_balor"
+  }
+]
