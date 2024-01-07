@@ -1,5 +1,20 @@
 [
   {
+    "id": "valk-hr-act_overcharge",
+    "name": "Overcharge (Valk)",
+    "activation": "Free",
+    "terse": "Overcharging lets you reroll any attack, check, or save once.",
+    "detail": "When you OVERCHARGE, you briefly push your mech beyond factory specifications for a tactical advantage. Moments of intense action won’t tax your mech’s systems too much, but sustained action beyond prescribed limits takes a toll.<br>After you make an attack roll, skill check, or save and know the result you can OVERCHARGE your mech, allowing you to reroll the attack roll, skill check, or save once and use the new result. This free action can be taken even when it is not your turn.<br>The first time you OVERCHARGE, take 1 heat.<br>The second time you OVERCHARGE, take 1d3 heat.<br>The third time, take 1d6 heat, and each time thereafter take 1d6+4 heat.<br>A FULL REPAIR resets this counter.",
+    "mech": true,
+    "pilot": false,    
+    "synergy_locations": [
+      "overcharge"
+    ],
+    "confirm": [
+      "REACTOR LIMITER DISABLED. CORE TEMPERATURES RISING."
+    ]
+  },
+  {
     "id": "valk-hr-act_search",
     "name": "Search (Valk)",
     "activation": "Quick",
