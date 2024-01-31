@@ -1,7 +1,7 @@
 # 0.0.3 (2024-01-11)
 ## Features
 
-Trying out a Brace adjustment that lets it trigger off of any single instance of damage, burn, or heat.
+Trying out a Brace adjustment, some Core Bonus buffs, and Full Tech buffs. Also added some missing Unique tags to a couple systems.
 
 ### Actions
 
@@ -12,6 +12,60 @@ Trying out a Brace adjustment that lets it trigger off of any single instance of
         > "You gain RESISTANCE to the triggering damage, burn, and heat from the triggering attack, and until the end of your next turn, all attacks against you are made at +1 difficulty."
         
         * Changes Brace to be triggered off of any single instance of damage, burn, or heat. This admittedly eliminates some player-beneficial edge cases when protecting against some Tech Attacks (e.g., Tear Down, Predatory Logic) but also opens up use cases for protecting against damaging saves (e.g., Atlas Missiles) or deterministic damage (e.g., Javelin Rockets).
+
+### Core Bonuses
+
+* **Full Subjectivity Sync** (Addition):
+    * Add the following:
+        > "In addition, you gain IMMUNITY to all damage and effects from missed attacks."
+
+        * Inspired by a conversation on Pilot NET that mentioned that Orchis's Perfect Parry would be a great Core Bonus for SSC, as well as conversation on how to make Full Subjectivity Sync more appealing. Orchis is still the only one that can confer this benefit to allies, so I am relatively okay with this "selfish" effect as-is.  If Orchis needs more juice after this, maybe I'll give it something extra (or tone down this core bonus).
+
+* **Integrated Nerveweave** (Replacement, Addition):
+    * Replace the effect with the following:
+        > Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.
+
+        * Another one inspired from conversations with Pilot NET, this provides Nerveweave a more reliable speed bonus while effectively maintaining the original benefit.
+
+* **The Lesson of Disbelief** (Addition):
+    * Add the following:
+        > "In addition, tech attacks made against adjacent allied characters receive +1 difficulty."
+
+        * In a world where the Gorgon and //SCORPION V70.1 exist, this should be a welcome benefit to anti-tech defenders.
+
+### Systems
+
+* **Markerlight** (Replacement, Addition):
+    * Replace the first sentence and "On a success" from the second sentence with:
+        > "Choose a character within Sensors and line of sight. They must make an Agility save: On a success, they receive Lock On. On a failure..."
+
+        * One of the problems I had with my original Markerlight change was that while it played into the Swallowtail license's anti-Invisible niche, it still required the user to _hit_ the target, which may already be Invisible. Changing the effect from a tech attack to an inflicted save was inspired partly from the Spite's save-based toolkit and partly from some recent play as a Wizard in Pathfinder 2E. The Agility save reflects the target's attempt to evade the markerlight; even if they succeed on the save, the user is still guaranteed Lock On as a consolation prize. On a failure, they'll suffer Markerlight's full effect (including my anti-Invisible change) as normal. This may have less synergy with the Hacker talent, but more with Lesson of the Open Door.
+
+* **Aggressive System Sync** (Addition):
+    * Add the "Accurate" tag.
+        * Quick Techs can be used twice a turn without penalty — and often carry impactful effects, like Eject Power Cores. In comparison, Full Tech actions that make tech attacks are incredibly risky to use, as they are often all-or-nothing attacks with no consolation prize on a miss. In my opinion, if there isn't an easy way to apply a "miss" effect, it's better to simply make the attack easier to hit.
+
+* **Metafold Carver** (Addition):
+    * On Ophidian Trek, add "up to" before "1d6+1 spaces".
+        * Small quality of life update to make Ophidian Trek more appealing and reliable. Now it won't fizzle on a bad d6 roll!
+
+* **Law of Blades** (Replacement, Addition):
+    * Add the "Accurate" tag.
+        * See Aggressive System Sync.
+    * Rename "Slave Systems" to "Daemon Possession".
+        * Replacing a problematic name with a tongue-in-cheek reference to software daemons.
+    * Replace the second sentence of newly-renamed Daemon Possession with the following:
+        > "On a hit, they immediately take a tech action or tech attack – chosen by you – as a reaction."
+
+        * The original Slave Systems let the user perform basically every non-weapon-related action in the game. Unfortunately, none of those actions are particularly useful to force as a Reaction — especially Stabilize, when targeting is restricted to hostile characters. This change tears out the less useful options and replaces them with a spicier "Predator/Prey Concepts, but for Tech Actions". If giving players access to NPC tech actions is too powerful — even if that access is gated behind a License 3 Full Tech Attack, often against targets with higher E-Defense — then I think the Lancer system has bigger problems.
+
+* **Wandering Nightmare** (Addition):
+    * Add the "Unique" tag.
+        * Addressing an easy fix from the [Lancer FAQ](https://lancer-faq.netlify.app/#f4b496).
+
+* **Sympathetic Shield** (Addition):
+    * Add the "Unique" tag.
+        * Addressing an easy fix from the [Lancer FAQ](https://lancer-faq.netlify.app/#c5138d).
 
 # 0.0.2 (2024-01-07)
 ## Features

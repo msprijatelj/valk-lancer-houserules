@@ -82,7 +82,7 @@
       {
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a character within Sensors and line of sight. On a success, they take 2 heat, Lock On, and cannot benefit from soft cover or Invisible until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit."
+        "detail": "Choose a character within Sensors and line of sight. They must make an Agility save: On a success, they receive Lock On. On a failure, they take 2 heat, Lock On, and cannot benefit from soft cover or Invisible until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit."
       }
     ],
     "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>",
@@ -112,5 +112,153 @@
     ],
     "description": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated.",
     "license_id": "mf_balor"
+  },
+  {
+    "id": "valk-hr-ms_aggressive_system_sync",
+    "name": "Aggressive System Sync (Valk)",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_accurate"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Minotaur",
+    "license_level": 2,
+    "actions": [
+      {
+        "name": "Chains of Prometheus",
+        "activation": "Full Tech",
+        "tech_attack": true,
+        "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+      },
+      {
+        "name": "Excommunicate",
+        "activation": "Full Tech",
+        "tech_attack": true,
+        "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+      }
+    ],
+    "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>",
+    "license_id": "mf_minotaur"
+  },
+  {
+    "id": "valk-hr-ms_metafold_carver",
+    "name": "Metafold Carver (Valk)",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_accurate"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Minotaur",
+    "license_level": 2,
+    "actions": [
+      {
+        "name": "Ophidian Trek",
+        "activation": "Invade",
+        "detail": "Your target is teleported up to 1d6+1 spaces directly toward you, or as close as possible. If this effect would move them to a space occupied by a character, object, or piece of terrain, the teleport fails."
+      },
+      {
+        "name": "Fold Space",
+        "activation": "Invade",
+        "detail": "Your target disappears from the battlefield until the start of its next turn. It returns in the same space they disappeared from, or in a free space of their choice as close as possible."
+      }
+    ],
+    "description": "<span class='horus--subtle'>[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br><span class='horus--subtle'>[no, no. there is only joy in seeking. there is only joy in the question]</span>",
+    "license_id": "mf_minotaur"
+  },
+  {
+    "id": "valk-hr-ms_law_of_blades",
+    "name": "Law of Blades (Valk)",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_accurate"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Minotaur",
+    "license_level": 3,
+    "actions": [
+      {
+        "name": "Predator/Prey Concepts",
+        "activation": "Full Tech",
+        "tech_attack": true,
+        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately attack a different character or object of your choice with a single weapon as a reaction. Although you choose their target and weapon, they count as attacking and taking a reaction."
+      },
+      {
+        "name": "Daemon Possession",
+        "activation": "Full Tech",
+        "tech_attack": true,
+        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately take a tech action or tech attack – chosen by you – as a reaction. Although you choose the action and its target (if relevant), they count as taking the action and taking a reaction."
+      }
+    ],
+    "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
+    "license_id": "mf_minotaur"
+  },
+  {
+    "id": "valk-hr-ms_tear_firmament",
+    "name": "Wandering Nightmare (Valk)",
+    "type": "Tech",
+    "sp": 1,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Lich",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Full Tech",
+        "name": "Wandering Nightmare",
+        "detail": "You generate a Blast 2 zone of distorted timeflow within SENSORS and line of sight that affects all characters other than you. Characters within the affected area cannot take reactions, and if they start their turn within it, they must succeed on a Systems save or take 2 Heat and become Slowed until the end of their next turn. This effect lasts until this action is taken again or the scene ends."
+      }
+    ],
+    "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 7658U, 35:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br>“Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go?",
+    "license_id": "mf_lich"
+  },
+  {
+    "id": "valk-hr-ms_sympathetic_shield",
+    "name": "Sympathetic Shield (Valk)",
+    "type": "Shield",
+    "sp": 1,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_limited",
+        "val": 3
+      }
+    ],
+    "source": "SSC",
+    "license": "White Witch",
+    "license_level": 2,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "You project a shield of resonant ferrofluid over an allied character within Range 5. They gain Overshield equal to 4 + GRIT, but any damage dealt to this Overshield before reductions of any kind also deals equivalent kinetic damage to you as if the attacker had also damaged you, no matter how far away you are. This damage does not inherit tags or effects."
+      }
+    ],
+    "description": "“Soon enough we realized that shaping weapons from molecules and particles wasn’t enough to justify the conical mag as a system worth platforming. We needed to find a way to make it … more. More visual, tactile, concrete, imposing, thrilling – we needed to sell the next step in realspace control! So with some tuning and, regrettably, input from Visual, we figured out how to define the White Witch: as the most terrifying, alien thing you’ve ever fucking seen.”",
+    "data_type": "system",
+    "aptitude": {},
+    "license_id": "mf_white_witch"
   }
 ]
