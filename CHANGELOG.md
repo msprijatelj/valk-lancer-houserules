@@ -9,7 +9,7 @@ Trying out a Brace adjustment, some Core Bonus buffs, and Full Tech buffs. Also 
     * Replace the Trigger with:
         > "You take damage, burn, or heat from a source other than yourself."
     * Replace the first sentence of the Effect with:
-        > "You gain RESISTANCE to the triggering damage, burn, and heat from the triggering attack, and until the end of your next turn, all attacks against you are made at +1 difficulty."
+        > "You gain RESISTANCE to all damage, burn, and heat from the triggering source, and until the end of your next turn, all attacks against you are made at +1 difficulty."
         
         * Changes Brace to be triggered off of any single instance of damage, burn, or heat. This admittedly eliminates some player-beneficial edge cases when protecting against some Tech Attacks (e.g., Tear Down, Predatory Logic) but also opens up use cases for protecting against damaging saves (e.g., Atlas Missiles) or deterministic damage (e.g., Javelin Rockets).
 
