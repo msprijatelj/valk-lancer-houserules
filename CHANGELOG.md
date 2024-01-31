@@ -1,4 +1,4 @@
-# 0.0.3 (2024-01-11)
+# 0.0.3 (2024-01-30)
 ## Features
 
 Trying out a Brace adjustment, some Core Bonus buffs, and Full Tech buffs. Also added some missing Unique tags to a couple systems.
