@@ -1,7 +1,38 @@
 [
   {
+    "id": "valk-hr-mw_nexus_hunter_killer",
+    "name": "!V! Nexus (Hunter-Killer)",
+    "mount": "Main",
+    "type": "Nexus",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_accurate"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "source": "GMS",
+    "license": "GMS",
+    "license_level": 0,
+    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+    "license_id": ""
+  },
+  {
     "id": "valk-hr-mw_heavy_machine_gun",
-    "name": "Heavy Machine Gun (Valk)",
+    "name": "!V! Heavy Machine Gun",
     "mount": "Heavy",
     "type": "Cannon",
     "damage": [
@@ -29,7 +60,7 @@
   },
   {
     "id": "valk-hr-mw_swarm_hive_nanites",
-    "name": "Swarm/Hive Nanites (Valk)",
+    "name": "!V! Swarm/Hive Nanites",
     "mount": "Main",
     "type": "Nexus",
     "damage": [
@@ -64,7 +95,7 @@
   },
   {
     "id": "valk-hr-mw_flak_launcher",
-    "name": "Flak Launcher (Valk)",
+    "name": "!V! Flak Launcher",
     "mount": "Main",
     "type": "Cannon",
     "damage": [
@@ -93,7 +124,7 @@
   },
   {
     "id": "valk-hr-mw_lancaster_integrated",
-    "name": "Latch Drone (Valk)",
+    "name": "!V! Latch Drone",
     "mount": "Main",
     "type": "Launcher",
     "damage": [],

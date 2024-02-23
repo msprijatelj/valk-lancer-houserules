@@ -1,7 +1,7 @@
 [
   {
     "id": "valk-hr-ms_cable_winch_system",
-    "name": "Cable Winch System (Valk)",
+    "name": "!V! Cable Winch System",
     "sp": 1,
     "source": "IPS-N",
     "license": "Lancaster",
@@ -17,7 +17,7 @@
   },
   {
     "id": "valk-hr-ms_mule_harness",
-    "name": "MULE Harness (Valk)",
+    "name": "!V! MULE Harness",
     "sp": 2,
     "tags": [
       {
@@ -33,7 +33,7 @@
   },
   {
     "id": "valk-hr-ms_tracking_bug",
-    "name": "Tracking Bug (Valk)",
+    "name": "!V! Tracking Bug",
     "type": "Tech",
     "sp": 2,
     "source": "SSC",
@@ -51,7 +51,7 @@
   },
   {
     "id": "valk-hr-ms_fade_cloak",
-    "name": "FADE Cloak (Valk)",
+    "name": "!V! FADE Cloak",
     "sp": 2,
     "tags": [
       {
@@ -72,7 +72,7 @@
   },
   {
     "id": "valk-hr-ms_markerlight",
-    "name": "Markerlight (Valk)",
+    "name": "!V! Markerlight",
     "type": "Tech",
     "sp": 2,
     "source": "SSC",
@@ -90,7 +90,7 @@
   },
   {
     "id": "valk-hr-ms_hive_drone",
-    "name": "Hive Drone (Valk)",
+    "name": "!V! Hive Drone",
     "type": "Drone",
     "sp": 2,
     "source": "HORUS",
@@ -115,7 +115,7 @@
   },
   {
     "id": "valk-hr-ms_aggressive_system_sync",
-    "name": "Aggressive System Sync (Valk)",
+    "name": "!V! Aggressive System Sync",
     "type": "Tech",
     "sp": 2,
     "tags": [
@@ -145,7 +145,7 @@
   },
   {
     "id": "valk-hr-ms_metafold_carver",
-    "name": "Metafold Carver (Valk)",
+    "name": "!V! Metafold Carver",
     "type": "Tech",
     "sp": 2,
     "tags": [
@@ -173,7 +173,7 @@
   },
   {
     "id": "valk-hr-ms_law_of_blades",
-    "name": "Law of Blades (Valk)",
+    "name": "!V! Law of Blades",
     "type": "Tech",
     "sp": 2,
     "tags": [
@@ -206,7 +206,7 @@
   },
   {
     "id": "valk-hr-ms_tear_firmament",
-    "name": "Wandering Nightmare (Valk)",
+    "name": "!V! Wandering Nightmare",
     "type": "Tech",
     "sp": 1,
     "tags": [
@@ -229,7 +229,7 @@
   },
   {
     "id": "valk-hr-ms_sympathetic_shield",
-    "name": "Sympathetic Shield (Valk)",
+    "name": "!V! Sympathetic Shield",
     "type": "Shield",
     "sp": 1,
     "tags": [

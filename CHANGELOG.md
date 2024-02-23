@@ -1,4 +1,19 @@
+# 0.0.4 (2024-02-23)
+
+Bugfixed the homebrewed Gorgon frame; originally I didn't mark it as a variant! Pretty sure it wouldn't play nice with Comp/Con as a result; hopefully now it will!
+
+Also changed the prefixing/suffixing on various options to make them stand out more on Comp/Con. I removed the `(Valk)` suffixing and added a `!V!` prefix. Subject to change depending on how to make the options most visible on Comp/Con and elsewhere.
+
+## Features
+
+### Weapons
+
+* **Nexus (Hunter-Killer)** (Addition):
+    * Add the "Accurate" tag.
+        * HK Nexus doesn't get a lot of love from Centimane users since Flex and Aux/Aux mounts can fish for more crits with the Light Nexus. This should hopefully make the HK Nexus a little more competitive and satisfying.
+
 # 0.0.3 (2024-01-30)
+
 ## Features
 
 Trying out a Brace adjustment, some Core Bonus buffs, and Full Tech buffs. Also added some missing Unique tags to a couple systems.
@@ -68,6 +83,7 @@ Trying out a Brace adjustment, some Core Bonus buffs, and Full Tech buffs. Also 
         * Addressing an easy fix from the [Lancer FAQ](https://lancer-faq.netlify.app/#c5138d).
 
 # 0.0.2 (2024-01-07)
+
 ## Features
 
 Trying out a variation of Overcharge. Time will tell if it sticks around; other systemic (or even just frame-level) changes may be required to keep the changes seamless.
@@ -81,6 +97,7 @@ Trying out a variation of Overcharge. Time will tell if it sticks around; other 
         * Default Overcharge is frustrating for several reasons: Tactical RPGs live and die by action economy, usually because "more actions" means "more chances to kill something." In Lancer's case, Overcharge is tied to Heat, which then highly incentivizes Strikers and Artillery to take Engineering, Nuclear Cavalier, and HA licenses to avail themselves of this added economy. From a table play perspective, since a PC mech can always Overcharge as long as they have a mech, there's the perpetual question of "will this player Overcharge or not this turn." This uncertainty, as well as other complications of how to order the Overcharge with the rest of the PC's actions, can slow combat to a halt if the player is indecisive. Therefore, I take a page out of Pathfinder 2e's book to transform Overcharge into something akin to Hero Points: It's still tied to Heat (for better or for worse), but it instead focuses upon improving the Quality of a given action instead of the Quantity of those actions. Superheavy and Full Tech users will likely benefit from this, and Overcharge Loop builds will likely suffer; the question is whether these ripples will be manageable or intractable. At the very least, all builds with Overcharge will now have an additional defensive measure against dangerous saves, like those forced by Structure Damage/Overheating and many Stun effects from NPCs. Playtesting will tell if this change yields more benefits than drawbacks.
 
 # 0.0.1 (2023-12-28)
+
 ## Features
 
 Initial release. Each change is marked as either an "Addition", "Replacement", or "Removal". The following changes were made from the original source data:

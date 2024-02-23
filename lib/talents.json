@@ -1,7 +1,7 @@
 [
   {
     "id": "valk-hr-t_exemplar",
-    "name": "Exemplar (Valk)",
+    "name": "!V! Exemplar",
     "icon": "EXEMPLAR",
     "terse": "Challenge your foes, forcing them to fight you instead of your allies",
     "description": "Eamon Metrias’s livery is famous, his voice brassy, his weapons polished to a sheen. As the advocate for the Nine Spheres, his training with certain martial orders has given him the power to harry and hinder even the most powerful of foes. Eamon is an exemplar of the Spheres, by words and by action.",
@@ -45,7 +45,7 @@
   },
   {
     "id": "valk-hr-t_gunslinger",
-    "name": "Gunslinger (Valk)",
+    "name": "!V! Gunslinger",
     "icon": "GUNSLINGER",
     "terse": "Make your Auxiliary Ranged weapons deadlier and gain the powerful Gunslinger Die",
     "description": "In a galaxy bounded by frontiers, there is no law but the one backed by the gun. Sgt. Stev Ansahok wields the humble pistol with a talent unseen in this age, his iron an extension of his own body. As easy as pointing a finger, the weathered sergeant lands shots with accuracy unmatched by machine. His is a gunslinger: justice made whole, given its sacred instrument, and set out to the cruel frontier to tame it.",
@@ -101,7 +101,7 @@
   },
   {
     "id": "valk-hr-t_hacker",
-    "name": "Hacker (Valk)",
+    "name": "!V! Hacker",
     "icon": "HACKER",
     "terse": "Improve your tech attacks and unlock special Invade options",
     "description": "Since Katya Han was a kid, she played the omninet, able to access any public node – and even a few private ones – with ease. Now, as a pilot, she dives headfirst into the hardcode of any mech core she come across. Firewalls, gatekeeper protocols, invasion, defense – nothing stands in her way. Han wins fights without firing a single shot; if her enemy can’t control their own mech, then they can’t do anything to stop her.",
@@ -153,7 +153,7 @@
   },
   {
     "id": "valk-hr-t_stormbringer",
-    "name": "Stormbringer (Valk)",
+    "name": "!V! Stormbringer",
     "icon": "STORMBRINGER",
     "terse": "Improve your Launcher weapons and unlock the Torrent Die",
     "description": "On Old Spinrock, MJ Martinez used to dream of rain.<br>He’d wake in the dim morning, wipe the sleep from his eyes as warm safelight lifted his dormitory from darkness, and try to remember the sound of rain as he’d imagined it: a patter, like fingers tapping the visor of his EVA helm.<br>What he didn’t think about was the feeling of rain. How each drop hit like a pebble, how you had to close your eyes and tuck your shoulders. The pressure. The impact.<br>The way drops of water, when taken together, can carve away the earth.",

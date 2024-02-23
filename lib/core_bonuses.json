@@ -1,14 +1,14 @@
 [
   {
     "id": "valk-hr-cb_briareos_frame",
-    "name": "Briareos Frame (Valk)",
+    "name": "!V! Briareos Frame",
     "source": "IPS-N",
     "effect": "As long as your mech has no more than 1 Structure, you gain Resistance to all damage. 1/scene, when it would be destroyed, it is not destroyed: instead, you must make a structure damage check each time it takes damage. While in this state, your mech cannot regain HP until you rest or perform a Full Repair, at which point your mech can be repaired normally.",
     "description": "The Briareos is the newest release in IPS-N’s line of near-fail frame upgrades: templates designed to maximize a mech’s usability before catastrophic failure or the need for a reprint. The Briareos template increases the resilience of inorganic components by supplementing the structure with a superlight frame featuring interwoven layers of IPS-N’s iconic Goliath Weave meshing."
   },
   {
     "id": "valk-hr-cb_full_subjectivity_sync",
-    "name": "Full Subjectivity Sync (Valk)",
+    "name": "!V! Full Subjectivity Sync",
     "source": "SSC",
     "effect": "You gain +2 Evasion. In addition, you gain IMMUNITY to all damage and effects from missed attacks.",
     "description": "By creating a stable, two-way ontologic bridge, SSC has removed the need for pilots to rely on physical controls alone to pilot their mech. Using a full subjectivity sync, pilots perceive their mech as their own body and control it via neural impulse; somatosensory feedback is translated to the pilot as well, so caution is advised despite nociception-dampening defaults built-in to the system.",
@@ -21,7 +21,7 @@
   },
   {
     "id": "valk-hr-cb_integrated_nerveweave",
-    "name": "Integrated Nerveweave (Valk)",
+    "name": "!V! Integrated Nerveweave",
     "source": "SSC",
     "effect": "Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.",
     "description": "Integrated nerveweave combines several technologies to grant total battlefield alacrity, assuring pilots are never left behind.",
@@ -37,7 +37,7 @@
   },
   {
     "id": "valk-hr-cb_the_lesson_of_disbelief",
-    "name": "The Lesson of Disbelief (Valk)",
+    "name": "!V! The Lesson of Disbelief",
     "source": "HORUS",
     "effect": "You gain +1 accuracy on Systems checks and saves, and +2 E-Defense. In addition, tech attacks made against adjacent allied characters receive +1 difficulty.",
     "description": "Query the omninet, delve into the archives. Find you the Aeneid, find you the age of Titanomachy. Eat, absorb, mull. Tell me now of the Hecatoncheires, they of the hundred hands. Did they strike the blow against Cronus – Saturno – or did they instead assail the Olympians? Who do you believe? Who stopped the Beast from telling its own story? And why? – “Lesson One”, The Six Lessons of Kilo Nueve.",

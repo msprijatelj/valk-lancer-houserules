@@ -3,7 +3,7 @@
     "id": "mf_standard_pattern_i_everest",
     "license_level": 0,
     "source": "GMS",
-    "name": "Everest (Valk)",
+    "name": "!V! Everest",
     "variant": "Everest",
     "mechtype": ["Balanced"],
     "y_pos": 25,
@@ -90,7 +90,7 @@
     "id": "valk-hr-mf_lancaster",
     "license_level": 2,
     "source": "IPS-N",
-    "name": "Lancaster (Valk)",
+    "name": "!V! Lancaster",
     "variant": "Lancaster",
     "mechtype": ["Support"],
     "y_pos": 16,
@@ -148,7 +148,7 @@
     "id": "valk-hr-mf_deaths_head",
     "license_level": 2,
     "source": "SSC",
-    "name": "Death’s Head (Valk)",
+    "name": "!V! Death’s Head",
     "variant": "Death’s Head",
     "mechtype": ["Artillery"],
     "y_pos": 40,
@@ -215,7 +215,7 @@
     "id": "valk-hr-mf_mourning_cloak",
     "license_level": 2,
     "source": "SSC",
-    "name": "Mourning Cloak (Valk)",
+    "name": "!V! Mourning Cloak",
     "variant": "Mourning Cloak",
     "mechtype": ["Striker"],
     "y_pos": 62,
@@ -282,10 +282,11 @@
     "license_id": "mf_mourning_cloak"
   },
   {
-    "id": "mf_gorgon",
+    "id": "valk-hr-mf_gorgon",
     "license_level": 2,
     "source": "HORUS",
-    "name": "Gorgon",
+    "name": "!V! Gorgon",
+    "variant": "Gorgon",
     "mechtype": ["Defender"],
     "y_pos": 5,
     "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br>The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
@@ -335,7 +336,7 @@
     "id": "valk-hr-mf_minotaur",
     "license_level": 2,
     "source": "HORUS",
-    "name": "Minotaur (Valk)",
+    "name": "!V! Minotaur",
     "variant": "Minotaur",
     "mechtype": ["Controller"],
     "y_pos": 30,
@@ -394,7 +395,7 @@
     "id": "valk-hr-mf_tokugawa",
     "license_level": 2,
     "source": "HA",
-    "name": "Tokugawa (Valk)",
+    "name": "!V! Tokugawa",
     "variant": "Tokugawa",
     "mechtype": ["Striker"],
     "y_pos": 5,
@@ -468,7 +469,7 @@
   {
     "id": "valk-hr-mf_atlas",
     "source": "SSC",
-    "name": "Atlas (Valk)",
+    "name": "!V! Atlas",
     "variant": "Atlas",
     "mechtype": [
       "Striker"
@@ -574,7 +575,7 @@
     "id": "valk-hr-mf_sagarmatha",
     "variant": "Everest",
     "source": "GMS",
-    "name": "Sagarmatha (Valk)",
+    "name": "!V! Sagarmatha",
     "mechtype": [
       "Defender"
     ],
@@ -654,7 +655,7 @@
     "id": "valk-hr-mf_tokugawa_alt_enkidu",
     "variant": "Tokugawa",
     "source": "HA",
-    "name": "Enkidu (Valk)",
+    "name": "!V! Enkidu",
     "mechtype": [
       "Striker",
       "Defender"
