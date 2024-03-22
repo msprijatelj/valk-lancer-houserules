@@ -6,6 +6,18 @@ Also changed the prefixing/suffixing on various options to make them stand out m
 
 ## Features
 
+### Actions
+
+* **Aid** (Addition):
+    * Add a new Quick Action, Aid. Adapted from an idea by Acatalepsy on Pilot NET. Allows allied characters to split the action cost of Stabilize so effects like Stunned, Jammed, and Immobilized are less frustrating to manage. Future iterations may restrict the Stabilize so that it can only clear a self-inflicted condition, but for now it'll work the following way:
+        > "When you AID, you assist a mech so it can STABILIZE more easily. Choose an adjacent character. On their next turn, they may STABILIZE as a quick action. They can choose to take this action even if they normally would not be able to take actions (for example, by being affected by the STUNNED condition)."
+
+### Systems
+
+* **Restock Drone** (Replacement):
+    * Reduce the action cost to activate the Restock Drone to a Free Action.
+        * By adding the "Aid" Quick action, it seemed prudent to show a little love to the Restock Drone. Since the NPC Restock Drone doesn't require an action to activate, reducing the Lancaster's Restock Drone activation cost to a Free Action seemed fair, especially since it's innately Limited 2.
+
 ### Weapons
 
 * **Nexus (Hunter-Killer)** (Addition):

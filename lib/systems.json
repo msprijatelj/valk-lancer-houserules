@@ -16,6 +16,46 @@
     "license_id": "mf_lancaster"
   },
   {
+    "id": "valk-hr-ms_restock_drone",
+    "name": "!V! Restock Drone",
+    "type": "Drone",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 2
+      },
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "IPS-N",
+    "license": "Lancaster",
+    "license_level": 1,
+    "effect": "Expend a charge to deploy a restock drone to any free, adjacent space, where it primes at the end of your turn.",
+    "deployables": [
+      {
+        "type": "Drone",
+        "name": "Restock Drone",
+        "activation": "Quick",
+        "size": 0.5,
+        "hp": 5,
+        "edef": 10,
+        "evasion": 10,
+        "detail": "While adjacent to this drone, allied characters can activate it as a free action, clearing 1d6 heat and one condition, and reloading one Loading weapon. After being activated, the drone immediately disintegrates.",
+        "actions": [
+          {
+            "name": "Activate Restock Drone",
+            "activation": "Free",
+            "detail": "Clear 1d6 heat and one condition, and reloading one Loading weapon. After being activated, the drone immediately disintegrates."
+          }
+        ]
+      }
+    ],
+    "description": "Reliable and sturdy drones carrying integrated printers, restock drones allow for limited logistical flexibility via autosalvage. The bulk of a restock drone is made of RawMat, a blend of silicates and metallic materials that the drone processes into replacement parts and repair kits. This is why pilots often joke that restock drones are, simply put, “mech snacks”.",
+    "license_id": "mf_lancaster"
+  },
+  {
     "id": "valk-hr-ms_mule_harness",
     "name": "!V! MULE Harness",
     "sp": 2,
