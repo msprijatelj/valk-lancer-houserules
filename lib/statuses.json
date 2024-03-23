@@ -11,6 +11,13 @@
     "icon": "",
     "type": "Condition",
     "terse": "DRAINED mechs deal half damage, heat, or burn on all attacks.",
-    "effects": "DRAINED mechs deal half damage, heat, or burn on all attacks."
+    "effects": "Characters become DRAINED when they’re rebalancing their power draw due to high reactor heat – their weapons are spinning down and their motor servos become sluggish. DRAINED mechs deal half damage, heat, or burn on all attacks."
+  },
+  {
+    "name": "Overheated",
+    "icon": "",
+    "type": "Status",
+    "terse": "An OVERHEATED mech cannot take any actions that would inflict Heat upon themselves.",
+    "effects": "Mechs become OVERHEATED when their reactor begins emergency venting protocols, locking down the mech's ability to generate heat. An OVERHEATED mech cannot take any actions that would inflict Heat upon themselves, including OVERCHARGE and activating systems with the HEAT (SELF) tag. A mech can clear OVERHEATED by taking the STABILIZE action."
   }
 ]

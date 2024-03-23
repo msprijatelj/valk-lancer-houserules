@@ -9,8 +9,25 @@ Also changed the prefixing/suffixing on various options to make them stand out m
 ### Actions
 
 * **Aid** (Addition):
-    * Add a new Quick Action, Aid. Adapted from an idea by Acatalepsy on Pilot NET. Allows allied characters to split the action cost of Stabilize so effects like Stunned, Jammed, and Immobilized are less frustrating to manage. Future iterations may restrict the Stabilize so that it can only clear a self-inflicted condition, but for now it'll work the following way:
+    * Add a new Quick Action, Aid (adapted from an idea by Acatalepsy on Pilot NET). Allows allied characters to split the action cost of Stabilize so effects like Stunned, Jammed, and Immobilized are less frustrating to manage. Future iterations may restrict the Stabilize so that it can only clear a self-inflicted condition, but for now it'll work the following way:
         > "When you AID, you assist a mech so it can STABILIZE more easily. Choose an adjacent character. On their next turn, they may STABILIZE as a quick action. They can choose to take this action even if they normally would not be able to take actions (for example, by being affected by the STUNNED condition)."
+
+* **Stabilize** (Addition):
+    * Modify the first bullet point for the first set of options for Stabilize to the following:
+        > "Cool your mech, clearing all heat, EXPOSED, and OVERHEATED."
+
+        * This references a new status, OVERHEATED, which can be cleared via Stabilizing to clear heat (see "Statuses" in this update).
+
+### Statuses
+
+* **Drained** (Addition):
+    * Add additional description of what Drained means in the fiction of the game. 
+
+* **Overheated** (Addition):
+    * Add a new Status, Overheated:
+        > "Mechs become OVERHEATED when their reactor begins emergency venting protocols, locking down the mech's ability to generate heat. An OVERHEATED mech cannot take any actions that would inflict Heat upon themselves, including OVERCHARGE and activating systems with the HEAT (SELF) tag. A mech can clear OVERHEATED by taking the STABILIZE action."
+
+        * This is part of a larger experiment with inflicting Heat as a stronger control tool. One of my undocumented NPC house rules adds the Heat (Self) tag to all NPC features with the Recharge tag. The intent is that when a mech becomes Exposed via exceeding their Heat Cap, they also become Overheated and unable to use their limited-use abilities until they Stabilize to clear Heat and Exposed. Playtesting will tell if this is an interesting or necessary change!
 
 ### Systems
 

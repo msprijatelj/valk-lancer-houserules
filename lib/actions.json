@@ -46,5 +46,17 @@
     "detail": "When you AID, you assist a mech so it can STABILIZE more easily. Choose an adjacent character. On their next turn, they may STABILIZE as a quick action. They can choose to take this action even if they normally would not be able to take actions (for example, by being affected by the STUNNED condition).",
     "mech": true,
     "pilot": false
+  },
+  {
+    "id": "valk-hr-act_stabilize",
+    "name": "Stabilize (Valk)",
+    "activation": "Full",
+    "terse": "Heal and cool down your mech, reload, or attempt to end conditions affecting it.",
+    "detail": "When you STABILIZE, you enact emergency protocols to purge your mech’s systems of excess heat, repair your chassis where you can, or eliminate hostile code.<br>To STABILIZE, choose one of the following:<br>• Cool your mech, clearing all heat, EXPOSED, and OVERHEATED.<br>• Mark 1 REPAIR to restore all HP.<br>Additionally, choose one of the following:<br>• Reload all LOADING weapons.<br>• Clear any burn currently affecting your mech.<br>• Clear a condition that wasn’t caused by one of your own systems, talents, etc.<br>• Clear an adjacent allied character’s condition that wasn’t caused by one of their own systems, talents, etc.",
+    "mech": true,
+    "pilot": false,
+    "synergy_locations": [
+      "stabilize"
+    ]
   }
 ]
