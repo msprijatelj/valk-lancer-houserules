@@ -1,8 +1,10 @@
-# 0.0.4 (2024-02-23)
+# 0.0.4 (2024-03-23)
 
 Bugfixed the homebrewed Gorgon frame; originally I didn't mark it as a variant! Pretty sure it wouldn't play nice with Comp/Con as a result; hopefully now it will!
 
 Also changed the prefixing/suffixing on various options to make them stand out more on Comp/Con. I removed the `(Valk)` suffixing and added a `!V!` prefix. Subject to change depending on how to make the options most visible on Comp/Con and elsewhere.
+
+Otherwise, added a new action, Aid, and new status, Overheated, along with a buff to Lancaster's Restock Drone and the GMS Hunter-Killer Nexus.
 
 ## Features
 
