@@ -2,6 +2,10 @@
 
 This repository holds the LCP data for my personal Lancer RPG games. It's subject to change on a whim as I make tweaks and test changes.
 
+See [DOCUMENTATION](DOCUMENTATION.md) for a living document of these house rules.
+
+See [CHANGELOG](CHANGELOG.md) for changes made over time.
+
 ## Legal
 
 Thanks given to Massif Press for the use of the _Lancer_ setting and system. I use the original, player-facing Lancer LCP data under a combination of GPL-3.0 and the [_Lancer_ Third Party License](https://massifpress.com/legal). I pull the data from the following sources:
