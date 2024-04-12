@@ -1,3 +1,13 @@
+# 0.0.5-alpha (2024-04-12)
+
+Tweaked my Overcharge changes; it now resets on a rest or full repair.
+
+* **Overcharge** (Replacement):
+    * Replace the last sentence with:
+        > "A rest or FULL REPAIR resets this counter."
+        * My Overcharge changes feel good in single fights, but since an individual Overcharge has been reduced in power, I don't think Overcharge needs to be tracked as mission-level attrition anymore. There's probably room for tweaks, like adjusting the Heat progression or tying the reset to a Repair cost or time cost, but I think having it reset on any rest is an elegant enough solution.
+        
+
 # 0.0.4 (2024-03-23)
 
 Bugfixed the homebrewed Gorgon frame; originally I didn't mark it as a variant! Pretty sure it wouldn't play nice with Comp/Con as a result; hopefully now it will!
