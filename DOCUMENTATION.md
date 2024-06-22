@@ -63,7 +63,7 @@ This is a living document detailing my personal house rules for the [player-faci
 ### Overheated
 
 * Add a new Status, Overheated:
-    > "Mechs become OVERHEATED when their reactor begins emergency venting protocols, locking down the mech's ability to generate heat. An OVERHEATED mech cannot take any actions that would inflict Heat upon themselves, including OVERCHARGE and activating systems with the HEAT (SELF) tag. A mech can clear OVERHEATED by taking the STABILIZE action."
+    > "Mechs become OVERHEATED when their reactor begins emergency venting protocols, locking down the mech's ability to generate heat. When a mech would become EXPOSED by overheating, they additionally become OVERHEATED. An OVERHEATED mech cannot take any actions or activate abilities that would inflict heat upon themselves, including using OVERCHARGE and activating systems with the HEAT X (SELF) tag. Weapons with the OVERKILL tag instead lose the tag while OVERHEATED. A mech can clear OVERHEATED by taking the STABILIZE action."
 
     * This is part of a larger experiment with inflicting Heat as a stronger control tool. One of my undocumented NPC house rules adds the Heat (Self) tag to all NPC features with the Recharge tag. The intent is that when a mech becomes Exposed via exceeding their Heat Cap, they also become Overheated and unable to use their limited-use abilities until they Stabilize to clear Heat and Exposed. Playtesting will tell if this is an interesting or necessary change!
 

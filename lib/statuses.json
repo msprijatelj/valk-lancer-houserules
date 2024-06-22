@@ -18,6 +18,6 @@
     "icon": "",
     "type": "Status",
     "terse": "An OVERHEATED mech cannot take any actions that would inflict Heat upon themselves.",
-    "effects": "Mechs become OVERHEATED when their reactor begins emergency venting protocols, locking down the mech's ability to generate heat. An OVERHEATED mech cannot take any actions that would inflict Heat upon themselves, including OVERCHARGE and activating systems with the HEAT (SELF) tag. A mech can clear OVERHEATED by taking the STABILIZE action."
+    "effects": "Mechs become OVERHEATED when their reactor begins emergency venting protocols, locking down the mech's ability to generate heat. When a mech would become EXPOSED by overheating, they additionally become OVERHEATED. An OVERHEATED mech cannot take any actions or activate abilities that would inflict heat upon themselves, including using OVERCHARGE and activating systems with the HEAT X (SELF) tag. Weapons with the OVERKILL tag instead lose the tag while OVERHEATED. A mech can clear OVERHEATED by taking the STABILIZE action."
   }
 ]
