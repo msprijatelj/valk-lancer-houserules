@@ -87,6 +87,76 @@
     "license_id": "mf_standard_pattern_i_everest"
   },
   {
+    "id": "valk-hr-mf_drake",
+    "license_level": 2,
+    "source": "IPS-N",
+    "name": "!V! Drake",
+    "variant": "Drake",
+    "mechtype": ["Defender"],
+    "y_pos": 12,
+    "description": "The Drake, IPS-N’s first foray into military-grade mech design, is the backbone of any proactive trade-security or anti-piracy force. Its massive, simian frame is built around a single-cast bulkhead, sloped and reinforced to handle sustained fire and the vagaries of vessel-proximal hardvac travel. The Drake is an imposing chassis, its frame evoking the might of ancient armored infantry from a time when greater numbers guaranteed victory.<br>The standard fleet license for the IPS-N Drake outfits each chassis with IPS-N’s high-velocity, high–projectile fragment assault cannon for suppressing and overwhelming targets, and a heavy kinetic–ablative shield for defense. Advanced models feature upgraded weapons and armor including the formidable Leviathan Heavy Assault Cannon, a high-rpm anti-materiel weapon.",
+    "mounts": ["Main", "Main", "Heavy"],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 3,
+      "hp": 8,
+      "evasion": 6,
+      "edef": 6,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Heavy Frame",
+        "description": "The Drake can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters."
+      },
+      {
+        "name": "Blast Plating",
+        "description": "The Drake has Resistance to damage, burn and heat from blast, burst, line, and cone attacks."
+      },
+      {
+        "name": "Slow",
+        "description": "The Drake receives +1 difficulty on Agility checks and saves.",
+        "synergies": [
+          {
+            "locations": ["agility", "skill_check"],
+            "detail": "The Drake receives +1 difficulty on Agility checks and saves."
+          }
+        ]
+      },
+      {
+        "name": "Guardian",
+        "description": "Adjacent allied characters can use the Drake for hard cover."
+      }
+    ],
+    "core_system": {
+      "name": "Fortress",
+      "active_name": "Fortress Protocol",
+      "active_effect": "You deploy heavy stabilizers and your mech becomes more like a fortified emplacement than a vehicle. When activated, two sections of hard cover (line 2, Size 1) unfold from your mech, drawn in any direction. These cover sections have Immunity to all damage.<br>Additionally, the following effects apply while active:<ul><li>You become Immobilized.</li><li>You benefit from hard cover, even in the open, and gain Immunity to Knockback, Prone, and all involuntary movement.</li><li>You gain the Fortress reaction.</li><li>Any character that gains hard cover from you or your cover sections gains Immunity to Knockback, Prone, and all involuntary movement, and gains the benefits of Blast Plating.</li></ul>This system can be deactivated as a protocol. Otherwise, it lasts until the end of the current scene.",
+      "active_actions": [
+        {
+          "name": "Fortress",
+          "activation": "Reaction",
+          "frequency": "1/scene",
+          "trigger": "You take damage, burn, or heat from a source other than yourself.",
+          "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source."
+        }
+      ],
+      "use": "Encounter",
+      "deactivation": "Protocol",
+      "activation": "Protocol"
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_drake.png",
+    "license_id": "mf_drake"
+  },
+  {
     "id": "valk-hr-mf_lancaster",
     "license_level": 2,
     "source": "IPS-N",
@@ -392,6 +462,65 @@
     "license_id": "mf_minotaur"
   },
   {
+    "id": "valk-hr-mf_napoleon",
+    "license_level": 2,
+    "source": "HA",
+    "name": "!V! Napoleon",
+    "variant": "Napoleon",
+    "mechtype": ["Defender", "Controller"],
+    "y_pos": 21,
+    "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br>Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
+    "mounts": ["Main/Aux"],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 6,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 3,
+      "sensor_range": 5,
+      "tech_attack": 0,
+      "save": 11,
+      "speed": 4,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Heavy Shielding",
+        "description": "When the Napoleon would take half damage on a successful check or save, it instead reduces the damage to 1."
+      }
+    ],
+    "core_system": {
+      "name": "Trueblack Aegis",
+      "description": "The Trueblack Aegis is a breakthrough in personal shielding developed by the Armory’s Think Tank. Like the Armory’s other NHP-derived technologies, the Aegis is a “black-box” technology: its code and inner workings are highly confidential, and it can typically only be requisitioned by pilots of high rank or standing within Harrison Armory. Some Cosmopolitan pilots have described the appearance of the Aegis as similar to the void – or blindness – they see when looking into blinkspace. It’s safe to assume the device harnesses unstable blinkfield technology to manifest a thin blinkspace bubble within defined parameters. The blinkfield can only maintain coherence for a brief moment but can be flickered on and off to create a total blinkspace dome.",
+      "active_name": "Activate Aegis",
+      "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on.",
+      "tags": [
+        {
+          "id": "tg_brace"
+        }
+      ],
+      "use": "Encounter",
+      "activation": "Quick",
+      "passive_name": "Flash Aegis",
+      "passive_effect": "Your mech has the Brace tag and gains the Flash Aegis reaction.",
+      "passive_actions": [
+        {
+          "name": "Flash Aegis",
+          "activation": "Reaction",
+          "frequency": "1/scene",
+          "trigger": "You take damage, burn, or heat from a source other than yourself.",
+          "detail": "You reduce all incoming damage, burn, and heat from the triggering source to 1."
+        }
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_napoleon.png",
+    "license_id": "mf_napoleon"
+  },
+  {
     "id": "valk-hr-mf_tokugawa",
     "license_level": 2,
     "source": "HA",
@@ -610,13 +739,14 @@
       },
       {
         "name": "Heroism",
-        "description": "1/scene the Sagarmatha can brace without sacrificing any actions or movement on its following turn.",
-        "synergies": [
+        "description": "Gain the Heroism reaction.",
+        "actions": [
           {
-            "locations": [
-              "active_effects"
-            ],
-            "detail": "1/scene the Sagarmatha can brace without sacrificing any actions or movement on its following turn."
+            "name": "Heroism",
+            "activation": "Reaction",
+            "frequency": "1/scene",
+            "trigger": "You take damage, burn, or heat from a source other than yourself.",
+            "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source."
           }
         ]
       },
@@ -747,5 +877,104 @@
     "aptitude": {},
     "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/alt_tokugawa.png",
     "license_id": "mf_tokugawa"
+  },
+  {
+    "id": "valk-hr-mf_white_witch",
+    "source": "SSC",
+    "name": "!V! White Witch",
+    "variant": "White Witch",
+    "mechtype": ["Defender"],
+    "y_pos": 28,
+    "license_level": 2,
+    "description": "<p>A proof of concept more than a line-production chassis, there have been select releases of White Witch licenses by Smith-Shimano&rsquo;s LUX-Exotic group to elite military enclaves, most notably to the upper cadres of the House of Moments.</p> <p>The White Witch builds on the platform established by the Black Witch; utilizing SSC&rsquo;s signature magtech weapons and equipment, it takes Black Witch and tunes it for hypersolipsistic focus, narrowing the effect cone to encompass only the White Witch and its pilot.</p> <p>The White Witch marks SSC&rsquo;s first foray into null-ordnance/environmental-manipulation chassis. When active, its entire chassis becomes a conduit for onboard base-compound magtech agitators to exploit its immediate environment, drawing atomic components out of organic and inorganic objects and surfaces to enhance its built-in defensive systems. The White Witch reorganizes these molecular draws using its chassis as substrate, quickly forming substantive defenses and weapons from &ldquo;thin air&rdquo;.</p> <p>This process has understandably traumatic effects on organic and inorganic materials inside the immediate effect cone.&nbsp;</p>",
+    "mounts": ["Flex", "Heavy"],
+    "stats": {
+      "size": 2,
+      "stress": 4,
+      "structure": 4,
+      "armor": 0,
+      "hp": 7,
+      "evasion": 10,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": 0,
+      "save": 11,
+      "speed": 6,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Rooted",
+        "description": "While this mech is Immobilized, it has resistance to Kinetic damage and cannot be knocked back or knocked prone. It can choose to become immobilized until the end of its next turn as a protocol."
+      },
+      {
+        "name": "Harden",
+        "description": "The White Witch gains the Brace tag and the Harden reaction.",
+        "actions": [
+          {
+            "name": "Harden",
+            "activation": "Reaction",
+            "frequency": "1/scene",
+            "trigger": "You take damage, burn, or heat from a source other than yourself.",
+            "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source. In addition, you gain overshield equal to 4 + GRIT before taking damage."
+          }
+        ],
+        "tags": [
+          {
+            "id": "tg_brace"
+          }
+        ]
+      },
+      {
+        "name": "Fluid Burst",
+        "description": "When an allied character in Range 2 of the White Witch takes damage from a hostile source, the White Witch can reduce the damage by 1 and deal 1 AP kinetic damage to itself."
+      },
+      {
+        "name": "Guardian",
+        "description": "Adjacent allied characters can use this mech as hard cover."
+      }
+    ],
+    "core_system": {
+      "name": "Ferroreactive Shell",
+      "description": "“The first test nearly ended the program. Exotic Materials is a … liberal department within the Constellation, but even our executives were hesitant to approve a second run. The data generated by WW_01 was invaluable, and we were sure we could get it right with a second test – all we needed was the sigma on its rewrite cone! Suits just get leery when systems fail. They forget that progress takes blood – sometimes literally – as payment for a breakthrough.”",
+      "active_name": "Hyperactive mode",
+      "active_effect": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +6. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +6, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene.",
+      "active_synergies": [
+        {
+          "locations": ["armor"],
+          "detail": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +6. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +6, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene."
+        }
+      ],
+      "tags": [
+        {
+          "id": "tg_brace"
+        }
+      ],
+      "use": "Encounter",
+      "activation": "Protocol",
+      "passive_name": "Ferroreactive Armor",
+      "passive_effect": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +3.",
+      "passive_synergies": [
+        {
+          "locations": ["armor"],
+          "detail": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +3."
+        }
+      ],
+      "counters": [
+        {
+          "id": "ctr_ferroreactive_armor",
+          "name": "Ferroreactive Armor",
+          "default_value": 0,
+          "min": 0,
+          "max": 3
+        }
+      ]
+    },
+    "data_type": "frame",
+    "aptitude": {},
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/whitewitch.png",
+    "license_id": "mf_white_witch"
   }
 ]
