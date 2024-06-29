@@ -139,16 +139,7 @@
     "core_system": {
       "name": "Fortress",
       "active_name": "Fortress Protocol",
-      "active_effect": "You deploy heavy stabilizers and your mech becomes more like a fortified emplacement than a vehicle. When activated, two sections of hard cover (line 2, Size 1) unfold from your mech, drawn in any direction. These cover sections have Immunity to all damage.<br>Additionally, the following effects apply while active:<ul><li>You become Immobilized.</li><li>You benefit from hard cover, even in the open, and gain Immunity to Knockback, Prone, and all involuntary movement.</li><li>You gain the Fortress reaction.</li><li>Any character that gains hard cover from you or your cover sections gains Immunity to Knockback, Prone, and all involuntary movement, and gains the benefits of Blast Plating.</li></ul>This system can be deactivated as a protocol. Otherwise, it lasts until the end of the current scene.",
-      "active_actions": [
-        {
-          "name": "Fortress",
-          "activation": "Reaction",
-          "frequency": "1/scene",
-          "trigger": "You take damage, burn, or heat from a source other than yourself.",
-          "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source."
-        }
-      ],
+      "active_effect": "You deploy heavy stabilizers and your mech becomes more like a fortified emplacement than a vehicle. When activated, two sections of hard cover (line 2, Size 1) unfold from your mech, drawn in any direction. These cover sections have Immunity to all damage.<br>Additionally, the following effects apply while active:<ul><li>You become Immobilized.</li><li>You benefit from hard cover, even in the open, and gain Immunity to Knockback, Prone, and all involuntary movement.</li><li>You gain an additional use of Brace during this scene.</li><li>Any character that gains hard cover from you or your cover sections gains Immunity to Knockback, Prone, and all involuntary movement, and gains the benefits of Blast Plating.</li></ul>This system can be deactivated as a protocol. Otherwise, it lasts until the end of the current scene.",
       "use": "Encounter",
       "deactivation": "Protocol",
       "activation": "Protocol"
@@ -462,65 +453,6 @@
     "license_id": "mf_minotaur"
   },
   {
-    "id": "valk-hr-mf_napoleon",
-    "license_level": 2,
-    "source": "HA",
-    "name": "!V! Napoleon",
-    "variant": "Napoleon",
-    "mechtype": ["Defender", "Controller"],
-    "y_pos": 21,
-    "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br>Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
-    "mounts": ["Main/Aux"],
-    "stats": {
-      "size": 0.5,
-      "structure": 4,
-      "stress": 4,
-      "armor": 2,
-      "hp": 6,
-      "evasion": 8,
-      "edef": 8,
-      "heatcap": 8,
-      "repcap": 3,
-      "sensor_range": 5,
-      "tech_attack": 0,
-      "save": 11,
-      "speed": 4,
-      "sp": 7
-    },
-    "traits": [
-      {
-        "name": "Heavy Shielding",
-        "description": "When the Napoleon would take half damage on a successful check or save, it instead reduces the damage to 1."
-      }
-    ],
-    "core_system": {
-      "name": "Trueblack Aegis",
-      "description": "The Trueblack Aegis is a breakthrough in personal shielding developed by the Armory’s Think Tank. Like the Armory’s other NHP-derived technologies, the Aegis is a “black-box” technology: its code and inner workings are highly confidential, and it can typically only be requisitioned by pilots of high rank or standing within Harrison Armory. Some Cosmopolitan pilots have described the appearance of the Aegis as similar to the void – or blindness – they see when looking into blinkspace. It’s safe to assume the device harnesses unstable blinkfield technology to manifest a thin blinkspace bubble within defined parameters. The blinkfield can only maintain coherence for a brief moment but can be flickered on and off to create a total blinkspace dome.",
-      "active_name": "Activate Aegis",
-      "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on.",
-      "tags": [
-        {
-          "id": "tg_brace"
-        }
-      ],
-      "use": "Encounter",
-      "activation": "Quick",
-      "passive_name": "Flash Aegis",
-      "passive_effect": "Your mech has the Brace tag and gains the Flash Aegis reaction.",
-      "passive_actions": [
-        {
-          "name": "Flash Aegis",
-          "activation": "Reaction",
-          "frequency": "1/scene",
-          "trigger": "You take damage, burn, or heat from a source other than yourself.",
-          "detail": "You reduce all incoming damage, burn, and heat from the triggering source to 1."
-        }
-      ]
-    },
-    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_napoleon.png",
-    "license_id": "mf_napoleon"
-  },
-  {
     "id": "valk-hr-mf_tokugawa",
     "license_level": 2,
     "source": "HA",
@@ -739,14 +671,13 @@
       },
       {
         "name": "Heroism",
-        "description": "Gain the Heroism reaction.",
-        "actions": [
+        "description": "The Sagarmatha may Brace 2/scene.",
+        "synergies": [
           {
-            "name": "Heroism",
-            "activation": "Reaction",
-            "frequency": "1/scene",
-            "trigger": "You take damage, burn, or heat from a source other than yourself.",
-            "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source."
+            "locations": [
+              "active_effects"
+            ],
+            "detail": "The Sagarmatha may Brace 2/scene."
           }
         ]
       },
@@ -911,19 +842,11 @@
       },
       {
         "name": "Harden",
-        "description": "The White Witch gains the Brace tag and the Harden reaction.",
-        "actions": [
+        "description": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
+        "synergies": [
           {
-            "name": "Harden",
-            "activation": "Reaction",
-            "frequency": "1/scene",
-            "trigger": "You take damage, burn, or heat from a source other than yourself.",
-            "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source. In addition, you gain overshield equal to 4 + GRIT before taking damage."
-          }
-        ],
-        "tags": [
-          {
-            "id": "tg_brace"
+            "locations": ["brace"],
+            "detail": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage."
           }
         ]
       },
@@ -945,11 +868,6 @@
         {
           "locations": ["armor"],
           "detail": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +6. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +6, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene."
-        }
-      ],
-      "tags": [
-        {
-          "id": "tg_brace"
         }
       ],
       "use": "Encounter",

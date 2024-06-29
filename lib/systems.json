@@ -1,33 +1,5 @@
 [
   {
-    "id": "valk-hr-ms_bracing_construction",
-    "name": "Bracing Construction",
-    "sp": 1,
-    "tags": [
-      {
-        "id": "tg_brace"
-      },
-      {
-        "id": "tg_unique"
-      }
-    ],
-    "source": "GMS",
-    "license": "GMS",
-    "license_level": 0,
-    "effect": "Gain the BRACE reaction.",
-    "actions": [
-      {
-        "name": "Brace",
-        "activation": "Reaction",
-        "frequency": "1/scene",
-        "trigger": "You take damage, burn, or heat from a source other than yourself.",
-        "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source."
-      }
-    ],
-    "description": "Ablative plating, redundant armor, and reactive stabilizers combine to allow a mech to shrug off what would be a devastating strike.",
-    "license_id": ""
-  },
-  {
     "id": "valk-hr-ms_cable_winch_system",
     "name": "!V! Cable Winch System",
     "sp": 1,
@@ -100,41 +72,6 @@
     "license_id": "mf_lancaster"
   },
   {
-    "id": "valk-hr-ms_armor_lock_plating",
-    "name": "!V! Armor-Lock Plating",
-    "sp": 1,
-    "tags": [
-      {
-        "id": "tg_unique"
-      },
-      {
-        "id": "tg_heat_self",
-        "val": 2
-      }
-    ],
-    "source": "IPS-N",
-    "license": "Nelson",
-    "license_level": 2,
-    "effect": "You gain the Armor Lock reaction, which can be used while Grappling.",
-    "actions": [
-      {
-        "name": "Armor Lock",
-        "activation": "Reaction",
-        "frequency": "1/scene",
-        "trigger": "You take damage, burn, or heat from a source other than yourself.",
-        "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source, and any grapples currently affecting you end.<br/><br/>Additionally, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>"
-      }
-    ],
-    "synergies": [
-      {
-        "locations": ["grapple"],
-        "detail": "You can use Armor Lock while Grappling."
-      }
-    ],
-    "description": "IPS-N’s Armor-Lock Plating is a total-body modification that provides additional chassis stability for any situation in which a pilot needs to put their mech through greater-than-anticipated stress.",
-    "license_id": "mf_nelson"
-  },
-  {
     "id": "valk-hr-ms_tracking_bug",
     "name": "!V! Tracking Bug",
     "type": "Tech",
@@ -151,34 +88,6 @@
     ],
     "description": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user.",
     "license_id": "mf_deaths_head"
-  },
-  {
-    "id": "valk-hr-ms_reactive_weave",
-    "name": "!V! Reactive Weave",
-    "sp": 1,
-    "tags": [
-      {
-        "id": "tg_brace"
-      },
-      {
-        "id": "tg_unique"
-      }
-    ],
-    "source": "SSC",
-    "license": "Metalmark",
-    "license_level": 1,
-    "effect": "Gain the Reactive Weave reaction.",
-    "actions": [
-      {
-        "name": "Reactive Weave",
-        "activation": "Reaction",
-        "frequency": "1/scene",
-        "trigger": "You take damage, burn, or heat from a source other than yourself.",
-        "detail": "You gain RESISTANCE to all damage, burn, and heat from the triggering source. In addition, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed."
-      }
-    ],
-    "description": "Composed of woven covers for critical joints and systems, reactive weave not only protects these sensitive components from fouling and poor weather, but provides a surface for the application of SSC’s unique loomware technology. Reactive weave is powered, making it capable of free-flexing to augment mobility and reduce the stress placed on a mech’s joints.",
-    "license_id": "mf_metalmark"
   },
   {
     "id": "valk-hr-ms_fade_cloak",

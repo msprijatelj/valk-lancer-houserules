@@ -31,7 +31,7 @@
     "name": "Brace (Valk)",
     "activation": "Reaction",
     "terse": "Brace your mech for impact, reducing damage at the cost of your next turn’s actions.",
-    "detail": "When you BRACE, you ready your mech against incoming fire.<br>Brace<br>Reaction, 1/round<br>Trigger: You take damage, burn, or heat from a source other than yourself.<br>Effect: You gain RESISTANCE to all damage, burn, and heat from the triggering source, and until the end of your next turn, all attacks against you are made at +1 difficulty.<br>Due to the stress of bracing, you are DAZED until the end of your next turn.",
+    "detail": "When you BRACE, you ready your mech against incoming fire.<br>Brace<br>Reaction, 1/scene<br>Trigger: You take damage, burn, or heat from a source other than yourself.<br>Effect: You gain RESISTANCE to all damage, burn, and heat from the triggering source.",
     "mech": true,
     "pilot": false,
     "synergy_locations": [

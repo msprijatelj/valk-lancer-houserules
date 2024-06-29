@@ -1,15 +1,37 @@
-# 0.0.5-alpha (2024-06-22)
+# 0.0.5-alpha (2024-06-29)
 
-Tweaked my Overcharge changes; it now resets on a rest or full repair. Tightened wording on Overheated.
+Tweaked my Overcharge changes; it now resets on a rest or full repair. Tightened wording on Overheated. Empower Brace but make it 1/scene. Tone down the White Witch.
 
 ## Features
 
 ### Actions
 
+* **Brace** (Replacement):
+  * Change Brace from 1/round to 1/scene.
+  * In the Effect, keep "You gain RESISTANCE to all damage, burn, and heat from the triggering source", then end the sentence there and remove everything after it.
+    * This sounds like a wild one, but hear me out: Brace is frustrating to use. It carries heavy drawbacks that often leave the user more vulnerable after use; they can reduce some damage but not effectively deal with the *source* of that damage on their next turn. On some level, these drawbacks were intended to prevent spamming the reaction, but in my opinion, the best way to prevent reaction spam is by putting a cap on its use. I'm thinking about D&D 4e's Second Wind that characters could use 1/encounter (some better than others). So, I'm emphasizing the situational usage of Brace by instead limiting its use to 1/scene. Issues to keep an eye on are "Brace-stacking" effects like Reactive Weave, Armor-Lock Plating, Napoleon's Flash Aegis, and White Witch's Harden. Hopefully, this will result in it being more satisfying to use overall.
+
 * **Overcharge** (Replacement):
   * Replace the last sentence with:
         > "A rest or FULL REPAIR resets this counter."
     * My Overcharge changes feel good in single fights, but since an individual Overcharge has been reduced in power, I don't think Overcharge needs to be tracked as mission-level attrition anymore. There's probably room for tweaks, like adjusting the Heat progression or tying the reset to a Repair cost or time cost, but I think having it reset on any rest is an elegant enough solution.
+
+### Frames
+
+* **Drake** (Replacement):
+  * Replace the third bullet point of Fortress Protocol with:
+        > "You gain an additional use of Brace during this scene."
+    * This change reflects the modification made to the Brace action. One could argue that the Drake could spam Brace better with Fortress Protocol up (since the Drake would already be Immobilized), but I feel that getting an extra New Brace is more than reasonable.
+
+* **Sagarmatha** (Replacement):
+  * Replace the effect of Heroism with:
+        > "The Sagarmatha may Brace 2/scene."
+    * This change reflects the modification made to the Brace action while preserving the intent of Heroism (getting a "free Brace").
+
+* **White Witch** (Replacement):
+  * Reduce the cap for Ferroreactive Armor's passive to +3 Armor. Reduce the active's armor cap to +6 Armor.
+    * White Witch is a polarizing (pun obligatory) frame due to its massive amounts of Armor stacking. Reducing the passive cap to match a Drake's base armor and the active cap to match an Ultra's Argus Armor feels appropriate.
+
 
 ### Statuses
 

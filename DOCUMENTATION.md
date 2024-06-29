@@ -13,15 +13,14 @@ This is a living document detailing my personal house rules for the [player-faci
 
 ### Brace
 
+* Change the "1/round" tag to "1/scene".
 * Replace the Trigger with:
     > "You take damage, burn, or heat from a source other than yourself."
 * Replace the first sentence of the Effect with:
-    > "You gain RESISTANCE to all damage, burn, and heat from the triggering source, and until the end of your next turn, all attacks against you are made at +1 difficulty."
-    
+    > "You gain RESISTANCE to all damage, burn, and heat from the triggering source."
     * Changes Brace to be triggered off of any single instance of damage, burn, or heat. This admittedly eliminates some player-beneficial edge cases when protecting against some Tech Attacks (e.g., Tear Down, Predatory Logic) but also opens up use cases for protecting against damaging saves (e.g., Atlas Missiles) or deterministic damage (e.g., Javelin Rockets).
-* Replace the last paragraph with: 
-    > "Due to the stress of bracing, you are DAZED until the end of your next turn." 
-    * This is functionally identical to the original, except it leverages the new **Dazed** condition (see [Statuses](#statuses)).
+* Remove the last paragraph. 
+    * Replace the heavy action drawback of Brace with a 1/scene usage drawback instead. Makes this more akin to D&D 4e's Second Wind (which was 1/encounter). Effectively prevents spamming the reaction while also making the "this is situational" intent of the reaction clear.
 
 ### Overcharge
 
@@ -131,6 +130,10 @@ This came from a suggestion from Perijove on the PilotNET Discord server:
 * Increase the frame's base HP to 10.
     * The basic defender mech with Guardian should not have the same HP/armor statline as the damage-oriented Metalmark and Monarch— Replacement Parts and (marginally) higher Repair Cap be damned.
 
+* Replace the effect of Heroism with:
+    > "The Sagarmatha may Brace 2/scene."
+    * This change reflects the modification made to the Brace action while preserving the intent of Heroism (getting a "free Brace").
+
 ## IPS-N
 
 ### IPS-N Core Bonuses
@@ -139,6 +142,14 @@ This came from a suggestion from Perijove on the PilotNET Discord server:
 
 * Replace "When it's reduced to 0 HP and 0 Structure" with "1/scene, when it would be destroyed". 
     * This change makes Briareos more reliable when faced with effects that instantly destroy a mech.
+
+### IPS-N Drake
+
+#### Drake Frame
+
+* Replace the third bullet point of Fortress Protocol with:
+    > "You gain an additional use of Brace during this scene."
+    * This change reflects the modification made to the Brace action. One could argue that the Drake could spam Brace better with Fortress Protocol up (since the Drake would already be Immobilized), but I feel that getting an extra New Brace is more than reasonable.
 
 ### IPS-N Lancaster
 
@@ -230,6 +241,11 @@ This came from a suggestion from Perijove on the PilotNET Discord server:
     * One of the problems I had with my original Markerlight change was that while it played into the Swallowtail license's anti-Invisible niche, it still required the user to _hit_ the target, which may already be Invisible. Changing the effect from a tech attack to an inflicted save was inspired partly from the Spite's save-based toolkit and partly from some recent play as a Wizard in Pathfinder 2E. The Agility save reflects the target's attempt to evade the markerlight; even if they succeed on the save, the user is still guaranteed Lock On as a consolation prize. On a failure, they'll suffer Markerlight's full effect (including my anti-Invisible change) as normal. This may have less synergy with the Hacker talent, but more with Lesson of the Open Door.
 
 ### SSC White Witch
+
+#### White Witch Frame
+
+* Reduce the cap for Ferroreactive Armor's passive to +3 Armor. Reduce the active's armor cap to +6 Armor.
+    * White Witch is a polarizing (pun obligatory) frame due to its massive amounts of Armor stacking. Reducing the passive cap to match a Drake's base armor and the active cap to match an Ultra's Argus Armor feels appropriate.
 
 #### Sympathetic Shield
 
