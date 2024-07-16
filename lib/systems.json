@@ -9,7 +9,7 @@
     "actions": [
       {
         "activation": "Quick",
-        "detail": "These cables can be attached to an adjacent character. If the target is Stunned or willing, you automatically succeed; otherwise, they can resist with a successful Hull save. Once attached, you and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming Slowed while doing so.<br>Any character can remove the cables on a hit with a melee attack or Improvised Attack against Evasion 10. The cables snap if the affected target Teleports.<br>These cables can also be used to drag, pull, or otherwise interact with objects and the environment. They are 5 spaces long and can support a combined Size 6 before they break. Characters can use them to climb surfaces, allowing them to climb without a Speed penalty.<br>Lastly, these cables can be attached to a movable Objective. For Objectives, follow the this system's attachment and dragging rules as those for characters; in addition, you may move an attached Objective without starting your turn adjacent to it. The cable snaps if you involuntarily move more than 5 spaces from the Objective."
+        "detail": "These cables can be attached to an adjacent character. If the target is Stunned or willing, you automatically succeed; otherwise, they can resist with a successful Hull save. Once attached, you and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming Slowed while doing so.<br>Any character can remove the cables on a hit with a melee attack or Improvised Attack against Evasion 10. The cables snap if the affected target Teleports.<br>These cables can also be used to drag, pull, or otherwise interact with objects and the environment. They are 5 spaces long and can support a combined Size 6 before they break. The cable snaps if you involuntarily move more than 5 spaces from an attached object. Characters can use them to climb surfaces, allowing them to climb without a Speed penalty."
       }
     ],
     "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech.",
@@ -266,6 +266,45 @@
     ],
     "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 7658U, 35:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br>“Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go?",
     "license_id": "mf_lich"
+  },
+  {
+    "id": "valk-hr-ms_accelerate",
+    "name": "!V! Accelerate",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HA",
+    "license": "Sunzi",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "detail": "Choose and mark two free spaces within your line of sight that share a surface and are within Range 5 of each other. Characters that start their turn in one of these spaces or enter one for the first time in a round are pushed as far as possible in a straight line towards the other space. If they collide with an obstruction, they stop moving. They may avoid being pushed with a successful Hull save. Grenades, Deployables, or other loose objects of Size 1 or smaller that are thrown or deployed into one of the spaces are also pushed towards the other space before activating or detonating. They activate or detonate early if they are forced to stop by another character or object. If an object with HP is moved in this way, it takes 1 AP Kinetic Damage for each space moved. This effect lasts for the rest of the scene, or until you take this Quick Tech option again."
+      }
+    ],
+    "description": "Guillermo, no es suficiente saber caminar; Debes saber dónde y dónde no pisar. El lugar incorrecto, y te perderás. Es en un plano de telaraña donde construimos nuestro hogar: pise ligeramente cuando vaya.<br>[Guillermo, it is not enough to know how to walk; you must know where and where not to step; the incorrect spot, and you will be lost. It is on a plane of gossamer that we make our home: tread lightly when you go.]",
+    "license_id": "mf_sunzi"
+  },
+  {
+    "id": "valk-hr-ms_total_strength_suite_i",
+    "name": "!V! Total Strength Suite I",
+    "type": "System",
+    "sp": 1,
+    "source": "IPS-N",
+    "license": "Zheng",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "You rip up a piece of the environment and hurl it at a character within Range 5 and line of sight. Your target must pass an Agility save or take 1d6 kinetic damage and be knocked back 1 space directly away from you. After you take this action, place a Size 1 piece of terrain that grants hard cover in a free space adjacent to your target, even if they passed the save. The terrain has 10 HP and Evasion 5.<br>If there is a Size 1 or 1/2 object or piece of cover adjacent to you, you can move it as part of this action; otherwise, your projectile is ripped out of the ground or environment. If an object with HP is moved in this way, it takes 1 AP Kinetic Damage for each space moved. If there's nothing to grab nearby or you're not on the ground you can't take this action."
+      }
+    ],
+    "description": "This whole-system upgrade was the result of tweaks Xiong Xiaoli made to her mech throughout a long career with the MSMC, many of which have now been incorporated into standard IPS-N frame construction protocol. The package comes in three stages, the first of which contains a set of spinal enhancements that allow a mech to rapidly lift and move large weights without systemic damage.",
+    "license_id": "mf_zheng"
   },
   {
     "id": "valk-hr-ms_sympathetic_shield",

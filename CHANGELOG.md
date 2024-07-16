@@ -1,3 +1,124 @@
+# 0.0.6 (2024-07-16)
+
+Revised Lifting and Dragging rules to be more complete and include an action cost. Modified some core sitreps to use Object-Like Objectives, as well as introduce ways to quickly end "round-timer" sitreps like Gauntlet and Holdout. Adjusted some object-interacting systems to make them have a tradeoff when moving an Objective that gets treated like an object. Introduce a "reliable patch" for HMG to justify a lower damage cap.
+
+## Movement
+
+### Lifting and Dragging
+
+* Add the following sentence to the start of the first paragraph:
+  > "As a **quick action**, a character may start to **handle** an adjacent object or willing character by **lifting** or **dragging** them. A character may choose to stop **handling** an object as a **free action**."
+  * Codify lifting and dragging with a unified action. "Protocol" and "No Action" are also valid initiation actions, I'm just starting with "Quick Action" to start. Part of a larger push to make "object-like objectives" for Escort and Extraction that behave like any other object.
+
+* Add the following paragraph:
+  > “If a character starts to **handle** an object handled by a hostile character, the object does not move until it is only handled by characters allied with each other. If a character **handling** an object is involuntarily moved such that they are no longer adjacent to the object, they cease to **handle** the object.”
+  * Ensure that objects can be contested by other characters.
+
+### Flight
+
+#### Carrying Objects and Flight
+
+* Add the following sentence to the end of the paragraph:
+  > "Outside of zero-g environments, when carrying a character or **handling** an object object while flying, a mech cannot fly higher than **1 space over any surface**."
+  * Allow limited flight while carrying something, but prevent escape into the stratosphere.
+
+### Teleportation
+
+* Add the following sentence to the end of the second paragraph:
+  > "If a character teleports, they stop grappling any characters or **handling** any objects prior to teleporting."
+  * End "teleport kidnapping" and edge cases where objects can teleport with someone (preventing Sunzi shenanigans).
+
+## Sitreps
+
+### Escort
+
+#### Objective
+
+* Replace everything after the third sentence with the following:
+  > "The Objective can be lifted and dragged like any other object."
+  * Start treating Objectives like objects by using the revamped Lifting and Dragging rules.
+
+### Extraction
+
+#### Objective
+
+* Replace everything after the third sentence with the following:
+  > "The Objective can be lifted and dragged like any other object."
+  * Start treating Objectives like objects by using the revamped Lifting and Dragging rules.
+
+### Gauntlet
+
+#### Scoring (New)
+
+* Add "Scoring" section, which includes the following:
+  > "The enemy starts with points equal to the number of PCs. At the end of each round, the enemy loses points equal to the number of PCs in the CZ minus the number of enemies in the CZ (minimum 0)."
+
+#### Victory Conditions
+
+* Replace "Victory Conditions" with the following:
+  > * PC Victory: The PCs reduce the enemy's points to 0 or fewer.
+  > * Enemy Victory: The enemy loses no points for 3 consecutive rounds.
+  * I tend to find round timers inorganic and would rather tie victory directly to the actions of the PCs (or NPCs) instead of "running out the clock". The goal here is to encourage PCs to quickly reach the CZ and hold it under duress. If the PCs are skilled, they can end the sitrep much faster.
+
+### Holdout
+
+#### Scoring
+
+* Replace "Scoring" with the following:
+    > "The PCs start with 0 points. At the end of each round, they gain points equal to the number of PCs in the CZ minus the number of enemies in the CZ (minimum 0)."
+
+#### Victory Conditions
+
+* Replace "Victory Conditions" with the following:
+  > * PC Victory: The PCs score points equal to 3 times the number of PCs.
+  > * Enemy Victory: The PCs gain no points for 2 consecutive rounds. If there are any PCs remaining on the field when this takes place, they are captured or overrun.
+  * Again, I'm not a huge fan of round timers. In addition, I want to incentivize hunkering down on the CZ. So, if the PCs hold the point and fend off their aggressors, they'll win at a much quicker rate. If their points stall, they're routed.
+
+### Recon
+
+#### Control Zones
+
+* Replace "Four CZs (typically 4 spaces on each side)..." with "One CZ per PC (typically 4 spaces on each side, maximum 4 zones)..."
+  * Provide minor scaling for lower PC counts. Most relevant for 3 PCs.
+
+* Replace the second and third sentences with:
+  > "While inside a CZ, PCs may take a quick action to survey the CZ; each CZ can only be surveyed once, and a given PC can only survey one CZ per round. Once all CZs have been surveyed, the GM randomly determines the True CZ."
+
+## Systems
+
+### IPS-N Lancaster
+
+#### Cable Winch System
+
+* Add the following sentence before the last sentence of the last paragraph:
+    > "The cable snaps if you involuntarily move more than 5 spaces from an attached object."
+  * This covers an edge case of involuntary movement when attached to an object. Paired with my updated Lifting and Dragging rules for objects, I was able to clean up some of the language used in this system and rely on the Lift/Drag rules instead.
+
+### IPS-N Zheng
+
+#### Total Strength Suite I
+
+* Add the following sentence prior to the last sentence:
+  > "If an object with HP is moved in this way, it takes 1 AP Kinetic Damage for each space moved."
+  * Prevent abuse of moving object-like objectives by tying a cost to TSS1's use.
+
+### HA Sunzi
+
+#### Accelerate
+
+* Add the following sentence prior to the last sentence:
+  > "If an object with HP is moved in this way, it takes 1 AP Kinetic Damage for each space moved."
+  * Prevent abuse of moving object-like objectives by tying a cost to Accelerate's use.
+
+## Weapons
+
+### GMS
+
+#### Heavy Machine Gun
+
+* Replace damage with `1d6+4 Kinetic`. Add `Reliable 3` tag.
+  * Trying a change that lowers the HMG's damage ceiling, but lets it stay competitive in the Heavy Gunner department.
+
 # 0.0.5 (2024-07-16)
 
 Tweaked my Overcharge changes; it now resets on a rest or full repair. Tightened wording on Overheated. Empower Brace but make it 1/scene. Tone down the White Witch.
