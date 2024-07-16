@@ -1,4 +1,4 @@
-# 0.0.5-alpha (2024-06-29)
+# 0.0.5 (2024-07-16)
 
 Tweaked my Overcharge changes; it now resets on a rest or full repair. Tightened wording on Overheated. Empower Brace but make it 1/scene. Tone down the White Witch.
 
@@ -31,7 +31,6 @@ Tweaked my Overcharge changes; it now resets on a rest or full repair. Tightened
 * **White Witch** (Replacement):
   * Reduce the cap for Ferroreactive Armor's passive to +3 Armor. Reduce the active's armor cap to +6 Armor.
     * White Witch is a polarizing (pun obligatory) frame due to its massive amounts of Armor stacking. Reducing the passive cap to match a Drake's base armor and the active cap to match an Ultra's Argus Armor feels appropriate.
-
 
 ### Statuses
 
