@@ -184,17 +184,36 @@ Replace with the Overheating Table from [GMS Crisis Catalog](https://esbionarsha
 
 ## GMS
 
+### GMS Core Bonuses
+
+#### Auto-Stabilizing Hardpoints
+
+* Replace the effect with the following:
+  > "Choose one mount. If the weapons on the mount deal any Kinetic, Energy, or Explosive damage and don't already have the Reliable tag, they gain Reliable 1 if they are Auxiliary or Main or Reliable 2 if they are Heavy or Superheavy."
+  * The free accuracy from Auto-Stabilizing Hardpoints too easily solves the problem of the Inaccurate tag. I want to make generic Accuracy more precious and harder to achieve, but I also see the appeal of improving weapon reliability. Therefore, I want to try replacing AutoStab's accuracy with the Reliable tag, just to see what happens.
+
+#### Overpower Caliber
+
+* Replace the effect with the following:
+  > "Choose one weapon. It gains Knockback 1. In addition, on a Critical Hit with this weapon, the target must pass a Hull save or be knocked Prone."
+  * Overpower Caliber is one of many generic Bonus Damage abilities in the game. It's fiddly to track 1/round and contributes to Lancer's "damage stacking" DPS meta. I replace the Bonus Damage with Knockback and the occasional Prone to shift it away from a selfish damage tool and more towards a utility/support tool that can both help play the objective and assist allies through leaving a target vulnerable.
+
 ### GMS Equipment
 
-#### Nexus (Hunter-Killer)
+#### GMS Nexus (Hunter-Killer)
 
 * Add the "Accurate" tag.
   * HK Nexus doesn't get a lot of love from Centimane users since Flex and Aux/Aux mounts can fish for more crits with the Light Nexus. This should hopefully make the HK Nexus a little more competitive and satisfying.
 
-#### Heavy Machine Gun
+#### GMS Heavy Machine Gun
 
 * Replace damage with `1d6+4 Kinetic`. Add `Reliable 3` tag.
   * HMG stands head and shoulders above many other Heavy mount options, with minimal investment to overcome its Inaccurate tag. This change lets it stay competitive in the Heavy Gunner department whilst reducing its damage ceiling.
+
+#### GMS Heavy Melee
+
+* Increase Threat from 1 to 2.
+  * Taking notes from [Lancers in the Dark](https://docs.google.com/document/d/19LcfVsvo9u5FaaDMvSytB2YQhnBGcSRMrsAEKRnRVdI/edit), adding some extra Threat to the Heavy Melee helps keep it competitive with other raw statsticks like Raleigh's Kinetic Hammer.
 
 ### GMS Everest
 
