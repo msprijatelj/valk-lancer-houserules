@@ -1,5 +1,21 @@
 [
   {
+    "id": "valk-hr-cb_auto_stabilizing_hardpoints",
+    "name": "!V! Auto-Stabilizing Hardpoints",
+    "source": "GMS",
+    "effect": "Choose one mount. If the weapons on the mount deal any Kinetic, Energy, or Explosive damage and lack the Reliable tag, they gain Reliable 1 if they are Auxiliary or Main or Reliable 2 if they are Heavy or Superheavy.",
+    "description": "Using the best in shock-absorption and steadytech, you can retain accuracy across longer, sustained periods of fire.",
+    "mounted_effect": "Weapons on this mount that deal any Kinetic, Energy, or Explosive damage and lack the Reliable tag gain Reliable 1 if they are Auxiliary or Main or Reliable 2 if they are Heavy or Superheavy."
+  },
+  {
+    "id": "valk-hr-cb_overpower_caliber",
+    "name": "!V! Overpower Caliber",
+    "source": "GMS",
+    "effect": "Choose one weapon. It gains Knockback 1. In addition, on a Critical Hit with this weapon, the target must pass a Hull save or be knocked Prone.",
+    "description": "Instead of the standardized option, you requisition multiple racks of “hot” ammunition – same-bore slugs, with a higher grade of accelerant.",
+    "mounted_effect": "One weapon equipped to this mount gains Knockback 1. In addition, on a Critical Hit with that weapon, the target must pass a Hull save or be knocked Prone."
+  },
+  {
     "id": "valk-hr-cb_briareos_frame",
     "name": "!V! Briareos Frame",
     "source": "IPS-N",
