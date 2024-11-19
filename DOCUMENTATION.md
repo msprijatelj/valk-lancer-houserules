@@ -196,6 +196,11 @@ Replace with the Overheating Table from [GMS Crisis Catalog](https://esbionarsha
 * Replace damage with `1d6+4 Kinetic`. Add `Reliable 3` tag.
   * HMG stands head and shoulders above many other Heavy mount options, with minimal investment to overcome its Inaccurate tag. This change lets it stay competitive in the Heavy Gunner department whilst reducing its damage ceiling.
 
+#### Heavy Melee Weapon
+
+* Increase Threat from 1 to 2.
+  * Taking notes from [Lancers in the Dark](https://docs.google.com/document/d/19LcfVsvo9u5FaaDMvSytB2YQhnBGcSRMrsAEKRnRVdI/edit), adding some extra Threat to the Heavy Melee helps keep it competitive with other raw statsticks like Raleigh's Kinetic Hammer.
+
 ### GMS Everest
 
 #### Everest Frame
