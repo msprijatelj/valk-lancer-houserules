@@ -120,20 +120,6 @@ Replace with the Overheating Table from [GMS Crisis Catalog](https://esbionarsha
     > "The Objective can be lifted and dragged like any other object."
   * Start treating Objectives like objects by using the revamped Lifting and Dragging rules.
 
-### Gauntlet
-
-#### Scoring (New)
-
-* Add "Scoring" section, which includes the following:
-    > "The enemy starts with points equal to the number of PCs. At the end of each round, the enemy loses points equal to the number of PCs in the CZ minus the number of enemies in the CZ (minimum 0)."
-
-#### Victory Conditions
-
-* Replace "Victory Conditions" with the following:
-    > * PC Victory: The PCs reduce the enemy's points to 0 or fewer.
-    > * Enemy Victory: The enemy loses no points for 3 consecutive rounds.
-  * I tend to find round timers inorganic and would rather tie victory directly to the actions of the PCs (or NPCs) instead of "running out the clock". The goal here is to encourage PCs to quickly reach the CZ and hold it under duress. If the PCs are skilled, they can end the sitrep much faster.
-
 ### Holdout
 
 #### Scoring
