@@ -22,15 +22,6 @@
     "extraction": "While in the Extraction Zone/Allied Deployment Zone, PCs can extract as a free action at the end of their turn. Extracted PCs are removed from the battlefield. If the Objective is adjacent to a PC when they extract and isn’t contested by any characters from the opposing side, it is safely extracted."
   },
   {
-    "id": "valk-hr-sitrep_gauntlet",
-    "name": "!V! Gauntlet",
-    "description": "GAUNTLET missions are usually done under duress or when no other options are available, and they usually take place in unfriendly territory. Gauntlet missions require PCs to move through a dangerous area to secure a position. The enemy starts with points equal to the number of PCs. At the end of each round, the enemy loses points equal to the number of PCs in the CZ minus the number of enemies in the CZ (minimum 0).",
-    "pcVictory": "The PCs reduce the enemy's points to 0 or fewer.",
-    "enemyVictory": "The enemy loses no points for 3 consecutive rounds.",
-    "deployment": "The GM deploys first in the EDZ; the PCs deploy next, choosing positions for their characters within the Allied Deployment Zone.",
-    "controlZone": "The area around the EDZ/Control Zone is fortified with Size 1–2 hard cover."
-  },
-  {
     "id": "valk-hr-sitrep_holdout",
     "name": "!V! Holdout",
     "description": "HOLDOUT missions are desperate undertakings. They require the PCs to defend an area against an onslaught of enemies. In the best-case scenario, this buys time for allies to complete an objective elsewhere; in the worst, it’s survive or die. The PCs start with 0 points. At the end of each round, they gain points equal to the number of PCs in the CZ minus the number of enemies in the CZ (minimum 0).",
