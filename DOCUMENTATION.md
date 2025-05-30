@@ -96,11 +96,17 @@ This is a living document detailing my personal house rules for the [player-faci
 
 ### Structure Damage Table
 
-Replace with the Structure Damage Table from [GMS Crisis Catalog](https://esbionarshadow.itch.io/gms-crisis-catalogue). Stuns and outright destruction become much less likely using this ruleset, allowing players to play more with the mechs they built. This contributes to the goal of maintaining player engagement.
+Replace the rules for Structure Damage with the following:
+  > "When a character takes structure damage, instead of making a structure damage check, the affected character chooses to either be DAZED until the end of their next turn, or to suffer the System Trauma effect from the STRUCTURE DAMAGE TABLE (Lancer, p. 80)."
+
+* Structure damage in Lancer is a strange mechanic that feels more at home among Old-School Revival-style Wound Tables than a modern tactical RPG. Most of the time, it's not the NPCs that are killing PCs, but the Structure Damage table! On the NPCs' side, if they don't die outright to a Direct Hit, System Trauma may instead ruin their entire gameplan as the Artillery's singular gun breaks. All that said, I have a soft spot in my heart for System Trauma and the aesthetic of mech parts getting blown off. So, I offer a compromise: Remove all chances of instant death, and instead offer a choice between long term loss of action *quality* (System Trauma) or short term loss of action *quantity* (Dazed). This lets players feel badass as they power through the loss of a system anyway, and allows NPCs to keep essential pieces of their kit while still suffering a penalty for losing Structure. Bonus points: No complicated nested table results to worry about!
 
 ### Overheating Table
 
-Replace with the Overheating Table from [GMS Crisis Catalog](https://esbionarshadow.itch.io/gms-crisis-catalogue). Reduces chances of the Exposed status, preventing death spirals into the Structure Damage table. This contributes to the goal of maintaining player engagement.
+I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house rules discussed on Pilot Net. Replace the rules for Overheating and Reactor Stress with the following:
+  > "All characters with a HEAT CAP – PC or NPC – only have 1 STRESS and cannot gain more. When a character would take that would put them over their HEAT CAP, they become EXPOSED and OVERHEATED. Any they take beyond their HEAT CAP is instead taken as energy damage that cannot be reduced."
+
+* This change removes the potential for a reactor meltdown, but unifies the rules for multi-Stress and single-Stress characters in a way that prevents outright heatgunning from killing a PC or NPC. Mechs generally twice as much HP than their Heat Cap, and safety from "overheating damage" is a single Stabilize away, so this ensures that inflicting Heat is more of a control effect (through Overheated and encouraging Stabilize) than just a second health bar for both PCs and NPCs.
 
 ## Sitreps
 
@@ -430,6 +436,13 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 ## HA
 
+### HA Core Bonuses
+
+#### Adaptive Reactor
+
+* Change so that when a character Stabilizes, they may pick a second option from the second group of options.
+  * With the change to Overheating, Adaptive Reactor needs a new job. Broadening what a Stabilize can do seems like a decent utility option.
+
 ### HA Barbarossa
 
 #### Flak Launcher
@@ -437,6 +450,14 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 * Replaces the Flak Launcher system, using the following profile, mostly taken from a suggestion from [Kai Tave](https://kaitave.itch.io/):
     > Flak Launcher - Main Cannon, Smart, Range 15, 3 Explosive Damage - On Attack: If the target if flying, they must succeed on a Hull save or immediately land (this counts as falling without any damage), and additionally become Slowed and can’t fly until the end of their next turn.
   * This replacement provides the Barbarossa with a utility option for its Main mounts, while also making the effect more consistent by always occurring on attack and targeting a different save than Agility, which is typically the strongest HASE skill for flying NPCs. Kai's original design had the "landing effect" only occur on a hit; I changed the landing effect to "On Attack" to bypass the common "you miss" effects that flying NPCs typically have (like Ace's Barrel Roll).
+
+### HA Sherman
+
+#### Reactor Stabilizer
+
+* Replace the effect with the following:
+    > "If an instance of Heat would make you Overheat, you gain Immunity to any damage that would be caused by that instance of Heat."
+  * With the removal of Overheating checks, Reactor Stabilizer has an opportunity to be more than a simple reroll to avoid Exposed. This change means that a mech equipped with this system could use a risky, high self-heat option, overheat themselves, and not take excessive overheating damage as a result.
 
 ### HA Tokugawa
 
@@ -447,11 +468,28 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 ### HA Sunzi
 
+#### Sunzi Frame
+
+* Change Safe Harbor to be limited to the Sunzi's Sensors and Line of Sight.
+  * Sunzi is a warping teleportation presence on the battlefield. This will require Sunzi to position itself sensibly to maximize its potential.
+* Change Blink Anchor to always consume a charge, and require a reaction to activate. Unwilling characters may ignore this on a successful Engineering save.
+  * Blink Anchor carries guaranteed, immense power for very little cost. This change forces Sunzi to be particular about when to activate Blink Anchor and gives NPCs a chance to resist its effect.
+
 #### Accelerate
 
 * Add the following sentence prior to the last sentence:
     > "If an object with HP is moved in this way, it takes 1 AP Kinetic Damage for each space moved."
   * Prevent abuse of moving object-like objectives by tying a cost to Accelerate's use.
+
+#### Blink Charges
+
+* Change Warp Grenade to only affect one character in the blast. That character must be completely within the Blast before and after the teleport.
+  * Undo the Word of Tom to limit the amount of chaos one Warp Grenade can cause.
+
+#### Blinkspace Tunneler
+
+* Change so that the effect ends as soon as one character enters the blink tear.
+  * As written, Blinkspace Tunneler allows a quick character to get their whole team instantaneously across a map, trivializing movement in many sitreps. This keeps the effect toned down while still allowing a buddy to come along for the ride.
 
 ### HA Enkidu
 
@@ -459,3 +497,11 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 * In Bloodsense, replace "half of their maximum HP" with "7 HP".
   * This changes Bloodsense to more strongly synergize with Bifurcate, without directly strengthening Bifurcate.
+
+### HA Gilgamesh
+
+#### Emergency Repair Module
+
+* Replace the second sentence with:
+    > "If the target took structure damage as a result of the triggering attack while at maximum structure, they do not suffer from System Trauma or Dazed from that loss of structure."
+  * Change ERM to mesh better with the new Structure Damage rules. This preserves the spirit of the original while supporting the lack of a Structure Damage Table.
