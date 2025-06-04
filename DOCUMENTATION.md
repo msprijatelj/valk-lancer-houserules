@@ -104,9 +104,9 @@ Replace the rules for Structure Damage with the following:
 ### Overheating Table
 
 I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house rules discussed on Pilot Net. Replace the rules for Overheating and Reactor Stress with the following:
-  > "All characters with a HEAT CAP – PC or NPC – only have 1 STRESS and cannot gain more. When a character would take that would put them over their HEAT CAP, they become EXPOSED and OVERHEATED. Any they take beyond their HEAT CAP is instead taken as energy damage that cannot be reduced."
+  > "All characters with a HEAT CAP – PC or NPC – only have 1 STRESS and cannot gain more. When a character would take Heat that would put them over their HEAT CAP, they become EXPOSED and OVERHEATED. Any they take beyond their HEAT CAP is instead taken as energy damage that cannot be reduced."
 
-* This change removes the potential for a reactor meltdown, but unifies the rules for multi-Stress and single-Stress characters in a way that prevents outright heatgunning from killing a PC or NPC. Mechs generally twice as much HP than their Heat Cap, and safety from "overheating damage" is a single Stabilize away, so this ensures that inflicting Heat is more of a control effect (through Overheated and encouraging Stabilize) than just a second health bar for both PCs and NPCs.
+* This change removes the potential for a reactor meltdown, but unifies the rules for multi-Stress and single-Stress characters in a way that prevents outright heatgunning from killing a PC or NPC. Mechs generally have twice as much HP than their Heat Cap, and safety from "overheating damage" is a single Stabilize away, so this ensures that inflicting Heat is more of a control effect (through Overheated and encouraging Stabilize) than just a second health bar for both PCs and NPCs.
 
 ## Sitreps
 
