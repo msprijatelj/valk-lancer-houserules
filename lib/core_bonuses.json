@@ -1,19 +1,17 @@
 [
   {
     "id": "valk-hr-cb_auto_stabilizing_hardpoints",
-    "name": "!V! Auto-Stabilizing Hardpoints",
+    "name": "!V! Autonomous Coordination",
     "source": "GMS",
-    "effect": "Choose one mount. If the weapons on the mount deal any Kinetic, Energy, or Explosive damage and lack the Reliable tag, they gain Reliable 1 if they are Auxiliary or Main or Reliable 2 if they are Heavy or Superheavy.",
-    "description": "Using the best in shock-absorption and steadytech, you can retain accuracy across longer, sustained periods of fire.",
-    "mounted_effect": "Weapons on this mount that deal any Kinetic, Energy, or Explosive damage and lack the Reliable tag gain Reliable 1 if they are Auxiliary or Main or Reliable 2 if they are Heavy or Superheavy."
+    "effect": "When you Stabilize or take a Full Tech action that only targets allied characters, as part of that same action, you may choose to:<ul><li>Deploy or redeploy 1 drone, deployable, or mine to an adjacent space.</li><li>Grant 1 adjacent allied character 4 Overshield.</li></ul>",
+    "description": ""
   },
   {
     "id": "valk-hr-cb_overpower_caliber",
-    "name": "!V! Overpower Caliber",
+    "name": "!V! Intrusion Package",
     "source": "GMS",
-    "effect": "Choose one weapon. It gains Knockback 1. In addition, on a Critical Hit with this weapon, the target must pass a Hull save or be knocked Prone.",
-    "description": "Instead of the standardized option, you requisition multiple racks of “hot” ammunition – same-bore slugs, with a higher grade of accelerant.",
-    "mounted_effect": "One weapon equipped to this mount gains Knockback 1. In addition, on a Critical Hit with that weapon, the target must pass a Hull save or be knocked Prone."
+    "effect": "1/round, when you target a hostile character with a single target tech action, until the end of their next turn, the target treats all characters as hostile, all characters treat them as hostile, and they are Impaired (this does not affect any saves from the triggering action).",
+    "description": ""
   },
   {
     "id": "valk-hr-cb_briareos_frame",
@@ -41,6 +39,12 @@
     "source": "SSC",
     "effect": "Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.",
     "description": "Integrated nerveweave combines several technologies to grant total battlefield alacrity, assuring pilots are never left behind.",
+    "bonuses": [
+      {
+        "id": "speed",
+        "val": 1
+      }
+    ],
     "synergies": [
       {
         "locations": [
@@ -71,5 +75,12 @@
         "detail": "+1 Accuracy on Systems checks and saves."
       }
     ]
+  },
+  {
+    "id": "valk-hr-cb_adaptive_reactor",
+    "name": "!V! Adaptive Reactor",
+    "source": "HA",
+    "effect": "When you Stabilize and choose to cool your mech, you may choose two options from the second set of options instead of only one (for example, you may both reload all LOADING weapons and clear any Burn affecting your mech).",
+    "description": "All Armory frames are designed with multiple failsafe systems, but VIP clients and high-tier citizenry have access to a special catalog. With dozens of options for over-engineering reactors, it’s easy to make sure a mech can keep running indefinitely."
   }
 ]

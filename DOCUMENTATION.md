@@ -1,6 +1,14 @@
-# Documentation (Version 0.0.6)
+# Documentation (Version 0.0.7)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
+
+This is a hodgepodge collection of personal house rules and those collected from other members of the community. Links to works and/or community members whose work I've included:
+
+* [Maria Lopez](https://esbionarshadow.itch.io/), creator of [GMS Crisis Catalog](https://esbionarshadow.itch.io/gms-crisis-catalogue) and a collection of [Core Lancer Houserules](https://docs.google.com/document/d/1ModxKO46FcsswE3ZNie_jTSewhlfD5DGZZhaRsfITp8/edit).
+* [Kai Tave](https://kaitave.itch.io/), who has shared various off-the-cuff tweaks on PilotNet I've incorporated.
+* [Stormtalus](https://stormtalus.itch.io/), who introduced me to the Reactor Stress rules I currently use.
+* Acatalepsy, who came up with the Aid action.
+* TK, creator of [Lancers in the Dark](https://docs.google.com/document/d/19LcfVsvo9u5FaaDMvSytB2YQhnBGcSRMrsAEKRnRVdI/edit).
 
 # Rules
 
@@ -148,7 +156,7 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
   * Provide minor scaling for lower PC counts. Most relevant for 3 PCs.
 
 * Replace the second and third sentences with:
-    > "While inside a CZ, PCs may take a quick action to survey the CZ; each CZ can only be surveyed once, and a given PC can only survey one CZ per round. Once all CZs have been surveyed, the GM randomly determines the True CZ."
+  > "While inside a CZ, PCs may take a quick action to survey the CZ; each CZ can only be surveyed once, and a given PC can only survey one CZ per round. Once all CZs have been surveyed, the GM randomly determines the True CZ."
 
 # Talents
 
@@ -178,17 +186,19 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 
 ### GMS Core Bonuses
 
-#### Auto-Stabilizing Hardpoints
+The following two GMS Core Bonuses from [Maria Lopez's collection of house rules](https://docs.google.com/document/d/1ModxKO46FcsswE3ZNie_jTSewhlfD5DGZZhaRsfITp8/edit) replace the "hit better" core bonuses, Overpower Caliber (OpCal) and Auto-Stabilizing Hardpoints (AutoStab) with controller and support options that GMS sorely misses.
 
-* Replace the effect with the following:
-  > "Choose one mount. If the weapons on the mount deal any Kinetic, Energy, or Explosive damage and don't already have the Reliable tag, they gain Reliable 1 if they are Auxiliary or Main or Reliable 2 if they are Heavy or Superheavy."
-  * The free accuracy from Auto-Stabilizing Hardpoints too easily solves the problem of the Inaccurate tag. I want to make generic Accuracy more precious and harder to achieve, but I also see the appeal of improving weapon reliability. Therefore, I want to try replacing AutoStab's accuracy with the Reliable tag, just to see what happens.
+#### Intrusion Package
 
-#### Overpower Caliber
+* A replacement core bonus for OpCal:
+  > "1/round, when you target a hostile character with a single target tech action, until the end of their next turn, the target treats all characters as hostile, all characters treat them as hostile, and they are Impaired (this does not affect any saves from the triggering action)."
 
-* Replace the effect with the following:
-  > "Choose one weapon. It gains Knockback 1. In addition, on a Critical Hit with this weapon, the target must pass a Hull save or be knocked Prone."
-  * Overpower Caliber is one of many generic Bonus Damage abilities in the game. It's fiddly to track 1/round and contributes to Lancer's "damage stacking" DPS meta. I replace the Bonus Damage with Knockback and the occasional Prone to shift it away from a selfish damage tool and more towards a utility/support tool that can both help play the objective and assist allies through leaving a target vulnerable.
+#### Autonomous Coordination
+
+* A replacement core bonus for AutoStab:
+  > "When you Stabilize or take a Full Tech action that only targets allied characters, as part of that same action, you may choose to:
+  > * Deploy or redeploy 1 drone, deployable, or mine to an adjacent space.
+  > * Grant 1 adjacent allied character 4 Overshield."
 
 ### GMS Equipment
 
@@ -206,6 +216,28 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 
 * Increase Threat from 1 to 2.
   * Taking notes from [Lancers in the Dark](https://docs.google.com/document/d/19LcfVsvo9u5FaaDMvSytB2YQhnBGcSRMrsAEKRnRVdI/edit), adding some extra Threat to the Heavy Melee helps keep it competitive with other raw statsticks like Raleigh's Kinetic Hammer.
+
+#### Overpower Rounds
+
+* A paired "replacement" for Overpower Caliber from [Maria's house rules](https://docs.google.com/document/d/1ModxKO46FcsswE3ZNie_jTSewhlfD5DGZZhaRsfITp8/edit):
+  > Overpower Rounds
+  >
+  > 2 SP, Mod
+  >
+  > Choose one ranged weapon to equip this mod to. 1/scene, when you attack with that weapon, the attack gains +5 bonus damage, Knockback 2, and Reliable 3 (or increases the Reliable value by 2).
+
+  * Overpower Caliber (OpCal) and Auto-Stabilizing Hardpoints (AutoStab) are a pair of "hit better" core bonuses that appear innocuous until they're actually seen in play. Since Lancer allows bonus damage to stack, Overpower Caliber contributes to a frighteningly high playerside damage ceiling. By changing OpCal to a 1/scene weapon mod, Maria allows it to contribute spike damage while introducing an SP and weapon mod opportunity cost.
+
+#### Auto-Calculating Stabilizer
+
+* The second "replacement mod" from [Maria's house rules](https://docs.google.com/document/d/1ModxKO46FcsswE3ZNie_jTSewhlfD5DGZZhaRsfITp8/edit), this one for Auto-Stabilizing Hardpoints:
+  > Auto-Calculating Stabilizer
+  >
+  > 2 SP, Mod
+  >
+  > Choose one weapon. When you consume Lock On to attack a character in Sensors with that weapon, the attack gains +2 Accuracy instead of +1.
+
+  * Similar to OpCal, except AutoStab is less overt in its benefit. The original AutoStab often was treated as "Remove the Inaccurate tag from weapons balanced around it", thus enabling high-damage hitters like the GMS Heavy Machine Gun and Tortuga's Deck-Sweeper to consistently hit with their truck-sized damage. Maria's conversion of AutoStab to a mod that encourages using Lock On deftly eliminates the original problem while accentuating a quality support action (Lock On). And again, if someone is using this mod on a gun, the same gun can't also use something like Nanocomposite Adaptation.
 
 ### GMS Everest
 
@@ -317,6 +349,15 @@ This came from a suggestion from Perijove on the PilotNET Discord server:
 
 * After the first sentence, add the following sentence: "This tech attack ignores Invisible and does not require line of sight."
   * This allows easier use of Tracking bug against foes that are typically always Invisible or positioned outside of Line of Sight, though it still cannot target Hidden characters.
+
+### SSC Dusk Wing
+
+#### Neurospike
+
+* Change the "Mirage" option to the following:
+  > Choose between affecting only yourself and affecting all allied characters: Your systems relay blurred, illusory images over their actual silhouette. Your target treats the affected characters as INVISIBLE until the end of their next turn.
+
+  * Mirage carries similarities to the Mourning Cloak's Hunter Logic Suite: Stalk Prey. However, its limited duration and allied coverage make it relatively low-impact, as the target could simply choose to shoot a different target without much fuss. After watching a recent video about "tanking" by [Mathfinder](https://www.youtube.com/watch?v=Hcs0RSCcbxs), I think that there's an opportunity to make the Dusk Wing more of a "dodge tank" license by upgrading Mirage from a "problem" (one target has Invisible) to a dilemma (*every* target except *one* has Invisible... but the leftover may be difficult to hit). It only lasts one round and is effectively trading one Quick Action for "half" an action (due to the Invisible coin toss and since most NPCs only have 1 weapon attack per turn), so I feel this buff isn't out of line and differentiates the option from Stalk Prey.
 
 ### SSC Mourning Cloak
 
@@ -472,8 +513,10 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 * Change Safe Harbor to be limited to the Sunzi's Sensors and Line of Sight.
   * Sunzi is a warping teleportation presence on the battlefield. This will require Sunzi to position itself sensibly to maximize its potential.
+* Change Anchor to only be immunity to involuntary teleportation.
 * Change Blink Anchor to always consume a charge, and require a reaction to activate. Unwilling characters may ignore this on a successful Engineering save.
   * Blink Anchor carries guaranteed, immense power for very little cost. This change forces Sunzi to be particular about when to activate Blink Anchor and gives NPCs a chance to resist its effect.
+* Change Art of War to be an Efficient reaction that teleports a single enemy or ally three spaces.
 
 #### Accelerate
 

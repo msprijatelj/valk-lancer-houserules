@@ -90,6 +90,34 @@
     "license_id": "mf_deaths_head"
   },
   {
+    "id": "valk-hr-ms_neurospike",
+    "name": "!V! Neurospike",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "SSC",
+    "license": "Dusk Wing",
+    "license_level": 1,
+    "actions": [
+      {
+        "name": "Shrike Code",
+        "activation": "Invade",
+        "detail": "Until the end of the target’s next turn, they first take 2 heat whenever they attack."
+      },
+      {
+        "name": "Mirage",
+        "activation": "Invade",
+        "detail": "Choose between affecting only yourself and affecting all allied characters: Your systems relay blurred, illusory images over their actual silhouettes. Your target treats the affected characters as INVISIBLE until the end of their next turn."
+      }
+    ],
+    "description": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”",
+    "license_id": "mf_dusk_wing"
+  },
+  {
     "id": "valk-hr-ms_fade_cloak",
     "name": "!V! FADE Cloak",
     "sp": 2,
@@ -244,6 +272,22 @@
     "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
     "license_id": "mf_minotaur"
   },
+    {
+    "id": "valk-hr-ms_reactor_stabilizer",
+    "name": "!V! Reactor Stabilizer",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HA",
+    "license": "Sherman",
+    "license_level": 1,
+    "effect": "If an instance of Heat would make you Overheat, you gain Immunity to any damage that would be caused by that instance of Heat.",
+    "description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed.",
+    "license_id": "mf_sherman"
+  },
   {
     "id": "valk-hr-ms_tear_firmament",
     "name": "!V! Wandering Nightmare",
@@ -287,6 +331,68 @@
       }
     ],
     "description": "Guillermo, no es suficiente saber caminar; Debes saber dónde y dónde no pisar. El lugar incorrecto, y te perderás. Es en un plano de telaraña donde construimos nuestro hogar: pise ligeramente cuando vaya.<br>[Guillermo, it is not enough to know how to walk; you must know where and where not to step; the incorrect spot, and you will be lost. It is on a plane of gossamer that we make our home: tread lightly when you go.]",
+    "license_id": "mf_sunzi"
+  },
+  
+  {
+    "id": "valk-ms_blink_charges",
+    "name": "!V! Blink Charges",
+    "type": "Deployable",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_limited",
+        "val": 3
+      },
+      {
+        "id": "tg_grenade"
+      }
+    ],
+    "source": "HA",
+    "license": "Sunzi",
+    "license_level": 1,
+    "deployables": [
+      {
+        "name": "Blink Mine",
+        "type": "Mine",
+        "detail": "Once detonated, the character that triggered it must pass an Engineering save or be teleported to a free, valid space of your choice within Range 5 of the mine and become JAMMED until the end of their next turn. If they pass, they still teleport but do not become Jammed."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Warp Grenade",
+        "activation": "Quick",
+        "detail": "Throw a grenade with Range 5 and Blast 3. On impact, choose one character within the affected area and teleport them to any free, valid space within the same area. The character must be completely within the Blast both before and after they teleport. An unwilling character can pass an Engineering save to avoid this effect."
+      }
+    ],
+    "description": "Eso es lo que no se suena: usar el vacio contra la Ley de la Madre. Marcamos esta en nuestro historia con lagrimas, y ennegrecer la pagina.<br>[This is the thing un-thinkable: to use the nonshape against the Mother’s Law. With tears, we mark its need in our history, and then blacken the page]",
+    "license_id": "mf_sunzi"
+  },
+  
+  {
+    "id": "valk-hr-ms_blinkspace_tunneler",
+    "name": "!V! Blinkspace Tunneler",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      }
+    ],
+    "source": "HA",
+    "license": "Sunzi",
+    "license_level": 2,
+    "actions": [
+      {
+        "activation": "Protocol",
+        "detail": "You open a blink tear in a free, adjacent space. As part of any movement, the first character (hostile or allied) to enter the space at least partially may teleport to a free space adjacent to you. You may only open one tear at a time, and the tear lasts until a character teleports through it, you create a new tear, or until the end of your next turn."
+      }
+    ],
+    "description": "MEMO(TT_CLEARANCE_01) (01200): IT’S GONNA GET REAL FUCKING DARK.",
     "license_id": "mf_sunzi"
   },
   {
@@ -339,5 +445,26 @@
     "data_type": "system",
     "aptitude": {},
     "license_id": "mf_white_witch"
+  },
+  {
+    "id": "valk-hr-ms_emergency_repair_module",
+    "name": "!V! Emergency Repair Module",
+    "source": "HA",
+    "license": "Gilgamesh",
+    "license_level": 1,
+    "description": "Emergency repair modules are often a mainstay on Armory chassis galaxy-wide. Through a combination of active nanite slurry, hardpatch welding, and shunting to redundant systems in response to immediate damage, they ensure that a chassis will be able to quickly complete nonmassive battlefield repairs in order to remain operational. A number of informal celebratory traditions have arisen throughout the legions to commemorate a pilot's first time taking damage sufficient to trigger an ERM in combat.",
+    "effect": "Whenever you or an adjacent ally Braces, you may expend a charge and spend 1 Repair to restore that character's HP to full immediately after they take damage from the triggering attack. If the target took structure damage as a result of the triggering attack while at maximum structure, they do not suffer from System Trauma or Dazed from that loss of structure.",
+    "type": "System",
+    "sp": 1,
+    "tags":
+    [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_unique"
+      }
+    ]
   }
 ]

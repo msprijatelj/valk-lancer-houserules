@@ -632,6 +632,76 @@
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_atlas.png",
     "license_id": "mf_atlas"
   },
+    {
+    "id": "valk-hr-mf_sunzi",
+    "source": "HA",
+    "name": "!V! Sunzi",
+    "variant": "Sunzi",
+    "mechtype": [
+      "Support",
+      "Controller"
+    ],
+    "license_level": 2,
+    "y_pos": 23,
+    "description": "<p>The Sunzi represents the peak of Harrison Armory's research into weaponized blink technology. Pilots approved to fabricate and field-test Sunzi components are monitored remotely by the Armory's Special Projects Group, which enjoys wide latitude in gathering telemetry and biometric data. The Sunzi platform is considered by Harrison Armory to still be in development, and not yet available for fleet contracts. </p> <p>Like the Armory's Napoleon chassis before it, the Sunzi utilizes the Armory's H-GOBLIN-derived recursive-mesh interdermal substrate, allowing it to mount outsized weapons and systems on a chassis measuring just over three meters tall. Where it differs is in its technological heritage. The Napoleon was largely the product of the Armory's internal paracausal/ parallel space research and development groups; the Sunzi is rumored to be derived from stolen and extracted Volador technology. This may explain why the Long Rim and the Dawnline Shore are the primary test grounds for the platform &ndash; far from Union's most direct oversight, the Armory may have more time to make what progress it can before Union's regulatory impulse catches up to them. </p> <p>According to Union NavInt reports on the Sunzi, the platform's unshielded emissions are consistent with known blinkspace signatures; corroborating intelligence from undercover elements inside the program's main campus on Ras Shamra show that the Sunzi's development has been fast-tracked to respond to the evolving situation in the Dawnline Shore. Both as a forcemultiplication tool to assist the Armory's legionary presence across the Shore, and more specifically to counter the Ungratefuls' newest weapon there, Object L (see UNI Report CORPSE GATE for more). </p>",
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "armor": 1,
+      "stress": 4,
+      "structure": 4,
+      "hp": 7,
+      "evasion": 7,
+      "edef": 8,
+      "heatcap": 7,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 4,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Safe Harbor",
+        "description": "When allied characters within the Sunzi's Sensors and line of sight teleport or are teleported, free spaces adjacent to the Sunzi are always valid end destinations."
+      },
+      {
+        "name": "Anchor",
+        "description": "The Sunzi has Immunity to teleportation caused by other characters."
+      },
+      {
+        "name": "Slip",
+        "description": "1/round, the Sunzi can teleport 2 spaces as a free action.",
+        "actions": [
+          {
+            "name": "Slip",
+            "frequency": "1/Round",
+            "activation": "Free",
+            "detail": "1/round the Sunzi can teleport 2 spaces as a free action"
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Reality Carver",
+      "description": "(TT_CLEARANCE_01): JUST A HEADS UP, YOU’RE GOING TO READ SOME OBTUSE SHIT HERE. I’VE TRANSCRIBED ONLY THE USEFUL PARTS OF WHAT THE VOLS SAID. REFER TO THE VISUAL FOR CORRESPONDING HAND SIGNS. REFER TO REPORTS: VESSEL-PILOT-DOORWAY",
+      "active_name": "Art of War",
+      "activation": "Reaction",
+      "tags": [
+        {
+          "id": "tg_efficient"
+        }
+      ],
+      "active_effect": "As a reaction at the start or end of any hostile or allied character’s turn within SENSORS and line of sight, expend a charge to teleport them up to 3 spaces in any direction, as long as they end in a free space in which they can stand.",
+      "passive_name": "Blink Anchor",
+      "passive_effect": "Blink Anchor (SIZE 1/2, Tags: DEPLOYABLE, IMMUNITY to all damage and effects, LIMITED 3)<br>You carry a single blink anchor that you can deploy as a quick action. When any character teleports within your line of sight, you may expend a charge as a reaction to force them to make an ENGINEERING save. On a failure, you may force them to appear in a free space adjacent to the blink anchor instead of their original destination, as long as they can safely stand there.<br>Once it’s deployed, you or any allied character can pick it up or put it down while adjacent to it as a quick action."
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_sunzi.png",
+    "license_id": "mf_sunzi"
+  },
   {
     "id": "valk-hr-mf_sagarmatha",
     "variant": "Everest",
