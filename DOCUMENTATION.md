@@ -180,6 +180,16 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 * Upon suggestion from [Kai Tave](https://kaitave.itch.io/): In Rank 3, "Torrent", add the following sentence to the end of the first paragraph: "If you consumed Lock On as part of using Stormbending, lower the value by 2 instead."
   * This synergizes with Rank 1's Lock On benefits and makes the Massive Attack more accessible in an average fight.
 
+### Orator
+
+* Change the duration of the Convincing Rhetoric to end early if hostile action is taken against them.
+  * Convincing Rhetoric is immensely sticky for its action cost, and the Impaired it inflicts contributes to its own duration. If hostile action is performed against the target, then they likely won't listen to your rhetoric any more!
+* Remove the extra Orator die from The March of the Ten Thousand.
+  * This will slow the Orator die gain to encourage using other options instead of saving up for Demoralize.
+* Change the second sentence of Demoralize to:
+  > "Until the end of their next turn, they cannot take hostile actions against you or your allies and cannot make any voluntary movements that bring them closer to you."
+  * Demoralize is a powerful control tool for practically no action cost. This reins in the ability to incentivize using the other Orator Dice options instead.
+
 # Mech Equipment
 
 ## GMS
@@ -216,6 +226,11 @@ The following two GMS Core Bonuses from [Maria Lopez's collection of house rules
 
 * Increase Threat from 1 to 2.
   * Taking notes from [Lancers in the Dark](https://docs.google.com/document/d/19LcfVsvo9u5FaaDMvSytB2YQhnBGcSRMrsAEKRnRVdI/edit), adding some extra Threat to the Heavy Melee helps keep it competitive with other raw statsticks like Raleigh's Kinetic Hammer.
+
+#### GMS Thermal Rifle
+
+* Taking a cue from both Lancers in the Dark and Maria's house rules, increase this weapon's Range from 5 to 8.
+  * The damage profile and AP on Thermal Rifle is serviceable, but its default CQB range holds it back for the typical Rifle user.
 
 #### Overpower Rounds
 

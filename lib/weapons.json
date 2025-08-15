@@ -86,6 +86,34 @@
     "license_id": ""
   },
   {
+    "id": "valk-hr-mw_thermal_rifle",
+    "name": "!V! Thermal Rifle",
+    "mount": "Main",
+    "type": "Rifle",
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d3+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "source": "GMS",
+    "license": "GMS",
+    "license_level": 0,
+    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-II (T-2) line displays GMS’s proprietary “charged” melee weapons and energy weapons.",
+    "license_id": ""
+  },
+  {
     "id": "valk-hr-mw_swarm_hive_nanites",
     "name": "!V! Swarm/Hive Nanites",
     "mount": "Main",

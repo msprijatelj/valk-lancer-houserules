@@ -211,5 +211,44 @@
         ]
       }
     ]
+  },
+    {
+    "id": "valk-hr-mf_orator",
+    "name": "!V! Orator",
+    "icon": "ORATOR",
+    "terse": "The power of your words is undeniable, and can incapacitate your opponents more readily than any weapon could.",
+    "description": "Only the fool sees war as a means to and end; you know the integrity of any give human is far easier to penetrate than a chassis's exterior hull plating. So let fools be fools, and speak your truth. Tell them the gods they worship die a quiet death; tell them the manna they covet invites despondency, and the voices they follow lead nowhere. They will hear you – this is undeniable – and in doing so will even begin to question the motives of the hands they use to hold and the feet they use to walk. Your power is that of the orator, and in years to come your histories will paint war a bygone remembrance.",
+    "ranks": [
+      {
+        "name": "Convincing Rhetoric",
+        "description": "Gain the <b>Convincing Rhetoric</b> reaction.",
+        "actions": [
+          {
+            "name": "Convincing Rhetoric",
+            "activation": "Reaction",
+            "frequency": "1/round",
+            "trigger": "You or an allied character takes the Scan Quick Tech action against a hostile character.",
+            "detail": "You open an isolated comms channel with your target and they become Impaired. This lasts until a hostile action is taken against them, they succeed on a Systems check at the end of their turn, or you use this reaction again. They cannot clear this Impaired any other way."
+          }
+        ]
+      },
+      {
+        "name": "Voice of Reason",
+        "description": "<div>You start combat with 1 Orator die - a d6 - representing your power of speech. At the end of your turn when you do not attack or force any saves from hostile characters that turn, you gain +1 Orator die up to a maximum of 3 Orator Die. They last until expended or the current scene ends.</div> <div>1/round as a free action you can expend Orator Dice for one of the following effects as long as you can communicate with your target</div> <ul> <li><strong>Encourage (1 Die):</strong> An ally in line of sight may make a systems check against any non-self inflicted conditions affecting them, using the Orator Die at accuracy, ending that condition on a successful check.</li> <li><strong>Investigate (2 Dice):</strong> Choose a hostile character in line of sight. The next time you or an allied character makes an attack against them it is rolled twice, taking the highest result as final.</li> <li><strong>Cast Doubt (2 Dice):</strong> Choose a hostile character in line of sight. They cannot benefit from or be targeted by their allies' systems or traits until the end of their next turn.</li> </ul>",
+        "counters": [
+          {
+            "id": "ctr_voice_of_reason",
+            "name": "Orator Die",
+            "default_value": 1,
+            "min": 1,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "name": "The March of the Ten Thousand",
+        "description": "<p>Gain an additional option for Voice of Reason</p> <ul> <li><strong>Demoralize (3 Dice):</strong> Choose a hostile character in line of sight. Until the end of their next turn, they cannot take hostile actions against you or your allies and cannot make any voluntary movements that bring them closer to you. They then gain Immunity to this effect until the end of the scene.</li>"
+      }
+    ]
   }
 ]
