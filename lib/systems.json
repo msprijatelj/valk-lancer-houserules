@@ -216,11 +216,7 @@
     "name": "!V! Metafold Carver",
     "type": "Tech",
     "sp": 2,
-    "tags": [
-      {
-        "id": "tg_accurate"
-      }
-    ],
+    "tags": [],
     "source": "HORUS",
     "license": "Minotaur",
     "license_level": 2,
