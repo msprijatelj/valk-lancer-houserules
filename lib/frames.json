@@ -5,10 +5,16 @@
     "source": "GMS",
     "name": "!V! Everest",
     "variant": "Everest",
-    "mechtype": ["Balanced"],
+    "mechtype": [
+      "Balanced"
+    ],
     "y_pos": 25,
     "description": "Most humans don’t think to ask about the history of the water they drink, the earth they walk, or the air they breathe. And yet, without water, earth, and air, there would be nowhere for humanity to make a home.<br>Just the same, the GMS-SP1 “Everest” is often taken for granted, its importance dismissed in favor of other, more specialized frames. A plain and unpretentious mech, defined by simple lines, functional grace, universal compatibility, and sturdy bulk, the Everest is as fundamental to the modern mechanized chassis as the natural world is to human life. The Everest isn’t the most specialized mech, but it is the backbone of our expansion imperative. From its shoulders, humanity steps.<br>Prior to GMS’s official adoption of the name, “Everest” was a use-name given to the frame by its pilots. Mount Everest – or Sagarmatha, or Chomolungma, as it has been called in older human tongues – is the tallest mountain on Cradle, though not the most prominent peak in known space, nor even the greatest in Cradle’s star system, yet pilots across the galaxy call their SP1s by that ancient name. Why?<br>The sentimental answer is that the name is a reminder of what was once the limit of human endurance – once the height of human achievement. To reach Everest’s summit was to defy death and stand atop the world – the culmination of months, even years, of training, investment, and hard work. Reaching the peak was also a triumph of the people, systems, and institutions behind the individual – a triumph too often left unacknowledged, or deliberately erased.<br>Sagarmatha. Chomolungma.<br>Even before the Fall, when the Massif vaults were built, some names – some stories – were given priority over others.<br>The real story behind the Everest’s name is likely much less deliberate. Somewhere along the line, a newly graduated pilot, frustrated by GMS’s plain naming conventions, painted “EVEREST” across the flank of their SP1. Maybe it was a callsign, or maybe it represented the pride they felt at success. Either way, the name stuck: others adopted the name, and over five centuries it grew to become the officially unofficial designation of the SP1 chassis.<br>Veteran pilots may never return to the Everest after moving on, but they’ll always remember reaching that first summit – the mountaintop where they proved they could plant their own flag at the peak of the world.<br>Sagarmatha. Chomolungma.<br>Everest – you’ll never forget it.",
-    "mounts": ["Main", "Flex", "Heavy"],
+    "mounts": [
+      "Main",
+      "Flex",
+      "Heavy"
+    ],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -37,7 +43,9 @@
         ],
         "synergies": [
           {
-            "locations": ["rest"],
+            "locations": [
+              "rest"
+            ],
             "detail": "The Everest can be repaired at a rate of 1 Repair per 1 structure damage."
           }
         ]
@@ -56,7 +64,12 @@
       "activation": "Protocol",
       "active_synergies": [
         {
-          "locations": ["hull", "agility", "systems", "engineering"],
+          "locations": [
+            "hull",
+            "agility",
+            "systems",
+            "engineering"
+          ],
           "detail": "Gain +1 Accuracy on all attacks, checks, and saves until the start of your next turn."
         }
       ]
@@ -92,10 +105,16 @@
     "source": "IPS-N",
     "name": "!V! Drake",
     "variant": "Drake",
-    "mechtype": ["Defender"],
+    "mechtype": [
+      "Defender"
+    ],
     "y_pos": 12,
     "description": "The Drake, IPS-N’s first foray into military-grade mech design, is the backbone of any proactive trade-security or anti-piracy force. Its massive, simian frame is built around a single-cast bulkhead, sloped and reinforced to handle sustained fire and the vagaries of vessel-proximal hardvac travel. The Drake is an imposing chassis, its frame evoking the might of ancient armored infantry from a time when greater numbers guaranteed victory.<br>The standard fleet license for the IPS-N Drake outfits each chassis with IPS-N’s high-velocity, high–projectile fragment assault cannon for suppressing and overwhelming targets, and a heavy kinetic–ablative shield for defense. Advanced models feature upgraded weapons and armor including the formidable Leviathan Heavy Assault Cannon, a high-rpm anti-materiel weapon.",
-    "mounts": ["Main", "Main", "Heavy"],
+    "mounts": [
+      "Main",
+      "Main",
+      "Heavy"
+    ],
     "stats": {
       "size": 2,
       "structure": 4,
@@ -126,7 +145,10 @@
         "description": "The Drake receives +1 difficulty on Agility checks and saves.",
         "synergies": [
           {
-            "locations": ["agility", "skill_check"],
+            "locations": [
+              "agility",
+              "skill_check"
+            ],
             "detail": "The Drake receives +1 difficulty on Agility checks and saves."
           }
         ]
@@ -153,10 +175,14 @@
     "source": "IPS-N",
     "name": "!V! Lancaster",
     "variant": "Lancaster",
-    "mechtype": ["Support"],
+    "mechtype": [
+      "Support"
+    ],
     "y_pos": 16,
     "description": "The IPS-N Lancaster is a mil-spec variant of an older IPS-N civilian terrestrial, inter/outer-hull transport and maintenance chassis, streamlined for use in any theater. The Lancaster features multiple redundant systems and sophisticated interaction projectors to ensure pinpoint accuracy when engaging with delicate systems, whether damaged or intact.<br>Lancaster pilots often adopt roles as sappers and engineers in frontline support. Sometimes ridiculed for piloting the old-fashioned frame by newer, untested pilots, veteran Lancaster jockeys know the truth: the Lancaster is one of the most reliable and well-made mechs out there, indispensable on any serious long-range mission. Not every mission is won with bullets, lasers, and bombs: without the engineers and their Lannies, few of those hotshots would come home alive.",
-    "mounts": ["Main/Aux"],
+    "mounts": [
+      "Main/Aux"
+    ],
     "stats": {
       "size": 2,
       "structure": 4,
@@ -200,7 +226,9 @@
       "active_name": "Supercharger",
       "active_effect": "Your Latch Drone clamps onto an allied mech within its Range. For the rest of the scene you take 1 heat at the start of each of your turns, but your target gains +1 accuracy on all attacks, checks, and saves, and Immunity to the Impaired, Jammed, Slowed, Shredded, and Immobilized conditions from characters other than itself. This effect ends if either character becomes Stunned.<br>While this system is active, you cannot use the Latch Drone for any other purpose.",
       "activation": "Quick",
-      "integrated": ["valk-hr-mw_lancaster_integrated"]
+      "integrated": [
+        "valk-hr-mw_lancaster_integrated"
+      ]
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_lancaster.png",
     "license_id": "mf_lancaster"
@@ -211,10 +239,15 @@
     "source": "SSC",
     "name": "!V! Death’s Head",
     "variant": "Death’s Head",
-    "mechtype": ["Artillery"],
+    "mechtype": [
+      "Artillery"
+    ],
     "y_pos": 40,
     "description": "The Death’s Head is Smith-Shimano’s answer to the need for a chassis solution to long-range, low-splash strike actions. Sacrificing raw hull strength for peerless stability and alacrity, the Death’s Head is a maneuverable fire-support platform able to avoid incoming fire while maintaining a near-perfect lock on its targets. Its unique hexapedal form allows for rapid, low-profile movement in all directions.<br>As an aggressive and line-focused chassis, the Death’s Head is one of the most popular models for Union Navy and Union Department of Justice and Human Rights officers. It is a combat chassis through and through; as the Death’s Head is a chassis produced under SSC’s BELLA CIAO line, there is no civilian analog.",
-    "mounts": ["Main/Aux", "Heavy"],
+    "mounts": [
+      "Main/Aux",
+      "Heavy"
+    ],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -241,9 +274,19 @@
         "description": "The Death’s Head gains an additional +1 to all ranged attack rolls.",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
-            "weapon_sizes": ["any"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Rifle",
+              "Cannon",
+              "Launcher",
+              "CQB",
+              "Nexus"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
             "detail": "The Death’s Head gains an additional +1 to all ranged attack rolls."
           }
         ]
@@ -278,10 +321,15 @@
     "source": "SSC",
     "name": "!V! Mourning Cloak",
     "variant": "Mourning Cloak",
-    "mechtype": ["Striker"],
+    "mechtype": [
+      "Striker"
+    ],
     "y_pos": 62,
     "description": "The Mourning Cloak is a brand-new model from SSC’s LUX-Iconic line, and the manufacturer’s newest close-quarters combat and melee specialist frame. The Mourning Cloak emphasizes precision melee combat and is commonly outfitted with a complement of shielded microfilament wires designed to act as an anti-armor slashing weapon.<br>Designed by SSC’s Exotic Materials Group based on data from early engagements against the Ascendant Aun in Boundary Garden, the Mourning Cloak combines SSC’s harvested excerpts of DHIYED paracode with adapted Aunic Firmament-manipulation technology. The Mourning Cloak provides a prestigious and tactical option for situations where firearms are impractical and ordnance is unavailable. As part of the LUX-Iconic line, the Mourning Cloak is a popular order in the Baronies and among various high-manna VIP security firms.",
-    "mounts": ["Flex", "Main/Aux"],
+    "mounts": [
+      "Flex",
+      "Main/Aux"
+    ],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -304,9 +352,15 @@
         "description": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target.",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Melee"],
-            "weapon_sizes": ["any"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
             "detail": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target."
           }
         ]
@@ -316,7 +370,10 @@
         "description": "The Mourning Cloak gains +1 accuracy on Agility checks and saves.",
         "synergies": [
           {
-            "locations": ["agility", "skill_check"],
+            "locations": [
+              "agility",
+              "skill_check"
+            ],
             "detail": "The Mourning Cloak gains +1 accuracy on Agility checks and saves."
           }
         ]
@@ -348,10 +405,16 @@
     "source": "HORUS",
     "name": "!V! Gorgon",
     "variant": "Gorgon",
-    "mechtype": ["Defender"],
+    "mechtype": [
+      "Defender"
+    ],
     "y_pos": 5,
     "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br>The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
-    "mounts": ["Flex", "Main", "Main"],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Main"
+    ],
     "stats": {
       "size": 2,
       "structure": 4,
@@ -399,10 +462,14 @@
     "source": "HORUS",
     "name": "!V! Minotaur",
     "variant": "Minotaur",
-    "mechtype": ["Controller"],
+    "mechtype": [
+      "Controller"
+    ],
     "y_pos": 30,
     "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
-    "mounts": ["Main/Aux"],
+    "mounts": [
+      "Main/Aux"
+    ],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -458,10 +525,16 @@
     "source": "HA",
     "name": "!V! Tokugawa",
     "variant": "Tokugawa",
-    "mechtype": ["Striker"],
+    "mechtype": [
+      "Striker"
+    ],
     "y_pos": 5,
     "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
-    "mounts": ["Flex", "Main", "Main"],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Main"
+    ],
     "stats": {
       "size": 1,
       "structure": 4,
@@ -484,7 +557,9 @@
         "description": "When the Tokugawa is Exposed, its melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat.",
         "synergies": [
           {
-            "locations": ["active_effects"],
+            "locations": [
+              "active_effects"
+            ],
             "detail": "When the Tokugawa is Exposed, its melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat."
           }
         ]
@@ -512,14 +587,20 @@
       "active_bonuses": [
         {
           "id": "range",
-          "damage_types": ["Energy"],
-          "range_types": ["Threat"],
+          "damage_types": [
+            "Energy"
+          ],
+          "range_types": [
+            "Threat"
+          ],
           "val": 2
         }
       ],
       "active_synergies": [
         {
-          "locations": ["active_effects"],
+          "locations": [
+            "active_effects"
+          ],
           "detail": "All melee weapons on your mech that deal any Energy Damage gain +1 Threat."
         }
       ]
@@ -632,7 +713,88 @@
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_atlas.png",
     "license_id": "mf_atlas"
   },
-    {
+  {
+    "id": "valk-hr-mf_caliban",
+    "source": "IPS-N",
+    "name": "!V! Caliban",
+    "variant": "Caliban",
+    "mechtype": [
+      "Striker",
+      "Controller"
+    ],
+    "license_level": 2,
+    "y_pos": 12.5,
+    "description": "<p>The Caliban chassis is a popular new order among anti piracy and stellar marine forces. Unlike many of IPS-N's modern frames, the Caliban was designed from the ground up to be a military machine. </p> <p>The Caliban is IPS-N's solution to the  \"Yemanova \" Problem, more properly known as the Impact-Override Problem. Capital ships, the problem posits, are incredibly expensive, demand a tremendous amount of time for corpros and Diasporan states to produce and maintain, and increasingly outmatched by anti-ship weaponry. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this makes many commanders gun-shy, encouraging them to rely on subline vessels and fighters to accomplish battle objectives rather than risk their big ships. This strategy tends to prove just as expensive: instead of one or a handful of large ships being destroyed, signifying the end of a battle, engagements can grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory. </p> <p>IPS-N was the first to crack the Yemanova Problem. The corpro's designers identified the need for a rapidly deployable, sub-signature, directed weapon. It needed to be well-armed and well-armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this need. </p> <p>Cultural critics argue that mechanized chassis venerate the form of a particular humanity; it is an unconscious nod towards the anthrochauvinist roots of the machine among leading designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose. </p> <p>Unlike many IPS-N frames, the Caliban has no roots in early attempts at self-defense by freighter crews and asteroid miners. It was not born from ingenuity - there is no legacy of resilience, heroism, or the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming; it does not build, defend, or inspire &ndash; it was designed to solve a numbers problem on a ledger. </p> <p>It is a tool designed to kill human beings very, very quickly. </p>",
+    "mounts": [
+      "Heavy"
+    ],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 11,
+      "speed": 5,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Wrecking Ball",
+        "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack.",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "any"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack."
+          }
+        ]
+      },
+      {
+        "name": "Follow Through",
+        "description": "<p>1/round, when the Caliban would inflict knockback as part of any action, it can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement, and doesn’t provoke reactions.</p><p>If the target would be knocked into an obstruction that would stop its movement, they must pass a Hull save or take 1d6 Kinetic damage and become Impaired until the end of their next turn.</p>"
+      },
+      {
+        "name": "Weak Computer",
+        "description": "The Caliban takes +1 Difficulty on all SYSTEMS saves and checks.",
+        "synergies": [
+          {
+            "locations": [
+              "systems",
+              "skill_check"
+            ],
+            "detail": "The Caliban takes +1 Difficulty on all SYSTEMS saves and checks."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Flayer Shotgun",
+      "description": "The “Flayer” – officially the Heavy Howitzer-Shotgun 075 – is a compact, formalized version of the popular “Daisy Cutter” howitzer-shotgun used by Trunk Security and other stellar marine forces. Chambered to accept shot, shell, or sabot, the Flayer sacrifices some of the DaisyCutter’s raw power in favor of control and a much-improved fire rate.",
+      "active_name": "Equip Autochoke",
+      "active_effect": "The Flayer shotgun comes pre-equipped with a muzzle-mounted auto-choke that allows its user to better define the spread of shot issuing from the weapon. The extreme heat from equipping the choke renders it unusable in short order and it must be discarded.<br>For the rest of this scene, the HHS-075 “Flayer” Shotgun gains the following profile:<br>Main CQB, Accurate, Knockback 5<br>[Cone 3] [Threat 3] [1d6+2 kinetic damage]",
+      "activation": "Protocol",
+      "integrated": [
+        "mw_caliban_integrated"
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/caliban.png",
+    "license_id": "mf_caliban"
+  },
+  {
     "id": "valk-hr-mf_sunzi",
     "source": "HA",
     "name": "!V! Sunzi",
@@ -702,6 +864,78 @@
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_sunzi.png",
     "license_id": "mf_sunzi"
   },
+  {
+    "id": "valk-hr-mf_zheng",
+    "source": "IPS-N",
+    "name": "!V! Zheng",
+    "variant": "Zheng",
+    "mechtype": [
+      "Striker"
+    ],
+    "license_level": 2,
+    "y_pos": 30,
+    "description": "<p>The Zheng is a new frame in IPS-N's line and is unusual in that its development can be attributed almost completely to a single mech pilot &ndash; Xiong Xiaoli, a Mirrorsmoke mercenary operating in the Long Rim, protecting heavy freight/low crew shipments to the early Dawnline Shore colonies. A relative unknown before the incident, MSMC documentation from the time indicates that her convoy was attacked by the White Tiger pirate conglomerate, and her entire company killed in action. Xiong's personal logbook, recovered posthumously, expounds on MSMC's report. </p> <p>In her logbook, Xiong noted that her chassis, a factory-standard IPS-N Raleigh, was almost totally ripped apart in the chaos of the White Tiger's attack. Thrown free of her billeted freighter after it collided with a White Tiger crashboat, Xiong managed to survive the next 45 days by scavenging across the drifting, derelict wreck of the MSMC-S Say No More, the escort cruiser attached to the supply colony. Outnumbered and hunted by the White Tiger pirates prowling the ruined convoy, Xiong took dramatic steps to modify her Raleigh for close-quarters combat. In the dark, claustrophobic environments of the Say No More and ruined freighters leashed to it by the White Tigers, Xiong turned her chassis into a machine of tumbling death. </p> <p>Xiong likely did not survive the long engagement. She is presumed to have perished mere days before an IPS-N Trunk Security patrol arrived, responding to the convoy's initial distress signal. Trunk Security found that Xiong had eliminated every White Tiger pirate assigned to the convoy; her chassis, logbook, and trace elements of her body were discovered in the White Tiger's cored-out gunboat and recovered by IPS-N. Thanks to her efforts, Trunk Security and MSMC were able to hunt down the remaining White Tiger gang and eliminate them. IPS-N and MSMC then engaged in a lengthy negotiation over the modified Raleigh's plans, eventually settling on a mixed licensing fee that benefits both IPS-N and MSMC. The resulting pattern, the Zheng, is now a popular choice among MSMC and Trunk Security pilots operating across the Rim. </p> <p>Xiong Xiaoli is widely regarded as a bodhisattva across the Long Rim; MSMC mercenaries have created several drinking games named after her, and MSMC pilots on combat contracts often compete to hit the \"Xiong Limit\" of 45+ confirmed kills. </p>",
+    "mounts": [
+      "Main",
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 10,
+      "evasion": 9,
+      "edef": 6,
+      "heatcap": 6,
+      "repcap": 6,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 4,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Destructive Swings",
+        "description": "1/round, after making a melee attack against a hostile character, choose one of the following:<ul><li>Create a Size 1 piece of terrain that grants hard cover in a free space adjacent to the target. It has 10 HP and Evasion 5.</li><li>Deal 10 Kinetic AP damage to an object or piece of terrain adjacent to the target. If this damage destroys the object or terrain, it explodes, dealing 1d6 Kinetic damage to all adjacent characters other than you and knocking them back 1 space.</li></ul>",
+        "deployables": [
+          {
+            "name": "Destructive Swing Cover",
+            "type": "Deployable",
+            "activation": "Free",
+            "hp": 10,
+            "evasion": 5,
+            "size": 1,
+            "detail": "This terrain grants hard cover."
+          }
+        ]
+      },
+      {
+        "name": "Weak Computer",
+        "description": "The Zheng takes +1 Difficulty on all systems saves and checks",
+        "synergies": [
+          {
+            "locations": [
+              "systems",
+              "skill_check"
+            ],
+            "detail": "The Zheng gets +1 Difficulty on all Systems saves and checks"
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "XIONG-Type CQB Suite",
+      "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
+      "active_name": "Xiaoli’s Ingenuity",
+      "active_effect": "Gain the following benefits for the rest of the scene:<ul><li>Your melee attacks gain Knockback 2.</li><li>When creating terrain with Destructive Swings, characters other than you adjacent to the created terrain are Impaired until the end of their next turn.</li><li>When destroying objects or terrain with Destructive Swings, characters other than you adjacent to the created terrain are Shredded until the end of their next turn.</li></ul>",
+      "activation": "Protocol"
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_zheng.png",
+    "license_id": "mf_zheng"
+  }
   {
     "id": "valk-hr-mf_sagarmatha",
     "variant": "Everest",
@@ -884,11 +1118,16 @@
     "source": "SSC",
     "name": "!V! White Witch",
     "variant": "White Witch",
-    "mechtype": ["Defender"],
+    "mechtype": [
+      "Defender"
+    ],
     "y_pos": 28,
     "license_level": 2,
     "description": "<p>A proof of concept more than a line-production chassis, there have been select releases of White Witch licenses by Smith-Shimano&rsquo;s LUX-Exotic group to elite military enclaves, most notably to the upper cadres of the House of Moments.</p> <p>The White Witch builds on the platform established by the Black Witch; utilizing SSC&rsquo;s signature magtech weapons and equipment, it takes Black Witch and tunes it for hypersolipsistic focus, narrowing the effect cone to encompass only the White Witch and its pilot.</p> <p>The White Witch marks SSC&rsquo;s first foray into null-ordnance/environmental-manipulation chassis. When active, its entire chassis becomes a conduit for onboard base-compound magtech agitators to exploit its immediate environment, drawing atomic components out of organic and inorganic objects and surfaces to enhance its built-in defensive systems. The White Witch reorganizes these molecular draws using its chassis as substrate, quickly forming substantive defenses and weapons from &ldquo;thin air&rdquo;.</p> <p>This process has understandably traumatic effects on organic and inorganic materials inside the immediate effect cone.&nbsp;</p>",
-    "mounts": ["Flex", "Heavy"],
+    "mounts": [
+      "Flex",
+      "Heavy"
+    ],
     "stats": {
       "size": 2,
       "stress": 4,
@@ -915,7 +1154,9 @@
         "description": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
         "synergies": [
           {
-            "locations": ["brace"],
+            "locations": [
+              "brace"
+            ],
             "detail": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage."
           }
         ]
@@ -936,7 +1177,9 @@
       "active_effect": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +6. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +6, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene.",
       "active_synergies": [
         {
-          "locations": ["armor"],
+          "locations": [
+            "armor"
+          ],
           "detail": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +6. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +6, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene."
         }
       ],
@@ -946,7 +1189,9 @@
       "passive_effect": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +3.",
       "passive_synergies": [
         {
-          "locations": ["armor"],
+          "locations": [
+            "armor"
+          ],
           "detail": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +3."
         }
       ],

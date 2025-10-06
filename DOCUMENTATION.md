@@ -319,7 +319,36 @@ This came from a suggestion from Perijove on the PilotNET Discord server:
 * Replace "non-Immobilized characters" with "non-Immobilized allied characters".
   * This prevents odd cases where hostile characters can climb the MULE Harness.
 
+### IPS-N Caliban
+
+#### Caliban Frame
+
+Many of the Long Rim mechs suffer from introducing a large (or worse, unbounded) number of decision points to player turns. Caliban's lies within Pursue Prey, which allows it to scoot around the battlefield after performing any Knockback, any number of times, at any time. For this benefit, it must tolerate an innate base Speed of 3 and vulnerability to the Slowed condition. The below changes aim to reduce the decision points for Caliban while preserving its power.
+
+* Increase Speed from 3 to 5.
+* Increase HP from 6 to 8.
+  * Size 1/2 mechs are almost universally 6 HP, without much justification besides "they're small". This change reflects IPS-N's Hull-based advantage.
+* Increase Sensors from 3 to 5.
+  * Quality of life change.
+* Replace Pursue Prey and Slam with "Follow Through":
+  > "Follow Through
+  > 1/round, when the Caliban would inflict knockback as part of any action, it can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement, and doesn’t provoke reactions. If the target would be knocked into an obstruction that would stop its movement, they must pass a Hull save or take 1d6 Kinetic damage and become Impaired until the end of their next turn."
+
 ### IPS-N Zheng
+
+#### Zheng Frame
+
+Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especially affected by the Slowed condition. Worse yet, Xiaoli's Tenacity introduces an extra decision point each turn: "How do I use my free movement and damage in an efficient way?" Xiaoli's Ingenuity only serves to exacerbate this issue by allowing Zheng to do this 6 times a turn instead of once. Therefore, these changes aim to reduce the number of decision points on Zheng's turn while preserving its power and identity as a destructive, collateral-damage brawler.
+
+* Increase Speed from 3 to 4.
+* Increase Sensors from 3 to 5.
+* Merge Xiaoli's Tenacity with Destructive Swings:
+    > "1/round, after making a melee attack against a hostile character, choose one of the following:
+    > - Create a Size 1 piece of terrain that grants hard cover in a free space adjacent to the target. It has 10 HP and Evasion 5.
+    > - Deal 10 Kinetic AP damage to an object or piece of terrain adjacent to the target. If this damage destroys the object or terrain, it explodes, dealing 1d6 Kinetic damage to all adjacent characters other than you and knocking them back 1 space."
+* Change CP to so that it adds Knockback 2 to all melee attacks and enhances Destructive Swings:
+  * Creating Terrain: Apply Impaired to characters adjacent to the terrain other than Zheng until the end of their next turn.
+  * Destroying Terrain: Apply Shredded to characters adjacent to the terrain other than Zheng until the end of their next turn.
 
 #### Total Strength Suite I
 
