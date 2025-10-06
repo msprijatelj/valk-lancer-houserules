@@ -630,62 +630,37 @@
       "armor": 0,
       "hp": 6,
       "evasion": 12,
-      "edef": 6,
+      "edef": 8,
       "heatcap": 4,
-      "repcap": 2,
-      "sensor_range": 3,
+      "repcap": 4,
+      "sensor_range": 5,
       "tech_attack": -2,
-      "save": 10,
+      "save": 12,
       "speed": 6,
-      "sp": 5
+      "sp": 7
     },
     "traits": [
       {
-        "name": "Giantkiller",
-        "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, that character treats the Atlas as if it is Hidden, and all other characters treat the Atlas as though it has soft cover.",
-        "synergies": [
-          {
-            "locations": [
-              "ram",
-              "grapple"
-            ],
-            "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
-          },
-          {
-            "locations": [
-              "active_effects"
-            ],
-            "detail": "The Atlas ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, that character treats the Atlas as if it is Hidden, and all other characters treat the Atlas as though it has soft cover."
-          }
-        ]
-      },
-      {
         "name": "Jäger Dodge",
-        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move up to 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
         "actions": [
           {
             "name": "Jäger Dodge",
             "activation": "Reaction",
             "trigger": "You take damage from a character larger than yourself",
-            "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+            "detail": "Gain resistance to that damage and move up to 3 spaces in any direction, ignoring engagement and reactions."
           }
         ]
       },
       {
-        "name": "Finishing Blow",
-        "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
+        "name": "Competitive Edge",
+        "description": "The Atlas has +1 Accuracy on contested skill checks.",
         "synergies": [
           {
             "locations": [
-              "weapon"
+              "skill_check"
             ],
-            "weapon_types": [
-              "Melee"
-            ],
-            "weapon_sizes": [
-              "any"
-            ],
-            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+            "detail": "The Atlas has +1 Accuracy on contested skill checks."
           }
         ]
       },
@@ -701,13 +676,25 @@
             "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
           }
         ]
+      },
+      {
+        "name": "Giantkiller",
+        "description": "The Atlas counts as Size 1 for Ram. It may use the Jockey action (Lancer, p. 75) as a Quick Action against any character larger than itself. While jockeying, the Atlas has soft cover and can end the jockey with any of its voluntary movement on any turn. On subsequent turns, 1/round the Atlas may choose another jockey option as a Free Action instead of a Full Action.",
+        "synergies": [
+          {
+            "locations": [
+              "ram"
+            ],
+            "detail": "The Atlas counts as Size 1 for the purpose of ramming."
+          }
+        ]
       }
     ],
     "core_system": {
       "name": "BLOODLINE Active Assist",
       "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
       "active_name": "Final Hunt",
-      "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
+      "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li><li>Can HIDE even in the open, without requiring cover, as well as while ENGAGED if you are Jockeying (you can still be shaken off the Jockey while Hidden). The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on.</li></ul><p>When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
       "activation": "Quick"
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_atlas.png",
@@ -930,12 +917,12 @@
       "name": "XIONG-Type CQB Suite",
       "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
       "active_name": "Xiaoli’s Ingenuity",
-      "active_effect": "Gain the following benefits for the rest of the scene:<ul><li>Your melee attacks gain Knockback 2.</li><li>When creating terrain with Destructive Swings, characters other than you adjacent to the created terrain are Impaired until the end of their next turn.</li><li>When destroying objects or terrain with Destructive Swings, characters other than you adjacent to the created terrain are Shredded until the end of their next turn.</li></ul>",
+      "active_effect": "Gain the following benefits for the rest of the scene:<ul><li>Your melee attacks gain Knockback 2.</li><li>When creating terrain with Destructive Swings, characters other than you that are adjacent to the created terrain are Impaired until the end of their next turn.</li><li>When destroying objects or terrain with Destructive Swings, characters other than you that are adjacent to the destroyed object or terrain are Shredded until the end of their next turn.</li></ul>",
       "activation": "Protocol"
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_zheng.png",
     "license_id": "mf_zheng"
-  }
+  },
   {
     "id": "valk-hr-mf_sagarmatha",
     "variant": "Everest",

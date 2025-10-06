@@ -378,15 +378,47 @@ Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especi
 
 #### Atlas Frame
 
-* Replace the last sentence of Giantkiller with the following: "While occupying the same spaces as any character, that character treats the Atlas as if it is Hidden, and all other characters treat the Atlas as though it has soft cover."
-  * This improves the Atlas's ability to single out targets by conferring additional defense through Hidden. It's easily counteracted by moving out of the Atlas's space, at the risk of provoking Overwatch (and, if the target was originally Prone, it may potentially require inefficient action use, such as using Boost or crawling while Prone).
+Previously, I attempted to refine the Atlas into a stealthier "in your space" hunter with better defenses (i.e., Hidden) against the target whose space it occupies. Since then, I've checked more of the Atlas's numbers (they're significantly below the Everest Average in every category save Agility) and decided that much of its license cares less about outright Hiding (besides positioning to cover) than it does being slippery and being in the right place at the right time, using its systems as tools for hunting, survival, and control. So, given how the Atlas is commonly used to fight Sparri Vast, I decided to shift from a "Hidden Shinobi" archetype to a "Shadow of the Colossus" one. Buff many of Atlas's stats, grant it a higher Save Target for its licensed gear, and lean into JK2's contested checks... by making it the one mech that can Jockey its opponents.
+
+* Increase E-Defense from 6 to 8.
+* Increase Repair Cap from 2 to 4.
+* Increase Sensor Range from 3 to 5.
+* Increase Save Target from 10 to 12.
+* Increase SP from 5 to 7.
+* Change Jäger Dodge from "move" to "move up to".
+* Remove Finishing Blow.
+* Add Competitive Edge:
+    > "The Atlas has +1 Accuracy on contested skill checks."
+* Change Giantkiller to:
+    > "The Atlas counts as Size 1 for Ram. It may use the Jockey action (Lancer, p. 75) as a Quick Action against any character larger than itself. While jockeying, the Atlas has soft cover and can end the jockey with any of its voluntary movement on any turn. On subsequent turns, 1/round the Atlas may choose another jockey option as a Free Action instead of a Full Action."
+* Change the first sentence of the third bullet point on Final Hunt to:
+    > "Can HIDE even in the open, without requiring cover, as well as while ENGAGED if you are Jockeying (you can still be shaken off the Jockey while Hidden)."
+
+#### Jäger Kunst I
+
+Jäger Kunst I has the same issues as Zheng's core power and Caliban's Pursue Prey: Tons of tiny pieces of mobility that create a new decision point at each step, in an unbounded fashion. (The Lancer developer has allegedly admitted that the expected number of triggers was around 3, but did not anticipate maps with large numbers of objects while paired with a Dusk Wing.) Now that my Atlas changes have removed its ability to ignore engagement with larger characters, I think that JK1 is an opportunity to reduce the number of decision points while providing a useful anti-engagement tool.
+
+* Change Jäger Kunst I to:
+    > Jäger Kunst I
+    > 2 SP, 1 Heat (Self), Unique, Protocol
+    > For the rest of the turn, when you start movement adjacent to an object or free-standing piece of terrain larger than you, you may flip kick off of it; the movement ignores engagement and doesn't provoke reactions due to the resultant momentum. You can do this multiple times a turn, but only once for each unique object or piece of terrain.
+
+#### Jäger Kunst II
+
+Second verse, rhymes with the first. Multiple decision points upon activating Fatal Clash which can slow a fight down. Instead, I augment Fatal Clash to be akin to Thermal Charge with a chance of failure: There's guaranteed damage that can be dealt, or the target can gamble on a contested check to inflict damage and Prone.
+
+* Change Fatal Clash to:
+    > Fatal Clash
+    > Reaction, 1/round
+    > Trigger: You deal damage to or take damage from a hostile character with a melee attack.
+    > Effect: After damage has been resolved, you inflict 2 Kinetic AP damage to the hostile character unless they choose to make a contested Hull or Agility check against you (each participant’s choice). The loser takes 1d6+1 Kinetic AP damage, is knocked Prone, and is knocked back 3 spaces away from the winner. On a tie, nothing happens.
 
 ### SSC Death’s Head
 
 #### Death’s Head Frame
 
 * Replace Neural Shunt with the following:
-    >"Neural Shunt, Active (1CP), Full Action, Efficient. As a Full Action, make an attack using a weapon mounted on your mech. On a hit, the attack deals the maximum possible damage. One target of this attack is automatically hit, and the attack is treated as a critical hit against them. Against that target, this attack cannot miss or be redirected in any way."
+    > "Neural Shunt, Active (1CP), Full Action, Efficient. As a Full Action, make an attack using a weapon mounted on your mech. On a hit, the attack deals the maximum possible damage. One target of this attack is automatically hit, and the attack is treated as a critical hit against them. Against that target, this attack cannot miss or be redirected in any way."
   * This is an experimental change for the Death’s Head, intended to focus on the mech's reliability when landing attacks. What it loses in massive damage, it makes up for in guaranteed damage.
 
 #### Tracking Bug
