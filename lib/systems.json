@@ -308,7 +308,8 @@
         "detail": "For the rest of this turn, when you start movement adjacent to an object or free-standing piece of terrain larger than you, you may flip kick off of it; the movement ignores engagement and doesn't provoke reactions due to the resultant momentum. You can do this multiple times a turn, but only once for each unique object or piece of terrain."
       }
     ],
-    "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury"
+    "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury.",
+    "license_id": "mf_atlas"
   },
   {
     "id": "valk-hr-ms_jäger_kunst_ii",
@@ -513,6 +514,7 @@
       {
         "id": "tg_unique"
       }
-    ]
+    ],
+    "license_id": "mf_gilgamesh"
   }
 ]
