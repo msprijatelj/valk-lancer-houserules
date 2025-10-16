@@ -3,7 +3,7 @@
   "author": "Valkyrion",
   "description": "A collection of house rules for the LANCER RPG.",
   "item_prefix": "valk-hr-",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": [
     {
       "name": "Lancer Long Rim Data",
