@@ -510,6 +510,32 @@ Cycle licensed options to gate more powerful options behind a higher license inv
     > "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within Range 3. On a failure, they don’t lose the attack, but they must select a different target for the attack. The target cannot be you or any allied character within Range 3 of you. If the attack was an area of effect, the attacker must position it such that it no longer targets you or any of your allies within Range 3. If no valid targets exist, the attack and action to use it are lost."
   * This effect prevents attacks against the Gorgon's allies without aggressively Stunning the rest of the enemy forces. This is intended to make Gorgon more manageable in one-shot contexts where only one or two combats occur before a Full Repair.
 
+### HORUS Kobold
+
+#### Kobold Frame
+
+* Increase Repair cap from 2 to 4.
+* Change Mimic Carapace to activate at the end of the Kobold's turn.
+  * It's highly committal and anti-synergistic to camp next to an object without making attacks or forcing saves (something that all but 1 piece of Kobold's gear wants to do). This change brings the Kobold in line with Ranger Swallowtail and should make this Invisibility more than just a ribbon.
+
+#### Forge Clamps
+
+* Change the effect to:
+    > You sink the jaws of your clamp into an adjacent object or piece of terrain of Size 1 or larger. You become Immobilized but gain Immunity to non-teleport involuntary movement and Prone. This effect ends if you’re no longer adjacent to the original object or terrain or if you release the clamp as a protocol.
+  * Remove some jankiness that allowed Kobold to stay clamped even if it was carried away from its rock (or vice versa). Broaden the immunity to forced movement to anything that isn't a teleport.
+
+#### Seismic Ripper
+
+* The system's Line ignores line of sight.
+  * The effect is seismic, it goes through the ground, it shouldn't matter if the target is visible in my books. Maria's house rules think so too!
+* Move to Kobold 3.
+  * Seismic Ripper is strong enough to warrant being in Kobold 3 to make space for Purifying Code in Kobold 2.
+
+#### Purifying Code
+
+* Move to Kobold 2.
+  * Kobold has two interesting tech systems, but both are locked behind Kobold 3. In order to add more texture to the license (and make it lore-compliant — this system is what creates the Kobold!), I move it to Kobold 2.
+
 ### HORUS Lich
 
 #### Wandering Nightmare
@@ -532,8 +558,8 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 #### Aggressive System Sync
 
-* Add the "Accurate" tag.
-  * Quick Techs can be used twice a turn without penalty — and often carry impactful effects, like Eject Power Cores. In comparison, Full Tech actions that make tech attacks are incredibly risky to use, as they are often all-or-nothing attacks with no consolation prize on a miss. In my opinion, if there isn't an easy way to apply a "miss" effect, it's better to simply make the attack easier to hit.
+* Change both options to deal 4 Heat on hit and 2 on miss. On hit, either effect lasts until the target makes a Systems save at the end of their turn. On a miss, the either effect only lasts until the end of the target's next turn. Excommunicate's shared 3 heat is reduced to 2 heat to compensate for the higher initial heat.
+  * Full Techs are high commitment choices that feel frustrating on a miss. Taking a page out of Pathfinder 2e's book, I introduce "on miss" effects that keep the entire Full Action from feeling wasted.
 
 #### Metafold Carver
 
@@ -542,14 +568,14 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 #### Law of Blades
 
-* Add the "Accurate" tag.
-  * See Aggressive System Sync.
+* Replace the effect of Predator/Prey Concepts with:
+    > Make a tech attack against a hostile character within Sensors. On a hit, they immediately Skirmish or use a Quick Tech action against a different character or object of your choice as a reaction. Although you choose their target and weapon or Quick Tech action, they count as attacking and taking a reaction. On a miss, the target takes 2 Heat and is Impaired until the end of their next turn.
+  * Broaden the effect to include Quick techs and include an on-miss consolation prize.
 * Rename "Slave Systems" to "Daemon Possession".
   * Replacing a problematic name with a tongue-in-cheek reference to software daemons.
-* Replace the second sentence of newly-renamed Daemon Possession with the following:
-    > "On a hit, they immediately take a tech action or tech attack – chosen by you – as a reaction."
-
-  * The original Slave Systems let the user perform basically every non-weapon-related action in the game. Unfortunately, none of those actions are particularly useful to force as a Reaction — especially Stabilize, when targeting is restricted to hostile characters. This change tears out the less useful options and replaces them with a spicier "Predator/Prey Concepts, but for Tech Actions". If giving players access to NPC tech actions is too powerful — even if that access is gated behind a License 3 Full Tech Attack, often against targets with higher E-Defense — then I think the Lancer system has bigger problems.
+* Replace the effect of newly-renamed Daemon Possession with the following:
+    > Make a tech attack against a hostile character within Sensors. On a hit, on their next turn, you choose one of their quick actions at any point in their turn, chosen from the following list: Boost, Grapple, Ram, or Activate (Quick). Although you choose the action and its target (if relevant), they count as taking the action. On a miss, the target takes 2 Heat and is Slowed until the end of their next turn. This can only be used 1/scene on each character.
+  * Move the action taken to the target's own turn, with an on-miss consolation prize effect. Limit this action to 1/scene per character.
 
 ## HA
 

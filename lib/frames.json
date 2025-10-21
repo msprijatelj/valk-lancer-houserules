@@ -782,6 +782,80 @@
     "license_id": "mf_caliban"
   },
   {
+    "id": "valk-hr-mf_kobold",
+    "source": "HORUS",
+    "name": "!V! Kobold",
+    "variant": "Kobold",
+    "mechtype": [
+      "Controller"
+    ],
+    "y_pos": 25,
+    "license_level": 2,
+    "description": "<p>The Kobold pattern group first appeared among revolutionary Ungratefuls toiling on Bo, the capital world of the House of Dust, where it manifested as a clever suite of hardware and software compatible with a broad range of mining and heavy industry mechs. The steaming, shuddering final result of K-PG exposure is an ugly affair: a device transformed from plow to blade by powerful, viral-morph liturgicode that is almost impossible for conventional codec sniffers to capture pre-print. </p> <p>The clandestine mechanisms by which the Kobold is transmitted and applied make it the perfect machine for fighting Baronic suppression forces. The desperate workers who printed the first Kobolds found them to be eminently fungible. When loaded into their mining exos and chassis, the K-PG code repurposed reactors and industrial tools to deadly effect, weaponizing the very materials and superstructures that powered it. The rapid flash-melting, processing, and extruding of raw material into molten plural-state particles is dangerous &ndash; often just as dangerous to its pilot as the final product is to its targets. </p> <p>Operational dangers notwithstanding, the Ungratefuls who first adopted the K-PG stunned their Baronic overseers with a series of rapid and total victories, liberating a great swath of lunar helium-3 mines. While the insurgency was eventually contained to Bo, it continues, necessitating the deployment of the House of Dust's Graveborn Banner Company for counter-insurgency operations beyond the capability of local security forces. </p> <p>HORUS's assets in the Long Rim continue to produce K-PG liturgicode seeds. The House of Dust has contracted Mastodon to track down and eliminate HORUS elements in the area; meanwhile, Harrison Armory has reached out to the Brigade-Legion to counter the House of Dust's efforts. </p>",
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 0.5,
+      "stress": 4,
+      "structure": 4,
+      "armor": 1,
+      "hp": 6,
+      "evasion": 10,
+      "edef": 10,
+      "heatcap": 6,
+      "repcap": 4,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 4,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "name": "Mimic Carapace",
+        "description": "When the Kobold ends its turn adjacent to a piece of terrain or hard cover of SIZE 1 or larger it becomes INVISIBLE as long as it remains adjacent. It ceases to be INVISIBLE if it attacks or takes damage."
+      },
+      {
+        "name": "Slag Spray",
+        "description": "1/round, as a quick action, the Kobold may create a SIZE 1 mound of semi-molten polymer in a free space within Range 3 and line of sight. This terrain has 10 HP, EVASION 5, and grants hard cover.",
+        "deployables": [
+          {
+            "name": "Slag Spray",
+            "type": "Deployable",
+            "size": 1,
+            "hp": 10,
+            "evasion": 5,
+            "activation": "Quick",
+            "detail": "This semi-molten polymer grants hard cover."
+          }
+        ]
+      },
+      {
+        "name": "Exposed Reactor",
+        "description": "The Kobold gets +1 Difficulty on ENGINEERING checks and saves.",
+        "synergies": [
+          {
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "detail": "The Kobold takes +1 difficulty on Engineering checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Terraform",
+      "description": "Screeching and venting steam, the Kobold digs into the earth. Moments later, the very ground bends to the pilot’s will and the air shrieks with agony — the cry of every dead Ungrateful, martyred or taken by the Dustmen",
+      "active_name": "Terraform",
+      "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in free spaces within Range 5. These cubes can be separate or connected and can be stacked up to 5 spaces high. If connected, they form a contiguous surface that can block line of sight. During the turn in which they are extruded, the cubes grant soft cover and each has EVASION 5 and 10 HP. At the start of your next turn, they harden, each cube granting hard cover and gaining +10 HP (but retaining any damage they had taken).",
+      "activation": "Full"
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_kobold.png",
+    "license_id": "mf_kobold"
+  },
+  {
     "id": "valk-hr-mf_sunzi",
     "source": "HA",
     "name": "!V! Sunzi",
