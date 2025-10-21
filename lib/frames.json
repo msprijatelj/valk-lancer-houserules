@@ -642,13 +642,13 @@
     "traits": [
       {
         "name": "Jäger Dodge",
-        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move up to 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 1 to 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
         "actions": [
           {
             "name": "Jäger Dodge",
             "activation": "Reaction",
             "trigger": "You take damage from a character larger than yourself",
-            "detail": "Gain resistance to that damage and move up to 3 spaces in any direction, ignoring engagement and reactions."
+            "detail": "Gain resistance to that damage and move 1 to 3 spaces in any direction, ignoring engagement and reactions."
           }
         ]
       },
