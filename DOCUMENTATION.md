@@ -370,7 +370,7 @@ Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especi
 #### Integrated Nerveweave
 
 * Replace the effect with the following:
-    >Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.
+    > Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.
 
   * Another one inspired from conversations with Pilot NET, this provides Nerveweave a more reliable speed bonus while effectively maintaining the original benefit.
 
@@ -385,7 +385,8 @@ Previously, I attempted to refine the Atlas into a stealthier "in your space" hu
 * Increase Sensor Range from 3 to 5.
 * Increase Save Target from 10 to 12.
 * Increase SP from 5 to 7.
-* Change Jäger Dodge from "move" to "move up to".
+* Change Jäger Dodge from "move 3" to "move 1 to 3".
+  * Require at least 1 space of movement to "bail" from Jockeys (see below) and leave some vulnerability to Slowed.
 * Remove Finishing Blow.
 * Add Competitive Edge:
     > "The Atlas has +1 Accuracy on contested skill checks."
