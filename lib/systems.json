@@ -186,11 +186,7 @@
     "name": "!V! Aggressive System Sync",
     "type": "Tech",
     "sp": 2,
-    "tags": [
-      {
-        "id": "tg_accurate"
-      }
-    ],
+    "tags": [],
     "source": "HORUS",
     "license": "Minotaur",
     "license_level": 2,
@@ -199,13 +195,13 @@
         "name": "Chains of Prometheus",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        "detail": "Make a tech attack against a character within Sensors. On a miss, they take 2 heat and, until the end of their next turn, they take 2 heat any time they are more than range 3 from you at the end of your turn. On a hit, the target instead takes 4 heat, and the effect lasts until the target succeeds on a Systems save at the end of their turn. This can only affect one character at a time."
       },
       {
         "name": "Excommunicate",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        "detail": "Make a tech attack against a character within Sensors. On a miss, they take 2 heat and, until the end of their next turn, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 2 heat. On a hit, the target instead takes 4 heat, and the effect lasts until the target succeeds on a Systems save at the end of their turn. This can only affect one character at a time."
       }
     ],
     "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>",
@@ -243,9 +239,6 @@
     "tags": [
       {
         "id": "tg_unique"
-      },
-      {
-        "id": "tg_accurate"
       }
     ],
     "source": "HORUS",
@@ -256,13 +249,13 @@
         "name": "Predator/Prey Concepts",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately attack a different character or object of your choice with a single weapon as a reaction. Although you choose their target and weapon, they count as attacking and taking a reaction."
+        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately Skirmish or use a Quick Tech action against a different character or object of your choice as a reaction. Although you choose their target and weapon or Quick Tech action, they count as attacking and taking a reaction. On a hit or miss, the target cannot take reactions for the rest of the turn."
       },
       {
         "name": "Daemon Possession",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately take a tech action or tech attack – chosen by you – as a reaction. Although you choose the action and its target (if relevant), they count as taking the action and taking a reaction."
+        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, on their next turn, you choose one of their quick actions at any point in their turn, chosen from the following list: Boost, Grapple, Ram, or Activate (Quick). On a miss, they decide when you may choose their quick action. Although you choose the action and its target (if relevant), they count as taking the action."
       }
     ],
     "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
