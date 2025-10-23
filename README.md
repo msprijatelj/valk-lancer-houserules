@@ -24,3 +24,4 @@ All changes to the original data are documented in [CHANGELOG.md](https://github
 
 _Lancer_ is copyright Massif Press.
 
+The GNU GPL v3 License in this repository covers the `scripts` directory and `index.js` file. The remaining files are all rights reserved.

@@ -158,10 +158,21 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 * Replace the second and third sentences with:
   > "While inside a CZ, PCs may take a quick action to survey the CZ; each CZ can only be surveyed once, and a given PC can only survey one CZ per round. Once all CZs have been surveyed, the GM randomly determines the True CZ."
 
+# Tags
+
+### Overkill
+
+* Change Overkill to the following:
+    > When rolling damage with this weapon, you may choose to roll with OVERKILL. If you do, you must reroll any damage dice that land on 1. Additional 1s continue to be rerolled. After damage is applied, the attacker takes equal to the number of dice rerolled.
+  * This changes Overkill to be opt-in to play nicely with the Overheating rules, and consolidates the heat created by Overkill into a single package that can be Resisted.
+
 # Talents
 
 ### Exemplar
 
+* In Rank 2, "Punishment", replace with:
+    > "1/round, when a character with your Mark in Range 3 attacks a chracter other than you, they trigger your Overwatch."
+  * Restricting allies to stay within Range 3 makes it harder for the Exemplar to do their job in a ranged-focused game like Lancer. This inverts the restriction to encourage staying close to the marked foe instead of trying to hug your allies too hard.
 * In Rank 3, "To the Death", replace "this effect ceases for them until the start of your next turn" with "this effect ceases for them until the end of the current turn".
   * This improves uptime on "To The Death" when dealing with off-turn attacks.
 
@@ -501,6 +512,36 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 * Reduce `license_level` from 3 to 1.
   * A solid Main Nexus that never gets picked due to being sequestered in Balor 3. Simply making this more accessible.
+
+### HORUS Goblin
+
+#### Goblin Frame
+
+#### H0R_OS System Upgrade I
+
+* Replace the Eject Power Cores with the following:
+    > Network Binding: You chain the target's systems to one space they currently occupy. If the target moves more than 3 spaces from that point, they become Jammed until the end of their next turn and the chain ends. The target may remove the chain with a successful Systems save as a quick action; otherwise, it lasts until the end of the scene. This option can only be used 1/scene on each character.
+  * Jammed is an incredibly powerful condition to inflict with a quick action at a variety of Sensor ranges (to say nothing of the Grunt-popping 2 energy damage on top). I considered splitting up H0R_OS 1 with other invade options, moving it to Goblin 3, and so on, but those all add hurdles for mech _building_, not mech _fighting_. Once players assemble the pieces that I scatter to the four winds, their combat turns will likely wind up looking the same as they do now: Full Tech OSIRIS and Invade: Eject Power Cores. In my opinion, the true issue is that Eject Power Cores is amazing value for a Quick Action; therefore, dial it back to be akin to the Witch's Chain, forcing the user to commit at least one more quick action to force a Jam (such as by Network Binding followed by Puppet Systems).
+
+#### Metahook
+
+* Change so that instead of mirroring heat and conditions, instead when one character is affected by a Tech Action, the other character receives the same effect.
+  * The mirrored Heat is incredibly dangerous for Metahook, regardless of whether that Heat is friendly or hostile. This preserves the original intent of a shared system while allowing for safe usage of self-inflicted heat and conditions.
+
+#### OSIRIS-Class NHP
+
+* Replace OSIRIS with the following:
+    > Your mech gains the AI tag. In addition, you gain a Gate Die, a d6 starting at 1. The die ticks up at the end of any turn on which you hit with a tech attack. Lastly, you gain the Hurl Into The Duat Quick Tech action.
+* Replace Hurl Into the Duat with the following:
+    > Hurl Into The Duat - Quick Tech, 1/round
+    > 
+    > Make a tech attack against a target within Sensors. On a hit, the target gains 2 heat and suffers one of the following effects depending on the value of your Gate die:
+    > * 2+ First Gate: You control your target's standard move next turn.
+    > * 3+ Second Gate: Your target becomes Stunned until the end of their next turn.
+    > * 4+ Third Gate: Your target changes allegiance... [unchanged from Fourth Gate text from Lancer, p. 200]
+    >
+    > After resolving this attack, reset your Gate Die to 1. It does not tick up this turn.
+  * Paired with H0R_OS 1, OSIRIS forms an incredibly solid "default turn" for hackers who invested in Goblin 3. While I support strong control options, I dislike how OSIRIS homogenizes turns by dangling the carrot of "Stun" and "Dominate" behind two weaker (but still useful) effects. To break OSIRIS from the typical "Invade" form, I steal a page from the Kidd's book with a slow-build counter and eventual payoff depending on how high the counter is.
 
 ### HORUS Gorgon
 
