@@ -149,7 +149,6 @@
     "actions": [
       {
         "activation": "Full Tech",
-        "tech_attack": true,
         "detail": "Choose a character within Sensors and line of sight. They must make an Agility save: On a success, they receive Lock On. On a failure, they take 2 heat, Lock On, and cannot benefit from soft cover or Invisible until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit."
       }
     ],
@@ -186,11 +185,7 @@
     "name": "!V! Aggressive System Sync",
     "type": "Tech",
     "sp": 2,
-    "tags": [
-      {
-        "id": "tg_accurate"
-      }
-    ],
+    "tags": [],
     "source": "HORUS",
     "license": "Minotaur",
     "license_level": 2,
@@ -199,13 +194,13 @@
         "name": "Chains of Prometheus",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        "detail": "Make a tech attack against a character within Sensors. On a miss, they take 2 heat and, until the end of their next turn, they take 2 heat any time they are more than range 3 from you at the end of your turn. On a hit, the target instead takes 4 heat, and the effect lasts until the target succeeds on a Systems save at the end of their turn. This can only affect one character at a time."
       },
       {
         "name": "Excommunicate",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        "detail": "Make a tech attack against a character within Sensors. On a miss, they take 2 heat and, until the end of their next turn, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 2 heat. On a hit, the target instead takes 4 heat, and the effect lasts until the target succeeds on a Systems save at the end of their turn. This can only affect one character at a time."
       }
     ],
     "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>",
@@ -243,9 +238,6 @@
     "tags": [
       {
         "id": "tg_unique"
-      },
-      {
-        "id": "tg_accurate"
       }
     ],
     "source": "HORUS",
@@ -256,13 +248,13 @@
         "name": "Predator/Prey Concepts",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately attack a different character or object of your choice with a single weapon as a reaction. Although you choose their target and weapon, they count as attacking and taking a reaction."
+        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately Skirmish or use a Quick Tech action against a different character or object of your choice as a reaction. Although you choose their target and weapon or Quick Tech action, they count as attacking and taking a reaction. On a miss, the target takes 2 Heat and is Impaired until the end of their next turn."
       },
       {
         "name": "Daemon Possession",
         "activation": "Full Tech",
         "tech_attack": true,
-        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately take a tech action or tech attack – chosen by you – as a reaction. Although you choose the action and its target (if relevant), they count as taking the action and taking a reaction."
+        "detail": "Make a tech attack against a hostile character within Sensors. On a hit, on their next turn, you choose one of their quick actions at any point in their turn, chosen from the following list: Boost, Grapple, Ram, or Activate (Quick). Although you choose the action and its target (if relevant), they count as taking the action. On a miss, the target takes 2 Heat and is Slowed until the end of their next turn. This can only be used 1/scene on each character."
       }
     ],
     "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
@@ -339,6 +331,63 @@
     ],
     "description": "The rarest of Atlas frames can be printed with the embedded muscle memories of Jäger Kunst masters: old Sparri and others who have dedicated lives to their martial art. SSC does not recommend using these embedded systems without proper bodily tempering and will not release these programs to unqualified pilots.",
     "license_id": "mf_atlas"
+  },
+  {
+    "id": "valk-hr-ms_forge_clamps",
+    "name": "!V! Forge Clamps",
+    "type": "System",
+    "sp": 1,
+    "source": "HORUS",
+    "license": "Kobold",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "You sink the jaws of your clamp into an adjacent object or piece of terrain of Size 1 or larger. You become Immobilized but gain Immunity to non-teleport involuntary movement and Prone. This effect ends if you’re no longer adjacent to the original object or terrain or if you release the clamp as a protocol."
+      }
+    ],
+    "description": "Repurposed from polycrete foundry tongs, these simple manipulators are incredibly resistant to heat and deformation. Using the KOBOLD protocols, previously inert forge clamps become the adherent surfaces for thin plasma sheaths; like blades, they can shear through armor, earth, or bulkhead with ease. One common tactic involves “flashing” plasma across the clamps, fusing them to their target until the Kobold pilot “flashes” them free.",
+    "license_id": "mf_kobold"
+  },
+  {
+    "id": "valk-hr-ms_seismic_pulse",
+    "name": "!V! Seismic Ripper",
+    "type": "System",
+    "sp": 2,
+    "source": "HORUS",
+    "license": "Kobold",
+    "license_level": 3,
+    "actions": [
+      {
+        "activation": "Full",
+        "detail": "You unleash a seismic pulse in a line 10 path that travels along the ground and ignores line of sight: characters in the affected area must pass a Hull save or be knocked Prone and all objects and pieces of terrain automatically take 10 AP energy damage. If this destroys a piece of terrain or object, it explodes with a Burst 1 area. Characters caught in the area of exploding terrain or objects must pass an Agility save or take 2d6 explosive damage. If they pass, they take half damage. Each character can only be affected by one of these explosions at a time, even if several overlap."
+      }
+    ],
+    "description": "A deadly weapon created from simple shaped charges – the perfect catalyst for insurrection. Easily obtained and disguised as necessary equipment for blast-mining, charges rigged to produce a linear seismic pulse were common in the early days of Ungrateful activity. As Baronic security adapted their strategies, so too did the Ungratefuls; now, these once-simple explosive devices are much more complex – harder to detect, and far more deadly.",
+    "license_id": "mf_kobold"
+  },
+  {
+    "id": "valk-hr-ms_purifying_code",
+    "name": "!V! Purifying Code",
+    "type": "System",
+    "sp": 2,
+    "source": "HORUS",
+    "license": "Kobold",
+    "license_level": 2,
+    "actions": [
+      {
+        "name": "FLAW_plus",
+        "activation": "Invade",
+        "detail": "You inject a memetic, proximity based virus into the target’s reactor. At the end of their next turn, if they are not adjacent to another character or piece of terrain of Size 1 or larger, the virus catalyzes and they take 1d6+2 AP explosive damage. Once catalyzed, the effect ends.<br>A character can only be affected by one Purifying Code option at a time and are aware of their effects."
+      },
+      {
+        "name": "FLAW_minus",
+        "activation": "Invade",
+        "detail": "You inject a memetic, proximity based virus into the target’s reactor. At the end of their next turn, if they are adjacent to another character or piece of terrain of Size 1 or larger, the virus catalyzes and they take 1d6+2 AP explosive damage. Once catalyzed, the effect ends.<br>A character can only be affected by one Purifying Code option at a time and are aware of their effects"
+      }
+    ],
+    "description": "The key to the KOBOLD’s creation — a deceptively simple code that unlocks reactor safety limiters in civilian mining mechs. This also bears the only evidence pointing towards a possible creator: “Dog.”",
+    "license_id": "mf_kobold"
   },
   {
     "id": "valk-hr-ms_tear_firmament",
