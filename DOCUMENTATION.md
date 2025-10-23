@@ -286,6 +286,12 @@ This came from a suggestion from Perijove on the PilotNET Discord server:
     > "The Sagarmatha may Brace 2/scene."
   * This change reflects the modification made to the Brace action while preserving the intent of Heroism (getting a "free Brace").
 
+### GMS Chomolungma
+
+#### Chomolungma Frame
+
+* Change Wide Area Code Pulse so that only a single Invade option is chosen and then applied to all targets.
+
 ## IPS-N
 
 ### IPS-N Core Bonuses
