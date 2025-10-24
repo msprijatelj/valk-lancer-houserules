@@ -1,3 +1,7 @@
 [
-
+  {
+    "id": "tg_overkill",
+    "name": "!V! Overkill",
+    "description": "When rolling damage with this weapon, you may choose to roll with OVERKILL. If you do, you must reroll any damage dice that land on 1. Additional 1s continue to be rerolled. After damage is applied, the attacker takes equal to the number of dice rerolled."
+  }
 ]
