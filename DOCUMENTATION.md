@@ -1,4 +1,4 @@
-# Documentation (Version 0.3.0-alpha)
+# Documentation (Version 0.3.0)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -536,6 +536,15 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Change Reactive Code to the following:
     > If a hostile character hits you or one of your allies with a tech attack, they gain the Lock On condition after resolving the attack.
   * Reactive code suffers from two problems: It's an incredibly potent reaction, and no enemy in their right mind wants to trigger it. Engaging with this mechanic as a GM is the epitome of "shoot your monks" philosophy, which in my opinion is a weakness in the feature's design. This change dials back the effect in exchange for broadening its coverage, thus making it harder for the opponent to avoid. Plus, the Lock On helps make up for the loss of the old Liturgicode and synergizes with Hacker 1!
+* Change Symbiosis to the following:
+    > Your mech retracts its major systems and attaches itself to another mech, becoming more like a vestigial blister than a separate entity. You meld with a larger, willing, and adjacent allied mech. While melded, you share the melded ally's space, are IMMUNE to involuntary movement, but move with all of the melded ally's movement (including their involuntary movement and teleportation). In addition, you gain hard cover and gain Accuracy on all tech attacks as you leverage the melded ally's systems.
+    >
+    > Both you and the melded ally gain the following benefits:
+    > - Each of you may use the other’s Sensors, Systems, Tech Attack, Save Target, and E-Defense or their own, whichever is higher.
+    > - You may Activate each other’s systems and Tech Actions, but the original owner is treated as taking the action.
+    > - When one of you is affected by a tech action, the other receives the same effect.
+    >
+    > This melding lasts until the end of the scene or until you end it and move to an adjacent space as a quick action.
 
 #### H0R_OS System Upgrade I
 
@@ -579,8 +588,8 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Change Mimic Carapace to activate at the end of the Kobold's turn.
   * It's highly committal and anti-synergistic to camp next to an object without making attacks or forcing saves (something that all but 1 piece of Kobold's gear wants to do). This change brings the Kobold in line with Ranger Swallowtail and should make this Invisibility more than just a ribbon.
 * Replace the effect of Terraform with the following:
-    > Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in spaces within Range 5. Characters occupying a space in which a cube is placed must make an Agility save or become trapped in the polymer, becoming Immobilized until the cube is destroyed or until they escape with a Hull check as a quick action. The cubes can be stacked up to 5 spaces high, but each cube must share a face with another cube, forming a contiguous surface that grants hard cover and blocks line of sight. Each cube has Evasion 5 and 10 HP.
-  * Simplify the active effect into a single continuous wall, but speed up the hardening process to compensate.
+    > Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in spaces within Range 5. Characters occupying a space in which a cube is placed must make an Agility save or become trapped in the polymer, becoming Immobilized until the cube is destroyed or until they escape to the nearest free space with a Hull check as a quick action. The cubes can be stacked up to 5 spaces high, but each cube must share a face with another cube, forming a contiguous surface that grants hard cover and blocks line of sight. Each cube has Evasion 5 and 10 HP.
+  * Simplify the active effect into a single continuous wall, but speed up the hardening process to compensate. Add a sticky immobilize effect to enhance the control options.
 
 #### Forge Clamps
 
