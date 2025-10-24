@@ -524,6 +524,19 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 #### Goblin Frame
 
+* Reduce Evasion from 10 to 8 and Speed from 5 to 4. Increase Repair Cap from 2 to 4.
+  * Goblin's base stat average is relatively close to Everest's... except it has sharp strengths in Systems and harsh weaknesses in Engineering and Hull. This dials back the Goblin's marginal benefit in Agility to shore up its "Hull score" with a bare minimum of 4 Repair Cap.
+* Make Liturgicode a Core Passive, and change it to the following:
+    > Liturgicode - Reaction, 1/scene
+    > 
+    > Trigger: A hostile character in Sensors and line of sight performs a tech action.
+    > 
+    > Effect: Interrupt the action by making a contested Systems check against the triggering character. If you succeed, the target’s tech action fails. On your next turn only, you may attempt to perform the same tech action, paying the same action cost but using your Tech Attack and Save Target for any of the action’s attacks or saves.
+  * RAW Liturgicode granting +1 Accuracy on all tech attacks is an obscene amount of power that the Goblin frankly does not need. This gives the Goblin an interesting, 1/scene reaction that can facilitate emergent combo play.
+* Change Reactive Code to the following:
+    > If a hostile character hits you or one of your allies with a tech attack, they gain the Lock On condition after resolving the attack.
+  * Reactive code suffers from two problems: It's an incredibly potent reaction, and no enemy in their right mind wants to trigger it. Engaging with this mechanic as a GM is the epitome of "shoot your monks" philosophy, which in my opinion is a weakness in the feature's design. This change dials back the effect in exchange for broadening its coverage, thus making it harder for the opponent to avoid. Plus, the Lock On helps make up for the loss of the old Liturgicode and synergizes with Hacker 1!
+
 #### H0R_OS System Upgrade I
 
 * Replace the Eject Power Cores with the following:

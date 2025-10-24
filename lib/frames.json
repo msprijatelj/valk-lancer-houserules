@@ -487,6 +487,78 @@
     "license_id": "mf_mourning_cloak"
   },
   {
+    "id": "valk-hr-mf_goblin",
+    "license_level": 2,
+    "source": "HORUS",
+    "name": "!V! Goblin",
+    "variant": "Goblin",
+    "mechtype": [
+      "Controller",
+      "Support"
+    ],
+    "y_pos": 12.5,
+    "description": "The Goblin was the first identified HORUS frame, and is likely the oldest legacy chassis prior to HORUS’s transition to pattern groups. Transmission records traced back to the Goblin’s zero model indicate the first chassis was leaked onto the omninet in 4900u. This year serves as HORUS’s assumed “foundation day” for most scholars and intelligence officers who study the group, though contradictory signatures indicate that 4900u is far too late to mark its birth.<br>The Goblin is a small mech, not much larger than a hardsuit, that relies on its small size and excellent maneuverability to protect its pilot. It packs an interesting recursive processing weave that facilitates electronic warfare capabilities well beyond theoretical parameters.<br>GMS technicians are still, more than a century later, working to reverse engineer the Goblin and its processing weave. The most recent investigations suggest that it employs technology consistent with hieroglyphic inscriptions noted on LRA.7726235-B and corroborated by tablets transmitted by UIB-GORGON from Metavault XOLOTL prior to the vault’s disappearance.",
+    "mounts": [
+      "Flex"
+    ],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 8,
+      "edef": 12,
+      "heatcap": 4,
+      "repcap": 4,
+      "sensor_range": 20,
+      "tech_attack": 2,
+      "save": 11,
+      "speed": 4,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "name": "Reactive Code",
+        "description": "If a hostile character hits you or one of your allies with a tech attack, they gain the Lock On condition after resolving the attack."
+      },
+      {
+        "name": "Fragile",
+        "description": "The Goblin receives +1 difficulty on Hull checks and saves.",
+        "synergies": [
+          {
+            "locations": [
+              "hull",
+              "skill_check"
+            ],
+            "detail": "The Goblin receives +1 difficulty on Hull checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "INSTINCT Rig",
+      "description": "One of the first Goblin-pattern systems cracked by GMS technicians was its e-warfare invasion rig, although the rig’s advanced capabilities and architecture remain impenetrable. When installed, the rig manifests a subsentient intelligence – designated INSTINCT – that assists invasion attempts against target systems using a mix of physical and systemic parasymbiotic systems. Invasions attempted while INSTINCT is active are not perceived by the user as code and script, but as an attack on organic matter. INSTINCT has displayed the capacity to act independently, often preempting its user, but generally in their best interest. Readme documentation included in some Goblin manifestations recommend that pilots cycle their mech cores at least once a month to prevent spontaneous enlightenment, though most do not make note of this warning.",
+      "active_name": "Symbiosis",
+      "active_effect": "Your mech retracts its major systems and attaches itself to another mech, becoming more like a vestigial blister than a separate entity. The host must be an allied and willing mech not already hosting another Goblin, larger than and adjacent to you. While attached, you occupy their space, move with them, and benefit from hard cover, but can still be attacked and targeted separately. You also take any conditions and heat taken by your host.<br>Your host may use your Systems, E-Defense, and Tech Attack instead of their own. Additionally, from the beginning of the next round, you no longer take your own turns; instead, you can take two quick actions or one full action at any point during your host’s turn. You can’t Overcharge or move, but may still take reactions and free actions normally. Your host’s turn counts as your turn for the purpose of effects that refer to the start or end of a character’s turn.<br>This effect lasts either for the rest of the scene, until you detach as a quick action, or until you or your host becomes Stunned. When the effect ends, you don’t take a turn until the next round.",
+      "activation": "Quick",
+      "deactivation": "Quick",
+      "use": "Encounter",
+      "passive_name": "Liturgicode",
+      "passive_actions": [
+        {
+          "name": "Liturgicode",
+          "activation": "Reaction",
+          "frequency": "1/scene",
+          "trigger": "A hostile character in Sensors and line of sight performs a tech action.",
+          "detail": "Interrupt the action by making a contested Systems check against the triggering character. If you succeed, the target’s tech action fails. On your next turn only, you may attempt to perform the same tech action, paying the same action cost but using your Tech Attack and Save Target for any of the action’s attacks or saves."
+        }
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_goblin.png",
+    "license_id": "mf_goblin"
+  },
+  {
     "id": "valk-hr-mf_gorgon",
     "license_level": 2,
     "source": "HORUS",
