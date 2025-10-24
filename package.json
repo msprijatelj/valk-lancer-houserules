@@ -1,6 +1,6 @@
 {
   "name": "@valkneron/valk-lancer-houserules",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "House rules for the LANCER TTRPG",
   "type": "module",
   "main": "index.js",
