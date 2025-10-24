@@ -578,6 +578,9 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Increase Repair cap from 2 to 4.
 * Change Mimic Carapace to activate at the end of the Kobold's turn.
   * It's highly committal and anti-synergistic to camp next to an object without making attacks or forcing saves (something that all but 1 piece of Kobold's gear wants to do). This change brings the Kobold in line with Ranger Swallowtail and should make this Invisibility more than just a ribbon.
+* Replace everything after the first sentence of Terraform with the following:
+    > The cubes can be stacked up to 5 spaces high, but each cube must share a face with another cube, forming a contiguous surface that grants hard cover and blocks line of sight. Each cube has Evasion 5 and 10 HP.
+  * Simplify the active effect into a single continuous wall, but speed up the hardening process to compensate.
 
 #### Forge Clamps
 
