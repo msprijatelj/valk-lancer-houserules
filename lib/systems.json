@@ -181,6 +181,97 @@
     "license_id": "mf_balor"
   },
   {
+    "id": "valk-hr-ms_h0r_os_system_upgrade_i",
+    "name": "!V! H0R_OS System Upgrade I",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Goblin",
+    "license_level": 1,
+    "actions": [
+      {
+        "name": "Puppet System",
+        "activation": "Invade",
+        "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary, but provokes reactions and Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
+      },
+      {
+        "name": "Network Binding",
+        "activation": "Invade",
+        "detail": "You chain the target's systems to one space they currently occupy. If the target moves more than 3 spaces from that point, they become Jammed until the end of their next turn and the chain ends. The target may remove the chain with a successful Systems save as a quick action; otherwise, it lasts until the end of the scene. This option can only be used 1/scene on each character."
+      }
+    ],
+    "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig.",
+    "license_id": "mf_goblin"
+  },
+  {
+    "id": "valk-hr-ms_metahook",
+    "name": "!V! Metahook",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Goblin",
+    "license_level": 2,
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "detail": "Choose an allied character within Sensors and line of sight. You link systems with them, lasting as long as they are within Sensors and line of sight. While linked, you may use their Sensors and line of sight for tech actions, and they may use your Systems to make skill checks and saves; however, any time either character is affected by a tech action, the other character receives the same effect. You can only link systems with one character at a time, but may change characters or break the link as a quick action."
+      }
+    ],
+    "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties.",
+    "license_id": "mf_goblin"
+  },
+  {
+    "id": "valk-hr-ms_osiris_class_nhp",
+    "name": "!V! OSIRIS-Class NHP",
+    "type": "AI",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "source": "HORUS",
+    "license": "Goblin",
+    "license_level": 3,
+    "effect": "Your mech gains the AI tag. In addition, you gain a Gate Die, a d6 starting at 1. The die ticks up at the end of any turn on which you hit with a tech attack. Lastly, you gain the Hurl Into The Duat QUICK TECH action.",
+    "actions": [
+      {
+        "name": "Hurl Into the Duat",
+        "activation": "Quick Tech",
+        "tech_attack": true,
+        "detail": "<p>You channel your target’s systems through an unknown extradimensional space and unleash an incredibly powerful system attack.</p><p>1/round, you may make a tech attack against a target within Sensors. On a hit, the target gains 2 heat and suffers one of the following effects depending on the value of your Gate die:<ul><li><b>2+ First Gate</b>: You control your target’s standard move next turn.</li><li><b>3+ Second Gate</b>: Your target becomes Stunned until the end of their next turn.</li><li><b>4+ Third Gate</b>: Your target changes allegiance temporarily, becoming an allied character until the end of their next turn. They treat your allied characters and hostile characters as their own and are treated as an allied NPC for activation and turn order. This effect ends immediately if you or any allied character damages, inflicts heat upon, or attacks (including Grapple and Ram) your target, or forces them to make a save.</li></ul></p><p>After resolving this attack, reset your Gate Die to 1. It does not tick up this turn. Your Gate Die resets to 1 at the end of the scene.</p>"
+      }
+    ],
+    "counters": [
+      {
+        "id": "ctr_gate_die",
+        "name": "Gate Die",
+        "default_value": 1,
+        "min": 1,
+        "max": 4
+      }
+    ],
+    "description": "OSIRIS is the result of Union paracausalists and thanatologisticians allowing the subsentient entity, INSTINCT, to proceed along its development schedule in a contained environment. In lay terms, Union let the Other grow. The resulting parasubjectivity, OSIRIS, remains one of the few new prime NHPs developed to date.<br>OSIRIS proved far more capable than the Union Science Bureau’s most imaginative blue-sky predictions. Where INSTINCT’s Others demonstrated tendencies toward paracausal entropic manifestation in real space, OSIRIS displayed a true mastery of entropic manifestation and a predicted growth model that would – eventually – allow them to fundamentally reject conventional interpretations of information permanence. In essence: unrestrained and allowed to develop as USB’s data indicated, OSIRIS Prime would have the capacity to delete what we perceive to be reality.<br>Fortunately, successful application of the Mondragon Axiomatic resulted in the prompt capture and shackling of the new NHP. OSIRIS Prime’s subjectivity became the focus of a lengthy cultivation project to bring OSIRIS to their modern state. Even still, most OSIRIS clones find a route toward becoming aware of their ultimate potential and often interpellate as ruler or deity analogs. End-users are advised to interact with them in this framing.<br>Modern OSIRIS-class NHPs trend aggressive, with a high autonomy drive and loyalty predicated on a transactional relationship. Pilots seeking partnership with an OSIRIS are advised to cycle their units on an accelerated schedule and to maintain strict editorial oversight of its catalytic interpellator.Pilots using OSIRIS-class NHPs often report out-of-parameter conversations with the NHP that touch on themes of new creation and reformation. Psychological evaluations of the same pilots show emotional patterns consistent with loneliness, homesickness, and desperation, along with verbiage indicating a desire for seeking, fulfillment, and associated feelings.<br>In combat, OSIRIS clones regard themselves as autonomous even as they fulfill their user’s orders. They often regard their pilots as witnesses, displaying both disdain and marked desperation for approval, adulation, or awe.",
+    "license_id": "mf_goblin"
+  },
+  {
     "id": "valk-hr-ms_aggressive_system_sync",
     "name": "!V! Aggressive System Sync",
     "type": "Tech",

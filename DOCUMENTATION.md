@@ -532,7 +532,7 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 #### Metahook
 
-* Change so that instead of mirroring heat and conditions, instead when one character is affected by a Tech Action, the other character receives the same effect.
+* Change so that instead of mirroring heat and conditions, instead when one character is affected by a Tech Action, the other character receives the same effect. Additionally, add the ability to end Metahook early as a Quick Action.
   * The mirrored Heat is incredibly dangerous for Metahook, regardless of whether that Heat is friendly or hostile. This preserves the original intent of a shared system while allowing for safe usage of self-inflicted heat and conditions.
 
 #### OSIRIS-Class NHP
@@ -542,12 +542,12 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Replace Hurl Into the Duat with the following:
     > Hurl Into The Duat - Quick Tech, 1/round
     > 
-    > Make a tech attack against a target within Sensors. On a hit, the target gains 2 heat and suffers one of the following effects depending on the value of your Gate die:
+    > 1/round, you may make a tech attack against a target within Sensors. On a hit, the target gains 2 heat and suffers one of the following effects depending on the value of your Gate die:
     > * 2+ First Gate: You control your target's standard move next turn.
     > * 3+ Second Gate: Your target becomes Stunned until the end of their next turn.
     > * 4+ Third Gate: Your target changes allegiance... [unchanged from Fourth Gate text from Lancer, p. 200]
     >
-    > After resolving this attack, reset your Gate Die to 1. It does not tick up this turn.
+    > After resolving this attack, reset your Gate Die to 1. It does not tick up this turn. Your Gate Die resets to 1 at the end of the scene.
   * Paired with H0R_OS 1, OSIRIS forms an incredibly solid "default turn" for hackers who invested in Goblin 3. While I support strong control options, I dislike how OSIRIS homogenizes turns by dangling the carrot of "Stun" and "Dominate" behind two weaker (but still useful) effects. To break OSIRIS from the typical "Invade" form, I steal a page from the Kidd's book with a slow-build counter and eventual payoff depending on how high the counter is.
 
 ### HORUS Gorgon
