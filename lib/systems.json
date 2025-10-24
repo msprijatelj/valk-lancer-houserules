@@ -181,6 +181,27 @@
     "license_id": "mf_balor"
   },
   {
+    "id": "valk-hr-ms_swarm_body",
+    "name": "!V! Swarm Body",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Balor",
+    "license_level": 2,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "<p>After activating this system, you become Slowed and release a Burst 1 swarm. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic AP. As a quick action on subsequent turns, you may increase the size of the Burst by 1 (to a maximum of Burst 3).</p><p>This effect lasts until you overheat or end it as a quick action.</p>"
+      }
+    ],
+    "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world.",
+    "license_id": "mf_balor"
+  },
+  {
     "id": "valk-hr-ms_h0r_os_system_upgrade_i",
     "name": "!V! H0R_OS System Upgrade I",
     "type": "Tech",

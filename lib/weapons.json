@@ -114,6 +114,36 @@
     "license_id": ""
   },
   {
+    "id": "valk-hr-mw_nanobot_whip",
+    "name": "!V! Nanobot Whip",
+    "mount": "Heavy",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Balor",
+    "license_level": 3,
+    "on_hit": "If you consumed Lock On for this attack, pull your target to a free space adjacent to you, or as close as possible.",
+    "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
+    "sp": 1,
+    "license_id": "mf_balor"
+  },
+  {
     "id": "valk-hr-mw_swarm_hive_nanites",
     "name": "!V! Swarm/Hive Nanites",
     "mount": "Main",

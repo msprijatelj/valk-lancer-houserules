@@ -503,17 +503,51 @@ Second verse, rhymes with the first. Multiple decision points upon activating Fa
 
 ### HORUS Balor
 
-Cycle licensed options to gate more powerful options behind a higher license investment.
+Cycle licensed options to gate more powerful options behind a higher license investment. Shift power from traits into base frame.
+
+#### Balor Frame
+
+* Increase Repair Cap from 4 to 5.
+* Increase Evasion from 6 to 7.
+* Increase Speed from 3 to 5.
+* Increase Heat Cap from 4 to 5.
+* Remove Regenerator and Scouring Swarm.
+* Add Regenerating Swarm Core Passive:
+    > The Balor deals 2 Kinetic AP damage to all hostile characters grappled by or adjacent to it. If it damages at least one character, it regains HP equal to 2+Grit. This action cannot be performed if the Balor is Exposed.
+  * Regenerator is one of the biggest justifications for Balor's below-average stats outside of Hull. Unfortunately, this means that all of Balor's eggs are in the Hull basket, leaving it to try to shore up its numerable weaknesses and fall into a feast-or-famine playstyle where those weaknesses are threatened and it never regens, or those weaknesses are untouched and it becomes a monster. This change reduces the rate of regeneration and ties it to a melee striker playstyle (which also curtails some of the Artillery Balor abuse cases).
+* Change Hive Frenzy in the following ways:
+  1. Remove references to Regenerator and Scouring Swarm.
+  2. Double the damage of Regenerating Swarm, from 2 to 4 Kinetic AP.
+  3. Increase healing from Regenerating Swarm from 2+Grit to 4+Grit.
+  4. Additionally, hostile characters adjacent to the Balor are Shredded.
+  * Mostly accounting for Regenerating Swarm, but adding an extra benefit of Shredding adjacent enemies to bring home the Melee playstyle.
 
 #### Hive Drone
 
 * Increase `license_level` from 1 to 2.
   * A solid system, but worth moving up to Balor 2 to make space for Swarm/Hive Nanites.
 
+#### Swarm Body
+
+* Change effect to the following:
+    > After activating this system, you become Slowed and release a Burst 1 swarm. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic AP. As a quick action on subsequent turns, you may increase the size of the Burst by 1 (to a maximum of Burst 3).
+    >
+    > This effect lasts until you overheat or end it as a quick action.
+  * Swarm Body is capable of nutty amounts of damage... but comes with an incredibly steep cost of standing still. On an objective-oriented game like Lancer, on a license that belongs to a Melee Striker, this is a rough deal. So, I let Swarm Body gain AP and persist after movement but gradually amp up in size with action investment, while curtailing the potentially huge damage potential of the original.
+
 #### Nanocomposite Adaptation
 
 * Increase `license_level` from 2 to 3.
   * Seeking is an inherently powerful tag, as it permits ranged combatants to ignore the primary drawbacks of ranged combat (cover and line of sight). Being able to apply it to any ranged weapon simply demands a higher license investment than Balor 2.
+* Increase SP cost from 2 to 3.
+  * Since Maria bumps the SP cost from 2 to 3, I'm going to trust Maria's experience here.
+
+#### Nanobot Whip
+
+* Decrease SP cost from 2 to 1.
+* Change effect to:
+    > On hit: If you consumed Lock On for this attack, pull your target to a free space adjacent to you, or as close as possible.
+  * Nanobot Whip is a heavy SP investment for below-curve melee damage and an unreliable on-crit effect. I choose to reduce the SP cost and lean into Lock On consumption for better reliability.
 
 #### Swarm/Hive Nanites
 

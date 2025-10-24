@@ -487,6 +487,57 @@
     "license_id": "mf_mourning_cloak"
   },
   {
+    "id": "valk-hr-mf_balor",
+    "license_level": 2,
+    "source": "HORUS",
+    "name": "!V! Balor",
+    "variant": "Balor",
+    "mechtype": ["Striker", "Defender"],
+    "y_pos": 27,
+    "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br>The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br>In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it.",
+    "mounts": ["Main", "Heavy"],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 7,
+      "edef": 10,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 5,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Self-Perpetuating",
+        "description": "When you rest, the Balor regains full HP automatically and without REPAIRS."
+      }
+    ],
+    "core_system": {
+      "name": "Hellswarm",
+      "description": "In a moment, with aught but desire, the pilot of a Balor may quick-print a cloak comprised of countless minuscule drones: a hellswarm cloak – living shield and fluid-dynamic knife, cutting and guarding, in one shimmering wave. They become Hivemaster, and their will is obeyed by millions.",
+      "active_name": "Hive Frenzy",
+      "active_effect": "<p>Your nanites switch into a hyperactive mode, causing the following effects until the end of the scene:<ul><li>You and adjacent allies gain soft cover.</li><li>Hostile characters are Shredded while adjacent to you.</li><li>Regenerating Swarm deals 4 kinetic AP instead of 2 and heals 4+Grit instead of 2+Grit.</li><li>If you would take structure damage, roll 1d6: on 6, your mech hellishly pulls itself together, taking no structure damage, returning to 1 HP, and gaining Immunity to all damage until the end of the current turn.</li><li>You become Shredded and cannot clear this condition for the duration.</li></ul></p>",
+      "use": "Encounter",
+      "activation": "Protocol",
+      "passive_name": "Regenerating Swarm",
+      "passive_actions": [
+        {
+          "name": "Regenerating Swarm",
+          "activation": "Protocol",
+          "detail": "The Balor deals 2 Kinetic AP damage to all hostile characters grappled by or adjacent to it. If it damages at least one character, it regains HP equal to 2+Grit. This action cannot be performed if the Balor is Exposed."
+        }
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_balor.png",
+    "license_id": "mf_balor"
+  },
+  {
     "id": "valk-hr-mf_goblin",
     "license_level": 2,
     "source": "HORUS",

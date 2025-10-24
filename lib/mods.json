@@ -24,7 +24,7 @@
   {
     "id": "valk-hr-wm_nanocomposite_adaptation",
     "name": "!V! Nanocomposite Adaptation",
-    "sp": 2,
+    "sp": 3,
     "allowed_types": ["Melee", "CQB", "Rifle", "Launcher", "Cannon", "Nexus"],
     "source": "HORUS",
     "license": "Balor",
