@@ -1008,7 +1008,7 @@
       "name": "Terraform",
       "description": "Screeching and venting steam, the Kobold digs into the earth. Moments later, the very ground bends to the pilot’s will and the air shrieks with agony — the cry of every dead Ungrateful, martyred or taken by the Dustmen",
       "active_name": "Terraform",
-      "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in free spaces within Range 5. The cubes can be stacked up to 5 spaces high, but each cube must share a face with another cube, forming a contiguous surface that grants hard cover and blocks line of sight. Each cube has Evasion 5 and 10 HP.",
+      "active_effect": "Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in spaces within Range 5. Characters occupying a space in which a cube is placed must make an Agility save or become trapped in the polymer, becoming Immobilized until the cube is destroyed or until they escape with a Hull check as a quick action. The cubes can be stacked up to 5 spaces high, but each cube must share a face with another cube, forming a contiguous surface that grants hard cover and blocks line of sight. Each cube has Evasion 5 and 10 HP.",
       "activation": "Full"
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_kobold.png",
