@@ -224,7 +224,7 @@
     "actions": [
       {
         "activation": "Quick Tech",
-        "detail": "Choose an allied character within Sensors and line of sight. You link systems with them, lasting as long as they are within Sensors and line of sight. While linked, you may use their Sensors and line of sight for tech actions, and they may use your Systems to make skill checks and saves; however, any time either character is affected by a tech action, the other character receives the same effect. You can only link systems with one character at a time, but may change characters or break the link as a quick action."
+        "detail": "Choose an allied character within Sensors and line of sight. You link systems with them, lasting as long as they are within Sensors and line of sight. While linked, you may use their Sensors and line of sight for tech actions, and they may use your Systems to make skill checks and saves; however, any time either character is affected by a hostile tech action, the other character receives the same effect. You can only link systems with one character at a time, but may change characters or break the link as a quick action."
       }
     ],
     "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties.",

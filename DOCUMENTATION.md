@@ -542,7 +542,7 @@ Cycle licensed options to gate more powerful options behind a higher license inv
     > Both you and the melded ally gain the following benefits:
     > - Each of you may use the other’s Sensors, Systems, Tech Attack, Save Target, and E-Defense or their own, whichever is higher.
     > - You may Activate each other’s systems and Tech Actions, but the original owner is treated as taking the action.
-    > - When one of you is affected by a tech action, the other receives the same effect.
+    > - When one of you is affected by a hostile tech action, the other receives the same effect.
     >
     > This melding lasts until the end of the scene or until you end it and move to an adjacent space as a quick action.
 
@@ -554,7 +554,7 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 #### Metahook
 
-* Change so that instead of mirroring heat and conditions, instead when one character is affected by a Tech Action, the other character receives the same effect. Additionally, add the ability to end Metahook early as a Quick Action.
+* Change so that instead of mirroring heat and conditions, instead when one character is affected by a hostile Tech Action, the other character receives the same effect. Additionally, add the ability to end Metahook early as a Quick Action.
   * The mirrored Heat is incredibly dangerous for Metahook, regardless of whether that Heat is friendly or hostile. This preserves the original intent of a shared system while allowing for safe usage of self-inflicted heat and conditions.
 
 #### OSIRIS-Class NHP
