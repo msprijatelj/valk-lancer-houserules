@@ -1,4 +1,4 @@
-# Documentation (Version 0.3.1)
+# Documentation (Version 0.4.0)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -513,6 +513,7 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Increase Heat Cap from 4 to 5.
 * Remove Regenerator and Scouring Swarm.
 * Add Regenerating Swarm Core Passive:
+    > Regenerating Swarm - Protocol
     > The Balor deals 2 Kinetic AP damage to all hostile characters grappled by or adjacent to it. If it damages at least one character, it regains HP equal to 2+Grit. This action cannot be performed if the Balor is Exposed.
   * Regenerator is one of the biggest justifications for Balor's below-average stats outside of Hull. Unfortunately, this means that all of Balor's eggs are in the Hull basket, leaving it to try to shore up its numerable weaknesses and fall into a feast-or-famine playstyle where those weaknesses are threatened and it never regens, or those weaknesses are untouched and it becomes a monster. This change reduces the rate of regeneration and ties it to a melee striker playstyle (which also curtails some of the Artillery Balor abuse cases).
 * Change Hive Frenzy in the following ways:
