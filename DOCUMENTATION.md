@@ -171,8 +171,8 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 ### Exemplar
 
 * In Rank 2, "Punishment", replace with:
-    > "1/round, when a character with your Mark in Range 3 attacks a chracter other than you, they trigger your Overwatch."
-  * Restricting allies to stay within Range 3 makes it harder for the Exemplar to do their job in a ranged-focused game like Lancer. This inverts the restriction to encourage staying close to the marked foe instead of trying to hug your allies too hard.
+    > "1/round, when a character with your Mark attacks a chracter other than you, they trigger your Overwatch."
+  * Restricting allies to stay within Range 3 makes it harder for the Exemplar to do their job in a ranged-focused game like Lancer. This removes the restriction to encourage staying closer to the marked foe instead of trying to hug your allies too hard.
 * In Rank 3, "To the Death", replace "this effect ceases for them until the start of your next turn" with "this effect ceases for them until the end of the current turn".
   * This improves uptime on "To The Death" when dealing with off-turn attacks.
 

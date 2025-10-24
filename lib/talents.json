@@ -22,11 +22,11 @@
       },
       {
         "name": "Punishment",
-        "description": "1/round, when the character with your Mark attacks a character within Range 3 of you, other than you, they trigger your Overwatch.",
+        "description": "1/round, when a character with your Mark attacks a character other than you, they trigger your Overwatch.",
         "synergies": [
           {
             "locations": ["active_effects"],
-            "detail": "1/round, when the character with your Mark attacks a character within Range 3 of you, other than you, they trigger your Overwatch."
+            "detail": "1/round, when a character with your Mark attacks a character other than you, they trigger your Overwatch."
           }
         ]
       },
