@@ -138,7 +138,7 @@
     "source": "HORUS",
     "license": "Balor",
     "license_level": 3,
-    "on_hit": "If you consumed Lock On for this attack, pull your target to a free space adjacent to you, or as close as possible.",
+    "on_hit": "If you previously hit the target with a tech attack this turn, you may pull your target to a free space adjacent to you, or as close as possible.",
     "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
     "sp": 1,
     "license_id": "mf_balor"

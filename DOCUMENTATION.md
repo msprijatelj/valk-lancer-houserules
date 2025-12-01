@@ -1,4 +1,4 @@
-# Documentation (Version 0.4.0)
+# Documentation (Version 0.5.0-alpha)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -511,17 +511,15 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Increase Evasion from 6 to 7.
 * Increase Speed from 3 to 5.
 * Increase Heat Cap from 4 to 5.
-* Remove Regenerator and Scouring Swarm.
-* Add Regenerating Swarm Core Passive:
-    > Regenerating Swarm - Protocol
-    > The Balor deals 2 Kinetic AP damage to all hostile characters grappled by or adjacent to it. If it damages at least one character, it regains HP equal to 2+Grit. This action cannot be performed if the Balor is Exposed.
-  * Regenerator is one of the biggest justifications for Balor's below-average stats outside of Hull. Unfortunately, this means that all of Balor's eggs are in the Hull basket, leaving it to try to shore up its numerable weaknesses and fall into a feast-or-famine playstyle where those weaknesses are threatened and it never regens, or those weaknesses are untouched and it becomes a monster. This change reduces the rate of regeneration and ties it to a melee striker playstyle (which also curtails some of the Artillery Balor abuse cases).
+* Add AP to Scouring Swarm's damage.
+* Change Regenerator's effect to the following:
+    > At the end of the Balor's turn, if it is not Exposed, it may regain HP equal to 2+Grit as a free action.
+  * Regenerator is one of the biggest justifications for Balor's below-average stats outside of Hull. Unfortunately, this means that all of Balor's eggs are in the Hull basket, leaving it to try to shore up its numerable weaknesses and fall into a feast-or-famine playstyle where those weaknesses are threatened and it never regens, or those weaknesses are untouched and it becomes a monster. This change removes the feature's Hull scaling and shifts its weaknesses to the Exposed status and effects that prevent free actions (like RAW Brace and Stun).
 * Change Hive Frenzy in the following ways:
-  1. Remove references to Regenerator and Scouring Swarm.
-  2. Double the damage of Regenerating Swarm, from 2 to 4 Kinetic AP.
-  3. Increase healing from Regenerating Swarm from 2+Grit to 4+Grit.
-  4. Additionally, hostile characters adjacent to the Balor are Shredded.
-  * Mostly accounting for Regenerating Swarm, but adding an extra benefit of Shredding adjacent enemies to bring home the Melee playstyle.
+  1. Change healing from Regeneration from 1/2 HP to 4+Grit.
+  * According to Reconus, the most egregious aspect of Regneration is when Hive Frenzy is restoring 1/2 the Balor's HP each turn. So, I just increase the HP it regains by 2 per round instead!
+  2. Additionally, hostile characters adjacent to the Balor are Shredded.
+  * Adding an extra benefit of Shredding adjacent enemies to encourage a CQC playstyle.
 
 #### Hive Drone
 
@@ -533,7 +531,7 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Change effect to the following:
     > After activating this system, you become Slowed and release a Burst 1 swarm. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic AP. As a quick action on subsequent turns, you may increase the size of the Burst by 1 (to a maximum of Burst 3).
     >
-    > This effect lasts until you overheat or end it as a quick action.
+    > This effect lasts until you overheat or end it as a protocol.
   * Swarm Body is capable of nutty amounts of damage... but comes with an incredibly steep cost of standing still. On an objective-oriented game like Lancer, on a license that belongs to a Melee Striker, this is a rough deal. So, I let Swarm Body gain AP and persist after movement but gradually amp up in size with action investment, while curtailing the potentially huge damage potential of the original.
 
 #### Nanocomposite Adaptation
@@ -547,8 +545,8 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 * Decrease SP cost from 2 to 1.
 * Change effect to:
-    > On hit: If you consumed Lock On for this attack, pull your target to a free space adjacent to you, or as close as possible.
-  * Nanobot Whip is a heavy SP investment for below-curve melee damage and an unreliable on-crit effect. I choose to reduce the SP cost and lean into Lock On consumption for better reliability.
+    > On hit: If you previously hit the target with a tech attack this turn, you may pull your target to a free space adjacent to you, or as close as possible.
+  * Nanobot Whip is a heavy SP investment for below-curve melee damage and an unreliable on-crit effect. I choose to reduce the SP cost and lean into combos with tech attacks for better reliability.
 
 #### Swarm/Hive Nanites
 
@@ -622,6 +620,8 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Increase Repair cap from 2 to 4.
 * Change Mimic Carapace to activate at the end of the Kobold's turn.
   * It's highly committal and anti-synergistic to camp next to an object without making attacks or forcing saves (something that all but 1 piece of Kobold's gear wants to do). This change brings the Kobold in line with Ranger Swallowtail and should make this Invisibility more than just a ribbon.
+* Change Slag Spray so that it can be used as either a protocol or a quick action.
+  * Improve the flexibility of Slag Spray while keeping it from being a flawless option for gaining Invisibility from the revised Mimic Carapace.
 * Replace the effect of Terraform with the following:
     > Your mech extrudes a massive amount of polymer, creating up to 10 SIZE 1 cubes in spaces within Range 5. Characters occupying a space in which a cube is placed must make an Agility save or become trapped in the polymer, becoming Immobilized until the cube is destroyed or until they escape to the nearest free space with a Hull check as a quick action. The cubes can be stacked up to 5 spaces high, but each cube must share a face with another cube, forming a contiguous surface that grants hard cover and blocks line of sight. Each cube has Evasion 5 and 10 HP.
   * Simplify the active effect into a single continuous wall, but speed up the hardening process to compensate. Add a sticky immobilize effect to enhance the control options.
