@@ -606,9 +606,13 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 #### H0R_OS System Upgrade I
 
+* Change the last sentence of Puppet System to:
+  > This movement is involuntary and doesn't provoke reactions, but triggers Engagement as normal and doesn't count as KNOCKBACK, pushing, or pulling.
+  * Remove the ability to Overwatch with Puppet System. This prevents hacker-strikers from cheating out an extra Skirmish on their turn (and thus prolonging that turn with all the tack-on effects a typical Skirmish includes).
+
 * Replace the Eject Power Cores with the following:
     > Network Binding: You chain the target's systems to one space they currently occupy. If the target moves more than 3 spaces from that point, they become Jammed until the end of their next turn and the chain ends. The target may remove the chain with a successful Systems save as a quick action; otherwise, it lasts until the end of the scene. This option can only be used 1/scene on each character.
-  * Jammed is an incredibly powerful condition to inflict with a quick action at a variety of Sensor ranges (to say nothing of the Grunt-popping 2 energy damage on top). I considered splitting up H0R_OS 1 with other invade options, moving it to Goblin 3, and so on, but those all add hurdles for mech _building_, not mech _fighting_. Once players assemble the pieces that I scatter to the four winds, their combat turns will likely wind up looking the same as they do now: Full Tech OSIRIS and Invade: Eject Power Cores. In my opinion, the true issue is that Eject Power Cores is amazing value for a Quick Action; therefore, dial it back to be akin to the Witch's Chain, forcing the user to commit at least one more quick action to force a Jam (such as by Network Binding followed by Puppet Systems).
+  * Jammed is an incredibly powerful condition to inflict with a quick action at a variety of Sensor ranges (to say nothing of the Grunt-popping 2 energy damage on top). I considered splitting up H0R_OS 1 with other invade options, moving it to Goblin 3, and so on, but those all add hurdles for mech _building_, not mech _fighting_. Once players assemble the pieces that I scatter to the four winds, their combat turns will likely wind up looking the same as they do now: Full Tech OSIRIS and Invade: Eject Power Cores. In my opinion, the true issue is that Eject Power Cores is amazing value for a Quick Action; therefore, dial it back to be akin to the Witch's Chain, forcing the user to commit at least one more quick action to force a Jam (such as by Network Binding followed by Puppet System).
 
 #### Metahook
 

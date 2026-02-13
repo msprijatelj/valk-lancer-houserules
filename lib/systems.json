@@ -233,7 +233,7 @@
       {
         "name": "Puppet System",
         "activation": "Invade",
-        "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary, but provokes reactions and Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
+        "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary and doesn’t provoke reactions, but triggers Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
       },
       {
         "name": "Network Binding",
