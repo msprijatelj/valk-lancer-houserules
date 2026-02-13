@@ -332,7 +332,7 @@
         "activation": "Reaction",
         "frequency": "1/round",
         "trigger": "A hostile character misses a tech attack against you or an allied character in Sensors.",
-        "detail": "The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn."
+        "detail": "The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn.<br><br>Regardless of success or failure, this system is no longer primed."
       }
     ],
     "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",

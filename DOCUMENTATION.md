@@ -1,4 +1,4 @@
-# Documentation (Version 0.5.0)
+# Documentation (Version 0.5.1)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -649,6 +649,7 @@ Cycle licensed options to gate more powerful options behind a higher license inv
   > //STING - Reaction, 1/round
   > Trigger: A hostile character misses a tech attack against you or an allied character in Sensors.
   > Effect: The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn.
+  > Regardless of success or failure, this system is no longer primed.
   * //SCORPION V70.1 suffers from the "Deflect Arrows" issue from the D&D5e Monk: If you know the PC has this feature, you'll never want to attack them and risk the punishment. As a result, the feature is poor for actual "tech attack tanking", as the easiest answers are to attack someone else outside the area or do something other than tech. This change addresses the issue by broadening the "tanking" range to Sensors (so attackers have less option to avoid it) and make attacking the user less punishing than attacking their allies (funneling aggression into the user, as a Tank would). In exchange, the system's uptime is reduced to "when primed", allowing for some counterplay from NPCs.
 
 ### HORUS Kobold
