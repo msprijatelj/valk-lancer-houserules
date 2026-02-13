@@ -1,4 +1,4 @@
-# Documentation (Version 0.5.0-alpha)
+# Documentation (Version 0.5.0)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -191,6 +191,11 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 * Upon suggestion from [Kai Tave](https://kaitave.itch.io/): In Rank 3, "Torrent", add the following sentence to the end of the first paragraph: "If you consumed Lock On as part of using Stormbending, lower the value by 2 instead."
   * This synergizes with Rank 1's Lock On benefits and makes the Massive Attack more accessible in an average fight.
 
+### Empath
+
+* In order to make Empath play nicer with my Structure Damage rules, change "Rank 2: Bend to Will" to the following:
+  > 1/scene when an allied character in line of sight receives a condition from a hostile source, you may receive that condition instead.
+
 ### Orator
 
 * Change the duration of the Convincing Rhetoric to end early if hostile action is taken against them.
@@ -242,6 +247,12 @@ The following two GMS Core Bonuses from [Maria Lopez's collection of house rules
 
 * Taking a cue from both Lancers in the Dark and Maria's house rules, increase this weapon's Range from 5 to 8.
   * The damage profile and AP on Thermal Rifle is serviceable, but its default CQB range holds it back for the typical Rifle user.
+
+#### Stable Structure
+
+* Replace the effect with the following:
+  > When affected by a push, pull, or knockback effect, you may choose to be moved only half the distance. In addition, 1/round you may stand up from Prone as a free action.
+  * A large portion of NPC effects that push, pull, knockback, or knock Prone have no save attached to them. This change alleviates the pain of forced movement and Prone without negating it completely.
 
 #### Overpower Rounds
 
@@ -355,7 +366,7 @@ Many of the Long Rim mechs suffer from introducing a large (or worse, unbounded)
 
 #### Zheng Frame
 
-Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especially affected by the Slowed condition. Worse yet, Xiaoli's Tenacity introduces an extra decision point each turn: "How do I use my free movement and damage in an efficient way?" Xiaoli's Ingenuity only serves to exacerbate this issue by allowing Zheng to do this 6 times a turn instead of once. Therefore, these changes aim to reduce the number of decision points on Zheng's turn while preserving its power and identity as a destructive, collateral-damage brawler.
+Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especially affected by the Slowed condition. Worse yet, Xiaoli's Tenacity introduces an extra decision point each turn: "How do I use my free movement and damage in an efficient way?" Xiaoli's Ingenuity only serves to exacerbate this issue by allowing Zheng to do this 6 times a turn instead of once. Therefore, these changes aim to reduce the number of decision points on Zheng's turn while preserving its power and identity as a destructive, tenacious, collateral-damage brawler.
 
 * Increase Speed from 3 to 4.
 * Increase Sensors from 3 to 5.
@@ -363,15 +374,29 @@ Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especi
     > "1/round, after making a melee attack against a hostile character, choose one of the following:
     > - Create a Size 1 piece of terrain that grants hard cover in a free space adjacent to the target. It has 10 HP and Evasion 5.
     > - Deal 10 Kinetic AP damage to an object or piece of terrain adjacent to the target. If this damage destroys the object or terrain, it explodes, dealing 1d6 Kinetic damage to all adjacent characters other than you and knocking them back 1 space."
-* Change CP to so that it adds Knockback 2 to all melee attacks and enhances Destructive Swings:
-  * Creating Terrain: Apply Impaired to characters adjacent to the terrain other than Zheng until the end of their next turn.
-  * Destroying Terrain: Apply Shredded to characters adjacent to the terrain other than Zheng until the end of their next turn.
+* Change CP to basically be the Ultra template's "Juggernaut" feature:
+  > Gain the following effects for the rest of the scene:
+  > - At the start of your turn, clear one condition.
+  > - At the end of your turn, repair one destroyed weapon or system.
 
 #### Total Strength Suite I
 
 * Add the following sentence prior to the last sentence:
     > "If an object with HP is moved in this way, it takes 1 AP Kinetic Damage for each space moved."
   * Prevent abuse of moving object-like objectives by tying a cost to TSS1's use.
+
+### IPS-N Störtebeker
+
+Störtebeker has about 6 traits masquerading as 3 traits, and I can never keep track of any of them. For all the juggling, Störtebeker's output is... average? I understand it's trying to be a cute take on Combined Arms 3, but I personally don't think Combined Arms 3 needs a dedicated mech frame. So, I have it lean into Raleigh's use of the Reliable tag in-license by pairing it with the hard-to-get AP tag.
+
+* Replace Dynamic Reload with the following:
+  > If you took the Skirmish action this turn, as a quick action, you may reload all of your weapons not used to attack this turn.
+
+* Change Truesilver to a Core Passive, change it to a Protocol 1/scene, and change the effect to the following:
+  > During this turn, your weapons without Reliable gain Reliable based on their weapon size (Auxiliary: 1, Main: 2, Heavy: 3, Superheavy: 4). Your weapons that previously had Reliable instead gain AP.
+
+* Change Truesilver Arsenal to the following:
+  > Truesilver lasts until the end of the scene.
 
 ## SSC
 
@@ -651,6 +676,18 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 * Add the "Unique" tag.
   * Addressing an easy fix from the [Lancer FAQ](https://lancer-faq.netlify.app/#f4b496).
 
+### HORUS Manticore
+
+#### Catalyst Pistol
+
+* Reduce Heat (Self) from 2 to 1.
+  * Make the Catalyst Pistols more usable without destroying your reactor. Cone 3 is hard to catch multiple targets in, anyway.
+
+#### Arc Projector
+
+* Increase damage from 1d6+1 to 1d6+3.
+  * For a pseudo-"area of effect" weapon with a scaling Heat (Self) cost, Arc Projector's damage is pretty anemic. 1d6+2 per hit would probably be enough, but I like to live dangerously.
+
 ### HORUS Minotaur
 
 #### Minotaur Frame
@@ -709,6 +746,13 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 * Replace the effect with the following:
     > "If an instance of Heat would make you Overheat, you gain Immunity to any damage that would be caused by that instance of Heat."
   * With the removal of Overheating checks, Reactor Stabilizer has an opportunity to be more than a simple reroll to avoid Exposed. This change means that a mech equipped with this system could use a risky, high self-heat option, overheat themselves, and not take excessive overheating damage as a result.
+
+#### ASURA-Class NHP
+
+* Remove the Limited 1 tag.
+* Change the effect to the following:
+  > 1/scene, you may take an additional quick action this turn. This action must be used to either Activate, Boost, Ram, or Prepare one of those actions, and it must obey restrictions on duplicate actions.
+  * ASURA is basically the "Shoot More" NHP, and confers a massive amount of action economy for its cost. I would rather it only provide a single Quick Action and be restricted to a short allowlist of actions to prevent "damage abuse" cases. Activate is a broad action (basically, use any Quick Action system) which means there's likely still some "combo cases", but at least they won't "shoot the Heavy Mount again."
 
 ### HA Tokugawa
 

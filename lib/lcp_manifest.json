@@ -3,7 +3,7 @@
   "author": "Valkyrion",
   "description": "A collection of house rules for the LANCER RPG.",
   "item_prefix": "valk-hr-",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "dependencies": [
     {
       "name": "Lancer Long Rim Data",
@@ -16,6 +16,10 @@
     {
       "name": "Lancer KTB Data",
       "version": "1.2.3"
+    },
+    {
+      "name": "LANCER: Dustgrave",
+      "version": "1.4.0"
     },
     {
       "name": "Siren's Song, A Mountain's Remorse",

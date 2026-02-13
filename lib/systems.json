@@ -1,5 +1,20 @@
 [
   {
+    "id": "valk-hr-ms_stable_structure",
+    "name": "!V! Stable Structure",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "GMS",
+    "license": "GMS",
+    "license_level": 0,
+    "effect": "When affected by a push, pull, or knockback effect, you may choose to be moved only half the distance. In addition, 1/round you may stand up from <b><span style='font-variant: small-caps;'>Prone</span></b> as a <b>free action</b>.",
+    "license_id": ""
+  },
+  {
     "id": "valk-hr-ms_cable_winch_system",
     "name": "!V! Cable Winch System",
     "sp": 1,
@@ -386,6 +401,37 @@
     "license_level": 1,
     "effect": "If an instance of Heat would make you Overheat, you gain Immunity to any damage that would be caused by that instance of Heat.",
     "description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed.",
+    "license_id": "mf_sherman"
+  },
+  {
+    "id": "valk-hr-ms_asura_class_nhp",
+    "name": "!V! ASURA-Class NHP",
+    "type": "AI",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 3
+      }
+    ],
+    "source": "HA",
+    "license": "Sherman",
+    "license_level": 3,
+    "effect": "Your mech gains the AI tag and the ASURA Protocol.",
+    "actions": [
+      {
+        "name": "ASURA Protocol",
+        "activation": "Protocol",
+        "detail": "1/scene, you may take an additional quick action this turn. This action must be used to either Activate, Boost, Ram, or Prepare one of those actions, and it must obey restrictions on duplicate actions."
+      }
+    ],
+    "description": "ASURA was born from the Armory’s Think Tank thought-war games, an autonomous response to repeated failures during forlorn hope scenarios. ASURA manifested in the systems of simulated mechs as a recode of HORUS’s PUPPETMASTER virus, hijacking friendly mechs and forcing them to act far beyond human capacity—at such speed and intensity that the g-force would kill organic pilots with the sudden amplified mass of their own bodies.<br>While these results were initially deemed a failure by Think Tank NHPs and engineers, it was enough to justify further study on ASURA. Personality and parasentience code was injected into the initial anomalous PUPPETMASTER strain, and first contact handled by Think Tank NHPs. Further societal acclimation and conditioning were fast tracked, giving Armory engineers the first iteration of ASURA after a decade of study, recoding, and reeducation. ASURA, as they exist now, is a scaled-back version of that initial manifestation: while retaining some of their initial impetuousness, ASURA clones now recognize the need to keep their pilot alive and will operate within parameters set by their pilot’s medical and psychological tolerances.",
     "license_id": "mf_sherman"
   },
   {

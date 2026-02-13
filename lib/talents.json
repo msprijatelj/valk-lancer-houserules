@@ -25,7 +25,9 @@
         "description": "1/round, when a character with your Mark attacks a character other than you, they trigger your Overwatch.",
         "synergies": [
           {
-            "locations": ["active_effects"],
+            "locations": [
+              "active_effects"
+            ],
             "detail": "1/round, when a character with your Mark attacks a character other than you, they trigger your Overwatch."
           }
         ]
@@ -55,9 +57,19 @@
         "description": "Gain +1 Accuracy on the first attack roll you make with an Auxiliary ranged weapon on your turn.",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
-            "weapon_sizes": ["Auxiliary"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Rifle",
+              "Cannon",
+              "Launcher",
+              "CQB",
+              "Nexus"
+            ],
+            "weapon_sizes": [
+              "Auxiliary"
+            ],
             "detail": "Gain +1 Accuracy on the first attack roll you make with an Auxiliary ranged weapon on your turn."
           }
         ]
@@ -80,9 +92,19 @@
         "description": "You gain a Gunslinger Die, 1d6 starting at 6. Each time you hit a hostile character with an Auxiliary ranged weapon, reduce the value of the Gunslinger Die by 1. When the Gunslinger Die reaches 1, you may reset it to 6 to give +2d6 bonus damage on hit and AP to your next attack with an Auxiliary ranged weapon. This attack also ignores cover. The value of your Gunslinger Die persists between scenes but resets to 6 when you rest or perform a Full Repair.",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
-            "weapon_sizes": ["Auxiliary"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Rifle",
+              "Cannon",
+              "Launcher",
+              "CQB",
+              "Nexus"
+            ],
+            "weapon_sizes": [
+              "Auxiliary"
+            ],
             "detail": "Each time you hit a hostile character with this weapon, reduce the value of the Gunslinger Die by 1"
           }
         ],
@@ -111,7 +133,9 @@
         "description": "When you hit with a tech attack that consumes Lock On, your target must choose to either take 2 Heat or be pushed 3 spaces in a direction of your choice. If possible, the target cannot choose an option to which they would be IMMUNE.",
         "synergies": [
           {
-            "locations": ["tech"],
+            "locations": [
+              "tech"
+            ],
             "detail": "When you hit with a tech attack that consumes Lock On, your target must choose to either take 2 Heat or be pushed 3 spaces in a direction of your choice. If possible, the target cannot choose an option to which they would be IMMUNE."
           }
         ]
@@ -163,9 +187,15 @@
         "description": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone.",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Launcher"],
-            "weapon_sizes": ["any"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Launcher"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
             "detail": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone."
           }
         ]
@@ -175,9 +205,15 @@
         "description": "You have customized your mech with auxiliary concussive missile systems. 1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Launcher"],
-            "weapon_sizes": ["any"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Launcher"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
             "detail": "1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>"
           }
         ]
@@ -187,9 +223,15 @@
         "description": "Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1. If you consumed Lock On as part of using Stormbending, lower the value by 2 instead.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
         "synergies": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Launcher"],
-            "weapon_sizes": ["any"],
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Launcher"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
             "detail": "Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1. If you consumed Lock On as part of using Stormbending, lower the value by 2 instead."
           }
         ],
@@ -212,7 +254,44 @@
       }
     ]
   },
-    {
+  {
+    "id": "valk-hr-t_empath",
+    "name": "!V! Empath",
+    "terse": "Gain abilities that grant your allies guaranteed dice results",
+    "description": "<p><i>Your time on Hercynia has always been marked by a kind of … searching. A connection to the planet, to something alive there. You can perceive it best at night, when it’s quiet: your name, or a whisper that speaks something deeper and more true, spoken in the voice of another. You don’t feel any fear when you hear it. You feel complete. It takes some time down the well, but one morning you awake resolute.</p><p>Time to find the distant speaker.</i></p><p>Whether your character was born offworld and came to Hercynia knowing nothing of the Egregorians, Witness, or any of the planet’s history, or you were born in Evergreen or one of the cities of the HUC, your character can be an empath. An empath is someone who can not only register when Witness is being shared, but begin to understand it and, with some training, even add their own subjectivity to it.</p><p>Mere exposure to Hercynia is enough for a character to become an empath. Nobody is “born” an empath – it is a learned process, not an inherited one. Although, like all skills, some people find it easier than others, anyone can potentially learn to understand Witness. Normally, human empaths bond with Egregorians – there are many examples of such in the United Cities. Rarely, empaths can form bonds with other humans – a process that is as rare and wondrous to Egregorians as it is to the humans undergoing it, and one that also suggests that a human extension of Witness may latent and possible with exploration.</p>",
+    "ranks": [
+      {
+        "name": "Sympathetic Precognition",
+        "description": "Your ability to sense the subjectivities of others grants you an uncanny ability to predict your ally’s actions, guiding them with your influence.",
+        "actions": [
+          {
+            "name": "Sympathetic Precognition",
+            "activation": "Reaction",
+            "frequency": "1/scene",
+            "trigger": "An allied character in line of sight makes a skill check, attack, or save.",
+            "detail": "That character may choose not to roll, instead treating their check, attack, or save as if they had rolled a 10 on the d20."
+          }
+        ]
+      },
+      {
+        "name": "Bend to Will",
+        "description": "1/scene when an allied character in line of sight receives a condition from a hostile source, you may receive that condition instead."
+      },
+      {
+        "name": "Shared Subjectivity",
+        "description": "1/scene as a quick action, you may tap deep reserves of willpower to grant extraordinary awareness to an allied character in line of sight. Your mech immediately becomes STUNNED until the start of your next turn and your perception almost completely merges with that of the other character. Until the end of their next turn, any time that character makes an attack, check, or saving throw, they can choose to roll as normal or instead treat that attack, check, or save as if they had rolled a 10 on the d20. They must decide before rolling.",
+        "actions": [
+          {
+            "name": "Shared Subjectivity",
+            "activation": "Quick",
+            "frequency": "1/scene",
+            "detail": "Your mech immediately becomes STUNNED until the start of your next turn and your perception almost completely merges with that of the other character. Until the end of their next turn, any time that character makes an attack, check, or saving throw, they can choose to roll as normal or instead treat that attack, check, or save as if they had rolled a 10 on the d20. They must decide before rolling."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "valk-hr-mf_orator",
     "name": "!V! Orator",
     "icon": "ORATOR",

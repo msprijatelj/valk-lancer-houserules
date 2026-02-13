@@ -1201,7 +1201,7 @@
       "name": "XIONG-Type CQB Suite",
       "description": "Surviving mostly on colonial rations and an increasingly radioactive air supply, Xiaoli scavenged materials from a dying ship to create modifications that gave her mech unprecedented unarmed striking power.",
       "active_name": "Xiaoli’s Ingenuity",
-      "active_effect": "Gain the following benefits for the rest of the scene:<ul><li>Your melee attacks gain Knockback 2.</li><li>When creating terrain with Destructive Swings, characters other than you that are adjacent to the created terrain are Impaired until the end of their next turn.</li><li>When destroying objects or terrain with Destructive Swings, characters other than you that are adjacent to the destroyed object or terrain are Shredded until the end of their next turn.</li></ul>",
+      "active_effect": "Gain the following effects for the rest of the scene:<ul><li>At the start of your turn, clear one condition.</li><li>At the end of your turn, repair one destroyed weapon or system.</li></ul>",
       "activation": "Protocol"
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_zheng.png",
@@ -1480,5 +1480,77 @@
     "aptitude": {},
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/whitewitch.png",
     "license_id": "mf_white_witch"
+  },
+  {
+    "id": "valk-hr-mf_störtebeker",
+    "variant": "Raleigh",
+    "license_id": "mf_raleigh",
+    "license_level": 2,
+    "source": "IPS-N",
+    "name": "!V! Störtebeker",
+    "mechtype": [
+      "Striker"
+    ],
+    "y_pos": 42,
+    "description": "Following the commercial failure of the Raleigh, several third parties found themselves with the opportunity of buying out development rights for the license as IPS-N sought to recoup initial costs. One of the companies that found itself in this position, Anton Industries, had fallen on hard times after its CEO vanished in mysterious circumstances, leading to plummeting stocks. <br>Chasing a lucky break and seizing the opportunity, Anton Industries began work on what would ultimately be the last frame ever to be developed under its name. Basing the modifications to the Raleigh on one of its own mechs – the Hades Mk3 – Anton Industries quickly developed the frame into a capable combined-arms platform emphasizing speed and rapid deployment. Instead of the Raleigh’s integrated Mjolnir, a weapon far too heavy for the new doctrinal approach, the modified chassis sports an internal reservoir of TRUESILVER nanites, a proprietary whitewash product capable of enhancing a weapon’s destructive power on a strike-to-strike basis. <br>The resulting mech was named “Störtebeker” after an old Cradle legend in a fit of gallows humor regarding the company’s less than ideal position. The frame, just like its namesake, ultimately spelled doom for the company, despite its relative success. <br>Quickly gaining popularity among mercenaries, black-ops units, and bounty hunters alike, the Störtebeker became the frame of choice for those requiring speed and maneuverability out of an IPS-N base but who preferred a solid ranged component over the Nelson’s dedicated close-combat focus. <br>IPS-N itself, interested in the Störtebeker, eventually decided to buy out the smaller company and, indifferent to Anton Industries’ other projects and subsidiaries, cannibalized the company in its entirety. Thus, the Störtebeker, now licensed fully as a Raleigh variant-frame under the IPS-N label, stands as a testament to a company’s destruction and how sometimes, one can do well and fail because of it.",
+    "mounts": [
+      "Flex",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 10,
+      "edef": 7,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 8,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 5,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Dynamic Reload",
+        "description": "If you took the <b><span style='font-variant: small-caps;'>Skirmish</span></b> action this turn, as a <b>quick action</b>, you may reload all of your weapons not used to attack this turn."
+      }
+    ],
+    "core_system": {
+      "name": "Truesilver Weaponry",
+      "description": "Project TRUESILVER was an attempt to improve the destructive capabilities of whitewash nano-machines. The hyper-specialized nanites manifest themselves as a mirror-sheen silver coating that can spread over ammunition and melee weapons alike. This coating gives armaments a striking appearance and is the source of the system’s unique name. Thus enhanced, weapons can deliver a destructive nanite payload that compounds any damage done by the initial strike exponentially, eating away at a target from the inside. <br>TRUESILVER nanites are internally printed and held in a specialized shielded reservoir before being fed to a mech’s weapons systems. Slow to be replenished by the frame’s internal printers, pilots must manage their use with care.",
+      "active_name": "Truesilver Arsenal",
+      "active_effect": "Truesilver lasts until the end of the scene.",
+      "activation": "Protocol",
+      "passive_name": "Truesilver",
+      "passive_actions": [
+        {
+          "name": "Truesilver",
+          "activation": "Protocol",
+          "detail": "During this turn, your weapons without <b><span style='font-variant: small-caps;'>Reliable</span></b> gain <b><span style='font-variant: small-caps;'>Reliable</span></b> based on their weapon size (Auxiliary: 1, Main: 2, Heavy: 3, Superheavy: 4). Your weapons that previously had <b><span style='font-variant: small-caps;'>Reliable</span></b> instead gain <b>AP</b>.",
+          "frequency": "1/Scene",
+          "synergies": [
+            {
+              "locations": [
+                "weapon"
+              ],
+              "weapon_types": [
+                "any"
+              ],
+              "weapon_sizes": [
+                "any"
+              ],
+              "detail": "During this turn, your weapons without <b><span style='font-variant: small-caps;'>Reliable</span></b> gain <b><span style='font-variant: small-caps;'>Reliable</span></b> based on their weapon size (Auxiliary: 1, Main: 2, Heavy: 3, Superheavy: 4). Your weapons that previously had <b><span style='font-variant: small-caps;'>Reliable</span></b> instead gain <b>AP</b>."
+            }
+          ]
+        }
+      ],
+      "use": "Encounter"
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/Stortebeker.png"
   }
 ]

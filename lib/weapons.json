@@ -223,5 +223,68 @@
     "on_attack": "Either you or your target may spend 1 Repair to restore half your target’s HP.",
     "on_hit": "The target clears one condition that was not self-inflicted.",
     "license_id": ""
+  },
+  {
+    "id": "valk-hr-mw_catalyst_pistol",
+    "name": "!V! Catalyst Pistol",
+    "mount": "Auxiliary",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      }
+    ],
+    "source": "HORUS",
+    "license": "Manticore",
+    "license_level": 1,
+    "description": "“Burn, thou fiend, before the fire of the Eye of RA!”",
+    "license_id": "mf_manticore"
+  },
+  {
+    "id": "valk-hr-mw_arc_projector",
+    "name": "!V! Arc Projector",
+    "mount": "Heavy",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d6+3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      }
+    ],
+    "source": "HORUS",
+    "license": "Manticore",
+    "license_level": 2,
+    "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range; however, each attack generates 1 heat, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon.",
+    "description": "“Fire be upon thee, APEP! Thy flesh is seared from thy bones; The Lord of the Duat will never enable thy shade to rise again!”",
+    "license_id": "mf_manticore"
   }
 ]
