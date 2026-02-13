@@ -642,6 +642,15 @@ Cycle licensed options to gate more powerful options behind a higher license inv
     > "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within Range 3. On a failure, they don’t lose the attack, but they must select a different target for the attack. The target cannot be you or any allied character within Range 3 of you. If the attack was an area of effect, the attacker must position it such that it no longer targets you or any of your allies within Range 3. If no valid targets exist, the attack and action to use it are lost."
   * This effect prevents attacks against the Gorgon's allies without aggressively Stunning the rest of the enemy forces. This is intended to make Gorgon more manageable in one-shot contexts where only one or two combats occur before a Full Repair.
 
+#### //SCORPION V70.1
+
+* Change effect to the following:
+  > As a quick action, you prime this system's counter-hacking suite. While primed, you gain the //STING reaction.
+  > //STING - Reaction, 1/round
+  > Trigger: A hostile character misses a tech attack against you or an allied character in Sensors.
+  > Effect: The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn.
+  * //SCORPION V70.1 suffers from the "Deflect Arrows" issue from the D&D5e Monk: If you know the PC has this feature, you'll never want to attack them and risk the punishment. As a result, the feature is poor for actual "tech attack tanking", as the easiest answers are to attack someone else outside the area or do something other than tech. This change addresses the issue by broadening the "tanking" range to Sensors (so attackers have less option to avoid it) and make attacking the user less punishing than attacking their allies (funneling aggression into the user, as a Tank would). In exchange, the system's uptime is reduced to "when primed", allowing for some counterplay from NPCs.
+
 ### HORUS Kobold
 
 #### Kobold Frame

@@ -308,6 +308,37 @@
     "license_id": "mf_goblin"
   },
   {
+    "id": "valk-hr-ms___scorpion_v70.1",
+    "name": "!V! //SCORPION V70.1",
+    "type": "Tech",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HORUS",
+    "license": "Gorgon",
+    "license_level": 2,
+    "effect": "As a quick action, you prime this system's counter-hacking suite. While primed, you gain the //STING reaction.",
+    "actions": [
+      {
+        "name": "Prime //STING",
+        "activation": "Quick",
+        "detail": "Prime this system, gaining the //STING reaction."
+      },
+      {
+        "name": "//STING",
+        "activation": "Reaction",
+        "frequency": "1/round",
+        "trigger": "A hostile character misses a tech attack against you or an allied character in Sensors.",
+        "detail": "The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn."
+      }
+    ],
+    "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",
+    "license_id": "mf_gorgon"
+  },
+  {
     "id": "valk-hr-ms_aggressive_system_sync",
     "name": "!V! Aggressive System Sync",
     "type": "Tech",
