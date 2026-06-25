@@ -1534,13 +1534,13 @@
       },
       {
         "name": "Dead Man Walking",
-        "description": "When the Störtebeker would take <b>structure damage</b>, it may first move up to its <b><span style="font-variant: small-caps;">Speed</span></b> in a straight line as a <b>reaction</b>, ignoring engagement and reactions.",
+        "description": "When the Störtebeker would take <b>structure damage</b>, it may first move up to its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line as a <b>reaction</b>, ignoring engagement and reactions.",
         "actions": [
           {
             "name": "Dead Man Walking",
             "activation": "Reaction",
             "trigger": "The Störtebeker would take <b>structure damage</b>.",
-            "detail": "The Störtebeker may first move up to its <b><span style="font-variant: small-caps;">Speed</span></b> in a straight line as a <b>reaction</b>, ignoring engagement and reactions."
+            "detail": "The Störtebeker may first move up to its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line as a <b>reaction</b>, ignoring engagement and reactions."
           }
         ]
       },
