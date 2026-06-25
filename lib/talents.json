@@ -1,5 +1,72 @@
 [
   {
+    "id": "valk-hr-t_centimane",
+    "name": "!V! Centimane",
+    "icon": "CENTIMANE",
+    "terse": "Debuff and control enemies with critical hits from Nexus weapons",
+    "description": "In the aftermath of the attack on Tartarus Bay, an anonymous source identified agents of the Karrakin Royal Intelligence Service as the culprits. The Baronies quickly released a statement of denial, which was never countered with hard evidence. Rumors of raw footage from the attack were unsubstantiated. Public reaction – anger, terror – to the station’s destruction quieted. The corpse of Tartarus Bay was shunted away from its stable orbit, directed toward the nearest star.<br>A month later, Baronies-local omninet was flooded with previously suppressed footage from the attack on the station, confirming the rumors: Baronic agents did release the greywash swarm into Tartarus Bay. Further data dumps by Ungrateful agents indicated the existence of a secret Baronic intelligence outfit: the Centimane – the Hundred Hands.",
+    "ranks": [
+      {
+        "name": "Ten Thousand Teeth",
+        "description": "1/round, when you consume Lock On and hit with a Nexus, your target must pass a Systems save or become Impaired and Slowed until the end of their next turn.",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Nexus"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "1/round, when you consume Lock On and hit with this weapon, your target must pass a Systems save or become Impaired and Slowed until the end of their next turn."
+          }
+        ]
+      },
+      {
+        "name": "Expose Weakness",
+        "description": "When you consume Lock On as part of an attack with a Nexus or Drone and perform a critical hit, your target becomes Shredded until the start of your next turn.",
+        "synergies": [
+          {
+            "locations": [
+              "weapon",
+              "system"
+            ],
+            "weapon_types": [
+              "Nexus"
+            ],
+            "system_types": [
+              "Drone"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "When you consume Lock On as part of an attack with this weapon and perform a critical hit, your target becomes Shredded until the start of your next turn."
+          }
+        ]
+      },
+      {
+        "name": "Tidal Suppression",
+        "description": "This replaces Ten Thousand Teeth.<br>1/round, when you consume Lock On and hit with a Nexus, your target must succeed on a Systems save or you may choose an additional effect for your attack that lasts until the end of their next turn:<ul><li><b>Harrying Swarm:</b> They become Impaired and Slowed.</li><li><b>Blinding Swarm:</b> They only have line of sight to adjacent squares.</li><li><b>Virulent Swarm:</b> They become Shredded. Any adjacent characters of your choice must also make a Systems save or become Shredded.</li><li><b>Restricting Swarm:</b> They take 1 Burn each time they take an action or reaction.</li></ul>",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Nexus"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "This replaces Ten Thousand Teeth.<br>1/round, when you consume Lock On and hit with this weapon, your target must succeed on a Systems save or you may choose an additional effect for your attack that lasts until the end of their next turn:<ul><li><b>Harrying Swarm:</b> They become Impaired and Slowed.</li><li><b>Blinding Swarm:</b> They only have line of sight to adjacent squares.</li><li><b>Virulent Swarm:</b> They become Shredded. Any adjacent characters of your choice must also make a Systems save or become Shredded.</li><li><b>Restricting Swarm:</b> They take 1 Burn each time they take an action or reaction.</li></ul>",
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "valk-hr-t_exemplar",
     "name": "!V! Exemplar",
     "icon": "EXEMPLAR",

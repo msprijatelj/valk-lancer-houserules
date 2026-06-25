@@ -144,6 +144,10 @@ I introduce these alternative tag rules in [Prototype Pattern Groups](https://va
 
 # Talents
 
+### Centimane
+
+I lift the Centimane changes directly from [Maria's house rules](https://docs.google.com/document/d/1ModxKO46FcsswE3ZNie_jTSewhlfD5DGZZhaRsfITp8/edit). On Crit effects are perpetually swingy and hard to trigger at low LLs, but Lock On is much more deterministic and easy to achieve. Therefore, Maria's tweaks are a slam dunk for me.
+
 ### Exemplar
 
 * In Rank 2, "Punishment", replace with:
