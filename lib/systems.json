@@ -669,6 +669,9 @@
       {
         "id": "tg_heat_self",
         "val": 1
+      },
+      {
+        "id": "tg_unique"
       }
     ],
     "source": "HA",

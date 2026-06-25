@@ -776,6 +776,7 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 #### Blinkspace Tunneler
 
+* Add Unique tag.
 * Change so that the effect ends as soon as one character enters the blink tear.
   * As written, Blinkspace Tunneler allows a quick character to get their whole team instantaneously across a map, trivializing movement in many sitreps. This keeps the effect toned down while still allowing a buddy to come along for the ride.
 
