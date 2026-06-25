@@ -320,19 +320,14 @@
     "source": "HORUS",
     "license": "Gorgon",
     "license_level": 2,
-    "effect": "As a quick action, you prime this system's counter-hacking suite. While primed, you gain the //STING reaction.",
+    "effect": "Gain the //STING reaction.",
     "actions": [
-      {
-        "name": "Prime //STING",
-        "activation": "Quick",
-        "detail": "Prime this system, gaining the //STING reaction."
-      },
       {
         "name": "//STING",
         "activation": "Reaction",
         "frequency": "1/round",
-        "trigger": "A hostile character misses a tech attack against you or an allied character in Sensors.",
-        "detail": "The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn.<br><br>Regardless of success or failure, this system is no longer primed."
+        "trigger": "A hostile character targets you or an allied character with a tech action while you are within the hostile character's Sensors and line of sight.",
+        "detail": "<p>The hostile character must make a <b><span style='font-variant: small-caps;'>Systems</span></b> save. On a failure, this system assaults their electronic warfare suite. Choose one of the following based upon who they targeted:<ul><li>If they targeted you or an ally, they gain <b>2 Heat</b> and become <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</li><li>If they targeted an ally, they become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn. Each character can only be <b><span style='font-variant: small-caps;'>Jammed</span></b> 1/scene by this system.</li></ul></p>"
       }
     ],
     "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",

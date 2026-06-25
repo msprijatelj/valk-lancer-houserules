@@ -645,12 +645,13 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 #### //SCORPION V70.1
 
 * Change effect to the following:
-  > As a quick action, you prime this system's counter-hacking suite. While primed, you gain the //STING reaction.
+  > Gain the //STING reaction.
   > //STING - Reaction, 1/round
-  > Trigger: A hostile character misses a tech attack against you or an allied character in Sensors.
-  > Effect: The attacker must make a Systems save. On a failure, this system assaults their electronic warfare suite: If they were attacking one of your allies, they are JAMMED until the end of their next turn. If they were attacking you, they instead take 2 Heat and become IMPAIRED until the end of their next turn.
-  > Regardless of success or failure, this system is no longer primed.
-  * //SCORPION V70.1 suffers from the "Deflect Arrows" issue from the D&D5e Monk: If you know the PC has this feature, you'll never want to attack them and risk the punishment. As a result, the feature is poor for actual "tech attack tanking", as the easiest answers are to attack someone else outside the area or do something other than tech. This change addresses the issue by broadening the "tanking" range to Sensors (so attackers have less option to avoid it) and make attacking the user less punishing than attacking their allies (funneling aggression into the user, as a Tank would). In exchange, the system's uptime is reduced to "when primed", allowing for some counterplay from NPCs.
+  > Trigger: A hostile character targets you or an allied character with a tech action while you are within the hostile character's Sensors and line of sight.
+  > Effect: The hostile character must make a Systems save. On a failure, this system assaults their electronic warfare suite. Choose one of the following based upon who they targeted:
+  > * If they targeted you or an ally, they gain 2 Heat and become Impaired until the end of their next turn.
+  > * If they targeted an ally, they become Jammed until the end of their next turn. Each character can only be Jammed 1/scene by this system.
+  * //SCORPION V70.1 suffers from the "Deflect Arrows" issue from the D&D5e Monk: If you know the PC has this feature, you'll never want to attack them and risk the punishment. As a result, the feature is poor for actual "tech attack tanking", as the easiest answers are to attack someone else outside the area or do something other than tech. This change addresses the issue by broadening the "tanking" range to the *attacker's* Sensors (so attackers have less option to avoid it) and make attacking the user more appetizing than their allies (funneling aggression into the user, as a Tank would).
 
 ### HORUS Kobold
 
