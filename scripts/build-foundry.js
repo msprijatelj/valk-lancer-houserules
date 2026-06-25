@@ -22,7 +22,7 @@ files.forEach(function(fn) {
 });
 
 import zl from 'zip-lib';
-import info from '../package.json' assert { type: 'json' };
+import info from '../package.json' with { type: 'json' };
 
 const name = info.name.split('/').pop();
 
