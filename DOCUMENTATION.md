@@ -170,7 +170,7 @@ I introduce these alternative tag rules in [Prototype Pattern Groups](https://va
 ### Empath
 
 * In order to make Empath play nicer with my Structure Damage rules, change "Rank 2: Bend to Will" to the following:
-  > 1/scene when an allied character in line of sight receives a condition from a hostile source, you may receive that condition instead.
+  > 1/scene when an allied character in line of sight receives a condition from a hostile source, you may receive that condition instead for the same duration.
 
 ### Orator
 

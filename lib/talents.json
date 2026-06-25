@@ -275,7 +275,7 @@
       },
       {
         "name": "Bend to Will",
-        "description": "1/scene when an allied character in line of sight receives a condition from a hostile source, you may receive that condition instead."
+        "description": "1/scene when an allied character in line of sight receives a condition from a hostile source, you may receive that condition instead for the same duration."
       },
       {
         "name": "Shared Subjectivity",
