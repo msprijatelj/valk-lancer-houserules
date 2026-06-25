@@ -676,8 +676,8 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 #### Arc Projector
 
-* Increase damage from 1d6+1 to 1d6+3.
-  * For a pseudo-"area of effect" weapon with a scaling Heat (Self) cost, Arc Projector's damage is pretty anemic. 1d6+2 per hit would probably be enough, but I like to live dangerously.
+* Add AP tag.
+  * For a pseudo-"area of effect" weapon with a scaling Heat (Self) cost, Arc Projector's damage is pretty anemic. I previously had this at 1d6+3 damage with no AP, which was satisfying, but I like the idea of AP here instead as in line with the rest of Manticore's "AP Energy Damage" theming.
 
 ### HORUS Minotaur
 

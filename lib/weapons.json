@@ -265,7 +265,7 @@
     "damage": [
       {
         "type": "Energy",
-        "val": "1d6+3"
+        "val": "1d6+1"
       }
     ],
     "range": [
@@ -275,6 +275,9 @@
       }
     ],
     "tags": [
+      {
+        "id": "tg_ap"
+      },
       {
         "id": "tg_heat_self",
         "val": 1
