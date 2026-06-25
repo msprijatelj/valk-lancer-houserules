@@ -60,7 +60,7 @@
             "weapon_sizes": [
               "any"
             ],
-            "detail": "This replaces Ten Thousand Teeth.<br>1/round, when you consume Lock On and hit with this weapon, your target must succeed on a Systems save or you may choose an additional effect for your attack that lasts until the end of their next turn:<ul><li><b>Harrying Swarm:</b> They become Impaired and Slowed.</li><li><b>Blinding Swarm:</b> They only have line of sight to adjacent squares.</li><li><b>Virulent Swarm:</b> They become Shredded. Any adjacent characters of your choice must also make a Systems save or become Shredded.</li><li><b>Restricting Swarm:</b> They take 1 Burn each time they take an action or reaction.</li></ul>",
+            "detail": "This replaces Ten Thousand Teeth.<br>1/round, when you consume Lock On and hit with this weapon, your target must succeed on a Systems save or you may choose an additional effect for your attack that lasts until the end of their next turn:<ul><li><b>Harrying Swarm:</b> They become Impaired and Slowed.</li><li><b>Blinding Swarm:</b> They only have line of sight to adjacent squares.</li><li><b>Virulent Swarm:</b> They become Shredded. Any adjacent characters of your choice must also make a Systems save or become Shredded.</li><li><b>Restricting Swarm:</b> They take 1 Burn each time they take an action or reaction.</li></ul>"
           }
         ]
       }
@@ -316,6 +316,49 @@
             "default_value": 6,
             "min": 1,
             "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valk-hr-t_vanguard",
+    "name": "!V! Vanguard",
+    "icon": "VANGUARD",
+    "terse": "Improve your CQB weapons and make Overwatching more effective",
+    "description": "Where would you rather be: in the battle line, shoulder-to-shoulder with the rest of the cannon fodder, or in the rush, at the head of the attack, your livery clean and bright, with glory to be won? The answer is easy. All those missiles and lances, all those hundred-kilometer, adjust-for-Coriolis railguns – they’re all useless against you. Get through their guard, get in their face, and make them know your name.",
+    "ranks": [
+      {
+        "name": "Handshake Etiquette",
+        "description": "Gain +2 Knockback when using CQB weapons to attack targets within Range 3.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["CQB"],
+            "weapon_sizes": ["any"],
+            "detail": "Gain +2 Knockback with this weapon when attacking targets within Range 3"
+          }
+        ]
+      },
+      {
+        "name": "See-Through Seeker",
+        "description": "You’ve modified your sensors and ammo to punch through, disregard, or otherwise ignore cover at close range. As long as you have line of sight, you ignore both soft and hard cover when using CQB weapons to attack targets within Range 3.",
+        "synergies": [
+          {
+            "locations": ["weapon"],
+            "weapon_types": ["CQB"],
+            "weapon_sizes": ["any"],
+            "detail": "As long as you have line of sight, ignore both soft and hard cover when using this weapon to attack targets within Range 3"
+          }
+        ]
+      },
+      {
+        "name": "Semper Vigilo",
+        "description": "You may attack with Overwatch using CQB weapons when hostile characters enter, leave, or exit spaces within your Threat, no matter whether they started their movement there.",
+        "synergies": [
+          {
+            "locations": ["overwatch"],
+            "detail": "You may attack with Overwatch using CQB weapons when hostile characters enter, leave, or exit spaces within your Threat, no matter whether they started their movement there."
           }
         ]
       }

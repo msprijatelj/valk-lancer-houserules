@@ -171,6 +171,10 @@ I lift the Centimane changes directly from [Maria's house rules](https://docs.go
 * Upon suggestion from [Kai Tave](https://kaitave.itch.io/): In Rank 3, "Torrent", add the following sentence to the end of the first paragraph: "If you consumed Lock On as part of using Stormbending, lower the value by 2 instead."
   * This synergizes with Rank 1's Lock On benefits and makes the Massive Attack more accessible in an average fight.
 
+### Vanguard
+
+I lift the Vanguard changes directly from [Maria's house rules](https://docs.google.com/document/d/1ModxKO46FcsswE3ZNie_jTSewhlfD5DGZZhaRsfITp8/edit). Many CQB weapons are balanced around the Inaccurate tag, which Vanguard 1 instantly negates. I prefer for players to work harder for their accuracy bonuses. Replacing the Accuracy with Knockback helps a Vanguard user better fulfill the Vanguard role.
+
 ### Empath
 
 * In order to make Empath play nicer with my Structure Damage rules, change "Rank 2: Bend to Will" to the following:
@@ -208,6 +212,16 @@ The following two GMS Core Bonuses from [Maria Lopez's collection of house rules
 
 ### GMS Equipment
 
+#### GMS Anti-Materiel Rifle
+
+* Change damage from 2d6 to 1d6+6.
+  * Pulling this change from Maria's house rules, though it's commonly discussed on Pilot Net. 2d6 AP damage all too often results in a low roll for a Heavy, Loading, and Ordnance weapon. Changing to 1d6+6 raises the average without raising the damage ceiling, making it a bit more reliable (albeit not "Reliable").
+
+#### GMS Cyclone Pulse Rifle
+
+* Remove "Accurate" tag.
+  * Another change courtesy of Maria. Accurate and Reliable are a bit redundant with each other. CPR has a lot going for it without Accurate, so removing that tag will let the Anti-Materiel Rifle shine a bit brighter.
+
 #### GMS Nexus (Hunter-Killer)
 
 * Add the "Accurate" tag.
@@ -222,6 +236,11 @@ The following two GMS Core Bonuses from [Maria Lopez's collection of house rules
 
 * Increase Threat from 1 to 2.
   * Taking notes from [Lancers in the Dark](https://docs.google.com/document/d/19LcfVsvo9u5FaaDMvSytB2YQhnBGcSRMrsAEKRnRVdI/edit), adding some extra Threat to the Heavy Melee helps keep it competitive with other raw statsticks like Raleigh's Kinetic Hammer.
+
+#### GMS Shotgun
+
+* Add Knockback 1 tag.
+  * GMS Shotgun's balance rides almost entirely on its Threat and synergy with Vanguard. Altogether, a Threat 3 1d6 weapon isn't all that threatening on its own! Adding a little bonus Knockback should help it stand out amongst the GMS Mains.
 
 #### GMS Thermal Rifle
 
