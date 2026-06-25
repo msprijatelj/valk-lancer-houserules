@@ -395,9 +395,9 @@ Störtebeker has about 6 traits masquerading as 3 traits, and I can never keep t
 #### Integrated Nerveweave
 
 * Replace the effect with the following:
-    > Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.
+    > Gain +1 Speed.
 
-  * Another one inspired from conversations with Pilot NET, this provides Nerveweave a more reliable speed bonus while effectively maintaining the original benefit.
+  * Another one inspired from conversations with Pilot NET, this provides Nerveweave a more reliable speed bonus.
 
 ### SSC Atlas
 

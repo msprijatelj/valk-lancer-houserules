@@ -37,21 +37,12 @@
     "id": "valk-hr-cb_integrated_nerveweave",
     "name": "!V! Integrated Nerveweave",
     "source": "SSC",
-    "effect": "Gain +1 Speed. In addition, you may move an additional 1 space when you Boost.",
+    "effect": "Gain +1 Speed.",
     "description": "Integrated nerveweave combines several technologies to grant total battlefield alacrity, assuring pilots are never left behind.",
     "bonuses": [
       {
         "id": "speed",
         "val": 1
-      }
-    ],
-    "synergies": [
-      {
-        "locations": [
-          "move",
-          "boost"
-        ],
-        "detail": "Gain +1 Speed. In addition, you may move an additional 1 space when you Boost."
       }
     ]
   },
