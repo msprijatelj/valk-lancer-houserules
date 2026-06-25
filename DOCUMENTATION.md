@@ -1,4 +1,4 @@
-# Documentation (Version 0.5.1)
+# Documentation (Version 0.6.0)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -118,45 +118,7 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 
 ## Sitreps
 
-### Escort
-
-#### Objective
-
-* Replace everything after the third sentence with the following:
-    > "The Objective can be lifted and dragged like any other object."
-  * Start treating Objectives like objects by using the revamped Lifting and Dragging rules.
-
-### Extraction
-
-#### Objective
-
-* Replace everything after the third sentence with the following:
-    > "The Objective can be lifted and dragged like any other object."
-  * Start treating Objectives like objects by using the revamped Lifting and Dragging rules.
-
-### Holdout
-
-#### Scoring
-
-* Replace "Scoring" with the following:
-    > "The PCs start with 0 points. At the end of each round, they gain points equal to the number of PCs in the CZ minus the number of enemies in the CZ (minimum 0)."
-
-#### Victory Conditions
-
-* Replace "Victory Conditions" with the following:
-    > * PC Victory: The PCs score points equal to 3 times the number of PCs.
-    > * Enemy Victory: The PCs gain no points for 2 consecutive rounds. If there are any PCs remaining on the field when this takes place, they are captured or overrun.
-  * Again, I'm not a huge fan of round timers. In addition, I want to incentivize hunkering down on the CZ. So, if the PCs hold the point and fend off their aggressors, they'll win at a much quicker rate. If their points stall, they're routed.
-
-### Recon
-
-#### Control Zones
-
-* Replace "Four CZs (typically 4 spaces on each side)..." with "One CZ per PC (typically 4 spaces on each side, maximum 4 zones)..."
-  * Provide minor scaling for lower PC counts. Most relevant for 3 PCs.
-
-* Replace the second and third sentences with:
-  > "While inside a CZ, PCs may take a quick action to survey the CZ; each CZ can only be surveyed once, and a given PC can only survey one CZ per round. Once all CZs have been surveyed, the GM randomly determines the True CZ."
+I outright replace vanilla Lancer sitreps with my own modular and action-oriented objectives. I detail them in [Prototype Pattern Groups](https://valkyrion.itch.io/prototype-pattern-groups) and for free on my blog, [Train Lightning](https://trainlightning.com/modular-objectives/).
 
 # Tags
 
@@ -404,13 +366,20 @@ Zheng's speed is balanced around Xiaoli's Tenacity, which means that it's especi
 Störtebeker has about 6 traits masquerading as 3 traits, and I can never keep track of any of them. For all the juggling, Störtebeker's output is... average? I understand it's trying to be a cute take on Combined Arms 3, but I personally don't think Combined Arms 3 needs a dedicated mech frame. So, I have it lean into Raleigh's use of the Reliable tag in-license by pairing it with the hard-to-get AP tag.
 
 * Replace Dynamic Reload with the following:
-  > If you took the Skirmish action this turn, as a quick action, you may reload all of your weapons not used to attack this turn.
+    > If you took the Skirmish action this turn, as a quick action, you may reload all of your weapons not used to attack this turn.
 
-* Change Truesilver to a Core Passive, change it to a Protocol 1/scene, and change the effect to the following:
-  > During this turn, your weapons without Reliable gain Reliable based on their weapon size (Auxiliary: 1, Main: 2, Heavy: 3, Superheavy: 4). Your weapons that previously had Reliable instead gain AP.
+* Add a new feature, Dead Man Walking:
+    > When the Störtebeker would take Structure damage, it may first move up to its Speed in a straight line as a reaction, ignoring engagement and reactions.
+  * Störtebeker's proclivity towards combined arms means that sometimes it gets structured in a dangerous situation. This leans into the Störtebeker myth by letting it escape before suffering the consequences of structure damage.
 
-* Change Truesilver Arsenal to the following:
-  > Truesilver lasts until the end of the scene.
+* Change Truesilver to:
+    > The Störtebeker's weapons gain "On critical hit: This weapon gains the AP tag."
+  * Preserve some incentives to crit-fish with Störtebeker while by granting access to the aux-valuable AP tag.
+
+* Change Truesilver Arsenal to Heads Will Roll:
+    > Heads Will Roll - Active (1 CP), Protocol, Efficient
+    > The Störtebeker reloads all of its weapons. All attacks the Störtebeker makes this turn are treated as critical hits, but they do not roll damage twice unless they hit with a result of 20 or higher.
+  * 1/scene, pull off a sick attack combo.
 
 ## SSC
 

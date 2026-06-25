@@ -492,10 +492,16 @@
     "source": "HORUS",
     "name": "!V! Balor",
     "variant": "Balor",
-    "mechtype": ["Striker", "Defender"],
+    "mechtype": [
+      "Striker",
+      "Defender"
+    ],
     "y_pos": 27,
     "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br>The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br>In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it.",
-    "mounts": ["Main", "Heavy"],
+    "mounts": [
+      "Main",
+      "Heavy"
+    ],
     "stats": {
       "size": 2,
       "structure": 4,
@@ -1113,7 +1119,7 @@
             "name": "Slip",
             "frequency": "1/Round",
             "activation": "Free",
-            "detail": "1/round the Sunzi can teleport 2 spaces as a free action"
+            "detail": "1/round the Sunzi can teleport 2 spaces as a free action."
           }
         ]
       }
@@ -1517,39 +1523,52 @@
     "traits": [
       {
         "name": "Dynamic Reload",
-        "description": "If you took the <b><span style='font-variant: small-caps;'>Skirmish</span></b> action this turn, as a <b>quick action</b>, you may reload all of your weapons not used to attack this turn."
+        "description": "If you took the <b><span style='font-variant: small-caps;'>Skirmish</span></b> action this turn, as a <b>quick action</b>, you may reload all of your weapons not used to attack this turn.",
+        "actions": [
+          {
+            "name": "Dynamic Reload",
+            "activation": "Quick",
+            "detail": "If you took the <b><span style='font-variant: small-caps;'>Skirmish</span></b> action this turn, as a <b>quick action</b>, you may reload all of your weapons not used to attack this turn."
+          }
+        ]
+      },
+      {
+        "name": "Dead Man Walking",
+        "description": "When the Störtebeker would take <b>structure damage</b>, it may first move up to its <b><span style="font-variant: small-caps;">Speed</span></b> in a straight line as a <b>reaction</b>, ignoring engagement and reactions.",
+        "actions": [
+          {
+            "name": "Dead Man Walking",
+            "activation": "Reaction",
+            "trigger": "The Störtebeker would take <b>structure damage</b>.",
+            "detail": "The Störtebeker may first move up to its <b><span style="font-variant: small-caps;">Speed</span></b> in a straight line as a <b>reaction</b>, ignoring engagement and reactions."
+          }
+        ]
+      },
+      {
+        "name": "Truesilver",
+        "description": "The Störtebeker's weapons gain \"<b>On critical hit</b>: This weapon gains the <b>AP</b> tag.\"",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "detail": "The Störtebeker's weapons gain \"<b>On critical hit</b>: This weapon gains the <b>AP</b> tag.\""
+          }
+        ]
       }
     ],
     "core_system": {
       "name": "Truesilver Weaponry",
       "description": "Project TRUESILVER was an attempt to improve the destructive capabilities of whitewash nano-machines. The hyper-specialized nanites manifest themselves as a mirror-sheen silver coating that can spread over ammunition and melee weapons alike. This coating gives armaments a striking appearance and is the source of the system’s unique name. Thus enhanced, weapons can deliver a destructive nanite payload that compounds any damage done by the initial strike exponentially, eating away at a target from the inside. <br>TRUESILVER nanites are internally printed and held in a specialized shielded reservoir before being fed to a mech’s weapons systems. Slow to be replenished by the frame’s internal printers, pilots must manage their use with care.",
-      "active_name": "Truesilver Arsenal",
-      "active_effect": "Truesilver lasts until the end of the scene.",
+      "active_name": "Heads Will Roll",
+      "active_effect": "The Störtebeker reloads all of its weapons. All attacks the Störtebeker makes this turn are treated as <b>critical hits</b>, but they do not roll damage twice unless they hit with a result of <b>20</b> or higher.",
       "activation": "Protocol",
-      "passive_name": "Truesilver",
-      "passive_actions": [
+      "use": "Encounter",
+      "tags": [
         {
-          "name": "Truesilver",
-          "activation": "Protocol",
-          "detail": "During this turn, your weapons without <b><span style='font-variant: small-caps;'>Reliable</span></b> gain <b><span style='font-variant: small-caps;'>Reliable</span></b> based on their weapon size (Auxiliary: 1, Main: 2, Heavy: 3, Superheavy: 4). Your weapons that previously had <b><span style='font-variant: small-caps;'>Reliable</span></b> instead gain <b>AP</b>.",
-          "frequency": "1/Scene",
-          "synergies": [
-            {
-              "locations": [
-                "weapon"
-              ],
-              "weapon_types": [
-                "any"
-              ],
-              "weapon_sizes": [
-                "any"
-              ],
-              "detail": "During this turn, your weapons without <b><span style='font-variant: small-caps;'>Reliable</span></b> gain <b><span style='font-variant: small-caps;'>Reliable</span></b> based on their weapon size (Auxiliary: 1, Main: 2, Heavy: 3, Superheavy: 4). Your weapons that previously had <b><span style='font-variant: small-caps;'>Reliable</span></b> instead gain <b>AP</b>."
-            }
-          ]
+          "id": "tg_efficient"
         }
-      ],
-      "use": "Encounter"
+      ]
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/Stortebeker.png"
   }
