@@ -567,25 +567,19 @@ Cycle licensed options to gate more powerful options behind a higher license inv
 
 * Reduce Evasion from 10 to 8 and Speed from 5 to 4. Increase Repair Cap from 2 to 4.
   * Goblin's base stat average is relatively close to Everest's... except it has sharp strengths in Systems and harsh weaknesses in Engineering and Hull. This dials back the Goblin's marginal benefit in Agility to shore up its "Hull score" with a bare minimum of 4 Repair Cap.
-* Make Liturgicode a Core Passive, and change it to the following:
-    > Liturgicode - Reaction, 1/scene
-    > 
-    > Trigger: A hostile character in Sensors and line of sight performs a tech action.
-    > 
-    > Effect: Interrupt the action by making a contested Systems check against the triggering character. If you succeed, the target’s tech action fails. On your next turn only, you may attempt to perform the same tech action, paying the same action cost but using your Tech Attack and Save Target for any of the action’s attacks or saves.
-  * RAW Liturgicode granting +1 Accuracy on all tech attacks is an obscene amount of power that the Goblin frankly does not need. This gives the Goblin an interesting, 1/scene reaction that can facilitate emergent combo play.
-* Change Reactive Code to the following:
-    > If a hostile character hits you or one of your allies with a tech attack, they gain the Lock On condition after resolving the attack.
-  * Reactive code suffers from two problems: It's an incredibly potent reaction, and no enemy in their right mind wants to trigger it. Engaging with this mechanic as a GM is the epitome of "shoot your monks" philosophy, which in my opinion is a weakness in the feature's design. This change dials back the effect in exchange for broadening its coverage, thus making it harder for the opponent to avoid. Plus, the Lock On helps make up for the loss of the old Liturgicode and synergizes with Hacker 1!
-* Change Symbiosis to the following:
-    > Your mech retracts its major systems and attaches itself to another mech, becoming more like a vestigial blister than a separate entity. You meld with a larger, willing, and adjacent allied mech. While melded, you share the melded ally's space, are IMMUNE to involuntary movement, but move with all of the melded ally's movement (including their involuntary movement and teleportation). In addition, you gain hard cover and gain Accuracy on all tech attacks as you leverage the melded ally's systems.
-    >
-    > Both you and the melded ally gain the following benefits:
-    > - Each of you may use the other’s Sensors, Systems, Tech Attack, Save Target, and E-Defense or their own, whichever is higher.
-    > - You may Activate each other’s systems and Tech Actions, but the original owner is treated as taking the action.
-    > - When one of you is affected by a hostile tech action, the other receives the same effect.
-    >
-    > This melding lasts until the end of the scene or until you end it and move to an adjacent space as a quick action.
+* Change Liturgicode to the following:
+    > When the Goblin uses the Quick Tech Invade action, if the tech attack hits with a result of 20+, the target gains Lock On.
+  * RAW Liturgicode granting +1 Accuracy on all tech attacks is an obscene amount of power that the Goblin frankly does not need, and it actually discourages the Goblin from investing in Systems for tech attacks. This change incentivizes stacking to-hit bonuses for tech attacks instead.
+* Change Reactive Code into the Goblin's core power:
+    > Reactive Code - Active (1 CP), Reaction, Efficient
+    > Trigger: A hostile character within Sensors and line of sight takes the Quick Tech or Full Tech action.
+    > Effect: Roll a contested Systems check against the triggering character. On a success, the target is immediately Jammed until the end of their current turn, potentially preventing the triggering action. On a failure, the target is instead Jammed for the same duration after it completes the triggering action.
+    > This reaction counts as a Tech Action for the purposes of abilities that affect tech actions.
+  * Reactive code suffers from two problems: It's an incredibly potent reaction, and no enemy in their right mind wants to trigger it. Engaging with this mechanic as a GM is the epitome of "shoot your monks" philosophy, which in my opinion is a weakness in the feature's design. This change allows for the Goblin to do the classic "wizard counterspell", cutting the enemy's turn short and potentially preventing hostile tech actions. It is deliberately treated as a Tech Action in order to synergize with Metahook.
+* Change Symbiosis into a normal frame trait:
+    > As a quick action, you attach to an adjacent and willing allied mech that is larger than you and not already hosting another Goblin. While attached, you occupy the host's space, move with them, and benefit from hard cover. If you or the host are knocked Prone, Stunned, Immobilized, or destroyed, you land Prone in an adjacent space. You may detach and climb down from the host as part of any movement.
+    > In addition, both you and the host may use the higher of each other’s Sensors, Systems, Tech Attack, Save Target, and E-Defense.
+  * Symbiosis has fun support potential, but it's incredibly involved and very niche as a core power. I dial it down to a "selfish MULE Harness" that allows for some stats sharing and mobile Goblin cover in exchange for making Reactive Code the new (efficient) core power.
 
 #### H0R_OS System Upgrade I
 
