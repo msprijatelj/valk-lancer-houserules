@@ -160,11 +160,25 @@ I am adapting this rule from [Stormtalus](https://stormtalus.itch.io/)'s house r
 
 # Tags
 
+I introduce these alternative tag rules in [Prototype Pattern Groups](https://valkyrion.itch.io/prototype-pattern-groups) and reproduce them here for convenience.
+
+### Arcing
+
+* Change Arcing to the following:
+    > This weapon can be fired over obstacles, usually by lobbing a projectile in an arc. You can draw line of sight with this weapon from allied characters. However, this does not affect the origin of the attack for other purposes, including cover. In addition, the final attack rolls of attacks made in this way can never be affected by Accuracy.
+  * Being able to ignore Line of Sight is immensely powerful even in games with less of a ranged-attacker focus than Lancer. Taking inspiration from [MAC Attack](https://chrismcdee.itch.io/mac-attack)'s Arcing rules, this change requires at least one ally to have line of sight to the target (adding value to "spotter" buddies) and ensuring such attacks will never be more accurate than directly firing upon the target.
+
 ### Overkill
 
 * Change Overkill to the following:
     > When rolling damage with this weapon, you may choose to roll with OVERKILL. If you do, you must reroll any damage dice that land on 1. Additional 1s continue to be rerolled. After damage is applied, the attacker takes equal to the number of dice rerolled.
   * This changes Overkill to be opt-in to play nicely with the Overheating rules, and consolidates the heat created by Overkill into a single package that can be Resisted.
+
+### Seeking
+
+* Change Seeking to the following:
+    > This weapon has a limited form of self-guidance and internal propulsion, allowing it to follow complicated paths to its targets. As a result, this weapon receives +1 Accuracy when attacking targets benefiting from cover.
+  * Vanilla Seeking is Arcing+: It ignores cover and line of sight in a game where most weapons are guns. This leads to low-interactive gameplay where an Artillery can shoot without worrying about positioning. This change takes a page from [MAC Attack](https://chrismcdee.itch.io/mac-attack)'s "Guided" tag: Seeking no longer ignores line of sight and cover, but instead grants +1 Accuracy against targets in cover. This situational accuracy is still potent, but still rewards smart positioning from both the attacker and defender.
 
 # Talents
 

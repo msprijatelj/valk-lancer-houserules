@@ -2,6 +2,16 @@
   {
     "id": "tg_overkill",
     "name": "!V! Overkill",
-    "description": "When rolling damage with this weapon, you may choose to roll with OVERKILL. If you do, you must reroll any damage dice that land on 1. Additional 1s continue to be rerolled. After damage is applied, the attacker takes equal to the number of dice rerolled."
+    "description": "When rolling damage with this weapon, you may choose to roll with <b><span style='font-variant: small-caps;'>Overkill</span></b>. If you do, you must reroll any damage dice that land on 1. Additional 1s continue to be rerolled. After damage is applied, the attacker takes Heat equal to the number of dice rerolled."
+  },
+  {
+    "id": "tg_arcing",
+    "name": "!V! Arcing",
+    "description": "This weapon can be fired over obstacles, usually by lobbing a projectile in an arc. You can draw line of sight with this weapon from allied characters. However, this does not affect the origin of the attack for other purposes, including cover. In addition, the final attack rolls of attacks made in this way can never be affected by <b><span style='font-variant: small-caps;'>Accuracy</span></b>."
+  },
+  {
+    "id": "tg_seeking",
+    "name": "!V! Seeking",
+    "description": "This weapon has a limited form of self-guidance and internal propulsion, allowing it to follow complicated paths to its targets. As a result, this weapon receives <b>+1 <span style='font-variant: small-caps;'>Accuracy</span></b> when attacking targets benefiting from cover."
   }
 ]
