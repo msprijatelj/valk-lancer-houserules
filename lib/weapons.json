@@ -36,8 +36,8 @@
     "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive” style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user."
   },
   {
-    "id": "mw_cyclone_pulse_rifle",
-    "name": "Cyclone Pulse Rifle",
+    "id": "valk-hr-mw_cyclone_pulse_rifle",
+    "name": "!V! Cyclone Pulse Rifle",
     "mount": "Superheavy",
     "type": "Rifle",
     "damage": [
