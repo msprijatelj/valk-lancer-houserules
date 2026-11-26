@@ -4,7 +4,7 @@
     "name": "!V! Centimane",
     "icon": "CENTIMANE",
     "terse": "Debuff and control enemies with critical hits from Nexus weapons",
-    "description": "In the aftermath of the attack on Tartarus Bay, an anonymous source identified agents of the Karrakin Royal Intelligence Service as the culprits. The Baronies quickly released a statement of denial, which was never countered with hard evidence. Rumors of raw footage from the attack were unsubstantiated. Public reaction – anger, terror – to the station’s destruction quieted. The corpse of Tartarus Bay was shunted away from its stable orbit, directed toward the nearest star.<br>A month later, Baronies-local omninet was flooded with previously suppressed footage from the attack on the station, confirming the rumors: Baronic agents did release the greywash swarm into Tartarus Bay. Further data dumps by Ungrateful agents indicated the existence of a secret Baronic intelligence outfit: the Centimane – the Hundred Hands.",
+    "description": "<i>Via Maria</i><br/>In the aftermath of the attack on Tartarus Bay, an anonymous source identified agents of the Karrakin Royal Intelligence Service as the culprits. The Baronies quickly released a statement of denial, which was never countered with hard evidence. Rumors of raw footage from the attack were unsubstantiated. Public reaction – anger, terror – to the station’s destruction quieted. The corpse of Tartarus Bay was shunted away from its stable orbit, directed toward the nearest star.<br>A month later, Baronies-local omninet was flooded with previously suppressed footage from the attack on the station, confirming the rumors: Baronic agents did release the greywash swarm into Tartarus Bay. Further data dumps by Ungrateful agents indicated the existence of a secret Baronic intelligence outfit: the Centimane – the Hundred Hands.",
     "ranks": [
       {
         "name": "Ten Thousand Teeth",
@@ -287,7 +287,7 @@
       },
       {
         "name": "Torrent",
-        "description": "Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1. If you consumed Lock On as part of using Stormbending, lower the value by 2 instead.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
+        "description": "<i>Via Kai Tave</i><br/>Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1. If you consumed Lock On as part of using Stormbending, lower the value by 2 instead.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
         "synergies": [
           {
             "locations": [
@@ -326,7 +326,7 @@
     "name": "!V! Vanguard",
     "icon": "VANGUARD",
     "terse": "Improve your CQB weapons and make Overwatching more effective",
-    "description": "Where would you rather be: in the battle line, shoulder-to-shoulder with the rest of the cannon fodder, or in the rush, at the head of the attack, your livery clean and bright, with glory to be won? The answer is easy. All those missiles and lances, all those hundred-kilometer, adjust-for-Coriolis railguns – they’re all useless against you. Get through their guard, get in their face, and make them know your name.",
+    "description": "<i>Via Maria</i><br/>Where would you rather be: in the battle line, shoulder-to-shoulder with the rest of the cannon fodder, or in the rush, at the head of the attack, your livery clean and bright, with glory to be won? The answer is easy. All those missiles and lances, all those hundred-kilometer, adjust-for-Coriolis railguns – they’re all useless against you. Get through their guard, get in their face, and make them know your name.",
     "ranks": [
       {
         "name": "Handshake Etiquette",

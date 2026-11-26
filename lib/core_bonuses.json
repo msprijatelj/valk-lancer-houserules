@@ -3,14 +3,14 @@
     "id": "valk-hr-cb_auto_stabilizing_hardpoints",
     "name": "!V! Autonomous Coordination",
     "source": "GMS",
-    "effect": "When you Stabilize or take a Full Tech action that only targets allied characters, as part of that same action, you may choose to:<ul><li>Deploy or redeploy 1 drone, deployable, or mine to an adjacent space.</li><li>Grant 1 adjacent allied character 4 Overshield.</li></ul>",
+    "effect": "<i>Via Maria</i><br/>When you Stabilize or take a Full Tech action that only targets allied characters, as part of that same action, you may choose to:<ul><li>Deploy or redeploy 1 drone, deployable, or mine to an adjacent space.</li><li>Grant 1 adjacent allied character 4 Overshield.</li></ul>",
     "description": ""
   },
   {
     "id": "valk-hr-cb_overpower_caliber",
     "name": "!V! Intrusion Package",
     "source": "GMS",
-    "effect": "1/round, when you target a hostile character with a single target tech action, until the end of their next turn, the target treats all characters as hostile, all characters treat them as hostile, and they are Impaired (this does not affect any saves from the triggering action).",
+    "effect": "<i>Via Maria</i><br/>1/round, when you target a hostile character with a single target tech action, until the end of their next turn, the target treats all characters as hostile, all characters treat them as hostile, and they are Impaired (this does not affect any saves from the triggering action).",
     "description": ""
   },
   {

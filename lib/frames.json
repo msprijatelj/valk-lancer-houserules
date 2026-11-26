@@ -54,7 +54,7 @@
     "core_system": {
       "name": "Hyperspec Fuel Injector",
       "active_name": "Power Up",
-      "active_effect": "On this turn, you may take 1 quick action as a free action. Until the start of your next turn, gain +1 accuracy to all your attack rolls, checks, and saves.",
+      "active_effect": "<i>Via Perijove</i><br/>On this turn, you may take 1 quick action as a free action. Until the start of your next turn, gain +1 accuracy to all your attack rolls, checks, and saves.",
       "tags": [
         {
           "id": "tg_efficient"
@@ -720,7 +720,7 @@
       },
       {
         "name": "Localized Maze",
-        "description": "The Minotaur is Immune to Immobilize from hostile sources.<br>In addition, hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size."
+        "description": "<i>Via Kai Tave</i><br/>The Minotaur is Immune to Immobilize from hostile sources.<br>In addition, hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size."
       }
     ],
     "core_system": {
@@ -734,7 +734,7 @@
         {
           "name": "Metafold Maze",
           "activation": "Quick",
-          "detail": "When you hit with a tech attack, you may activate this system, causing your target and anyone else affected by that attack to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times.<br>If you hit with a tech attack from a source with the Full Tech tag, you may instead activate this ability as a free action."
+          "detail": "<i>Via Kai Tave</i><br/>When you hit with a tech attack, you may activate this system, causing your target and anyone else affected by that attack to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times.<br>If you hit with a tech attack from a source with the Full Tech tag, you may instead activate this ability as a free action."
         }
       ]
     },
