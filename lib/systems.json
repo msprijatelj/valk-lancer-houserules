@@ -430,6 +430,28 @@
     "license_id": "mf_sherman"
   },
   {
+    "id": "valk-hr-ms_redundant_systems_upgrade",
+    "name": "Redundant Systems Upgrade",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "HA",
+    "license": "Sherman",
+    "license_level": 2,
+    "actions": [
+      {
+        "activation": "Quick",
+        "frequency": "1/scene",
+        "detail": "1/scene, expend a charge to Stabilize as a quick action."
+      }
+    ],
+    "description": "A common right-of-distribution modification by pilots in forward operating bases, the addition of redundant systems guarantees a measure of reliability beyond stock design standards.",
+    "license_id": "mf_sherman"
+  },
+  {
     "id": "valk-hr-ms_asura_class_nhp",
     "name": "!V! ASURA-Class NHP",
     "type": "AI",
@@ -454,6 +476,7 @@
       {
         "name": "ASURA Protocol",
         "activation": "Protocol",
+        "frequency": "1/scene",
         "detail": "1/scene, you may take an additional quick action this turn. This action must be used to either Activate, Boost, Ram, or Prepare one of those actions, and it must obey restrictions on duplicate actions."
       }
     ],
