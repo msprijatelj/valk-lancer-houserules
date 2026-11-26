@@ -742,6 +742,104 @@
     "license_id": "mf_minotaur"
   },
   {
+    "id": "valk-hr-mf_sherman",
+    "license_level": 2,
+    "source": "HA",
+    "name": "Sherman",
+    "mechtype": ["Striker", "Artillery"],
+    "y_pos": 36,
+    "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
+    "mounts": ["Flex", "Main", "Heavy"],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 7,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -1,
+      "save": 10,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Superior Reactor",
+        "description": "The Sherman gains +1 accuracy on Engineering checks and saves.",
+        "bonuses": [
+          {
+            "id": "engineering",
+            "val": 1
+          }
+        ]
+      },
+      {
+        "name": "Mathur Stop",
+        "description": "When the Sherman clears all heat, you may choose to receive heat equal to half its Heat Cap, putting it in the Danger Zone.",
+        "active_effects": [
+          {
+            "name": "Mathur Stop",
+            "trigger": "You clear all heat.",
+            "detail": "You may choose to receive heat equal to half your Heat Cap, putting you in the Danger Zone."
+          }
+        ],
+        "synergies": [
+          {
+            "locations": ["heat"],
+            "detail": "When the Sherman clears all heat, you may choose to receive heat equal to half its Heat Cap, putting it in the Danger Zone."
+          }
+        ]
+      },
+      {
+        "name": "Vent Heat",
+        "description": "When you Stabilize the Sherman or it exceeds its Heat Cap, it benefits from soft cover until the start of your next turn.",
+        "active_effects": [
+          {
+            "name": "Vent Heat",
+            "condition": "You Stabilize or exceed your Heat Cap.",
+            "detail": "You benefit from soft cover until the start of your next turn.",
+            "add_other": [
+              {
+                "type": "cover",
+                "val": "soft",
+                "target": "self"
+              }
+            ]
+          }
+        ],
+        "synergies": [
+          {
+            "locations": ["stabilize", "heat"],
+            "detail": "When you Stabilize the Sherman or it exceeds its Heat Cap, it benefits from soft cover until the start of your next turn."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Zone-Focus Mk IV SOLIDCORE",
+      "description": "The ZF4 SOLIDCORE is a hard-mounted, dual-source energy beam weapon. Powered by a millifold power generation system, the ZF4 features a secondary belt-fed rack of solidcore batteries that can be used to overcharge a single impulse beam, extending the weapon’s range and destructive power.",
+      "active_name": "COREBURN Protocol",
+      "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, ending your turn in the Danger Zone generates 2 Charges instead of 1. For the rest of the scene, the ZF4 SOLIDCORE gains \"On Attack: Before determining targets, first inflict 10 AP energy damage to all terrain, objects, and deployables in the attack's area, ignoring all obstructions that would be destroyed in this way.\"",
+      "activation": "Protocol",
+      "integrated": ["valk-hr-mw_sherman_integrated"]
+    },
+    "counters": [
+      {
+        "id": "ctr_zf4_solidcore",
+        "name": "ZF4 Charges",
+        "default_value": 1,
+        "min": 1,
+        "max": 4
+      }
+    ],
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_sherman.png",
+    "license_id": "mf_sherman"
+  },
+  {
     "id": "valk-hr-mf_tokugawa",
     "license_level": 2,
     "source": "HA",
@@ -789,6 +887,22 @@
       {
         "name": "Plasma Sheath",
         "description": "When the Tokugawa is in the Danger Zone and attacks with a weapon that deals any amount of energy, all bonus damage becomes burn."
+      },
+      {
+        "name": "Daredevil Reactor",
+        "description": "The Tokugawa has Immunity to Overheated.",
+        "active_effects": [
+          {
+            "name": "Reinforced Frame",
+            "detail": "You have Immunity to Overheated.",
+            "add_immunity": [
+              {
+                "immunity": "overheated",
+                "target": "self"
+              }
+            ]
+          }
+        ]
       }
     ],
     "core_system": {

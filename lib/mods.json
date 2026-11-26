@@ -7,7 +7,7 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "1/scene, when you attack with this weapon, the attack gains +5 bonus damage, Knockback 2, and Reliable 3 (or increases the Reliable value by 2).",
+    "effect": "<i>Via Maria</i><br/>1/scene, when you attack with this weapon, the attack gains +5 bonus damage, Knockback 2, and Reliable 3 (or increases the Reliable value by 2).",
     "license_id": ""
   },
   {
@@ -18,7 +18,7 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Choose one weapon. When you consume Lock On to attack a character in Sensors with that weapon, the attack gains +2 Accuracy instead of +1.",
+    "effect": "<i>Via Maria</i><br/>Choose one weapon. When you consume Lock On to attack a character in Sensors with that weapon, the attack gains +2 Accuracy instead of +1.",
     "license_id": ""
   },
   {

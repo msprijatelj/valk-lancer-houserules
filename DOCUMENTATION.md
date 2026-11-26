@@ -1,4 +1,4 @@
-# Documentation (Version 0.6.0)
+# Documentation (Version 0.7.0)
 
 This is a living document detailing my personal house rules for the [player-facing side of the Lancer RPG](https://massif-press.itch.io/corebook-pdf-free). It contains both rules that I have used and rules I want to test, and it should be treated as highly experimental. Feel free to pilfer rules and ideas from this document and make them your own. I cannot guarantee that they will improve the experience for all Lancer tables, but with luck, maybe they'll prove useful to a few.
 
@@ -756,11 +756,25 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 ### HA Sherman
 
+#### Sherman Frame
+
+* In the ZF4 SOLIDCORE, replace "Stabilize" with "end your turn in the Danger Zone".
+* In COREBURN Protocol, replace "Stabilize" with "ending your turn in the Danger Zone".
+  * With Overcharge Reroll rules (and RSU changes), Sherman's action economy cannot as readily support frequent Stabilizes. Therefore, I change the SOLIDCORE's charge requirements to instead key off of Danger Zone, to make Mathur Stop more directly useful to the frame itself.
+* In COREBURN Protocol, remove the rest of the sentence after "2 Charges instead of 1", and add the following sentence:
+    > For the rest of the scene, the ZF4 SOLIDCORE gains "On Attack: Before determining targets, first inflict 10 AP energy damage to all terrain, objects, and deployables in the attack's area, ignoring all obstructions that would be destroyed in this way."
+  * It's fairly clear that, being written by the same artist who illustrated [Fierce Horse Soul](https://killsixbilliondemons.com/comic/king-of-swords-9-127/) [Great Chariot Cannon](https://killsixbilliondemons.com/comic/king-of-swords-9-128/), the intent of COREBURN is to fire a big laser that melts obstructions in its way. However, the way that Lancer's rules *technically* work, the Line would stop at the first obstruction that would block the Sherman's line of sight. Some folks let this technicality get in the way of the intent, so in order to be *technically* correct, I borrow wording from one of Solstice Rain's exotic items that works in a similar way (destroying all obstructions along the path of the item's line before determining character-like targets).
+
 #### Reactor Stabilizer
 
 * Replace the effect with the following:
     > "If an instance of Heat would make you Overheat, you gain Immunity to any damage that would be caused by that instance of Heat."
   * With the removal of Overheating checks, Reactor Stabilizer has an opportunity to be more than a simple reroll to avoid Exposed. This change means that a mech equipped with this system could use a risky, high self-heat option, overheat themselves, and not take excessive overheating damage as a result.
+
+#### Redundant Systems Upgrade
+
+* Replace Limited 1 with 1/scene.
+  * This adds a pacer to RSU so that it can still provide a quick Stabilize in a pinch, but not become a spammable source of the action.
 
 #### ASURA-Class NHP
 
@@ -775,6 +789,8 @@ Most of these changes were cribbed from [Kai Tave](https://kaitave.itch.io/), a 
 
 * Only allow melee attacks to deal Limit Break's bonus damage.
   * Artillery Tokugawa oftentimes performs better than Melee or CQB Tokugawa, since it can camp out of range of punishment while using Overclock. This change reduces the damage returns on Artillery Tokugawa, letting players decide between leveraging the Tokugawa's supreme range bonuses, or gambling with higher damage in melee ranges.
+* New trait: Daredevil Reactor: Grants immunity to Overheated.
+  * There's been some concern that the Overheated status from my One Stress for All rules clamps down too firmly upon Tokugawa's high-risk heat generation gameplay. So, I decide to let the Tokugawa stay a daredevil by allowing it to spend Heat while exceeding its Heatcap, effectively paying for its self-heat abilities with its HP (somewhat akin to the Manticore).
 
 ### HA Sunzi
 
