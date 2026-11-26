@@ -745,7 +745,7 @@
     "id": "valk-hr-mf_sherman",
     "license_level": 2,
     "source": "HA",
-    "name": "Sherman",
+    "name": "!V! Sherman",
     "mechtype": ["Striker", "Artillery"],
     "y_pos": 36,
     "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
